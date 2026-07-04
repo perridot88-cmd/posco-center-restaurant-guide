@@ -191,6 +191,43 @@ table.rtable .mini-tag { font-size: 11px; color: var(--ink-3); }
 .empty .big { font-size: 32px; }
 .empty p { margin: 8px 0; }
 
+/* ===== 사다리타기 ===== */
+.ladder-view { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; }
+.ladder-controls { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.lc-row { display: inline-flex; align-items: center; gap: 8px; }
+.lc-row.lc-names { flex: 1 1 260px; }
+.lc-label { font-size: 13px; font-weight: 700; color: var(--ink-3); }
+.lc-names input { flex: 1; min-width: 180px; padding: 9px 12px; border: 1px solid var(--line-2); border-radius: 8px; font-size: 13.5px; }
+.lc-names input:focus { outline: none; border-color: var(--blue-500); box-shadow: 0 0 0 3px var(--blue-100); }
+.seg { display: inline-flex; border: 1px solid var(--line-2); border-radius: 8px; overflow: hidden; }
+.seg button { border: none; background: #fff; padding: 8px 16px; font-size: 13.5px; cursor: pointer; color: var(--ink-2); }
+.seg button[aria-pressed="true"] { background: var(--blue-600); color: #fff; font-weight: 600; }
+.lad-step { width: 34px; padding: 8px 0; font-size: 16px; font-weight: 700; line-height: 1; }
+.lad-count { font-size: 14px; color: var(--ink); }
+.lad-count b { color: var(--blue-700); font-size: 17px; }
+.lad-hint { flex-basis: 100%; margin: 4px 0 0; font-size: 12.5px; color: var(--ink-3); }
+.ladder-stage { margin-top: 16px; text-align: center; overflow-x: auto; }
+.ladder-stage svg { max-width: 100%; height: auto; }
+.lad-msg { padding: 40px 16px; color: var(--ink-3); font-size: 14px; text-align: center; }
+.lad-vline { stroke: var(--line-2); stroke-width: 3; stroke-linecap: round; }
+.lad-rung { stroke: var(--blue-100); stroke-width: 3; stroke-linecap: round; }
+.lad-top rect { fill: var(--blue-50); stroke: var(--blue-100); rx: 8; cursor: pointer; transition: .12s; }
+.lad-top:hover rect { fill: var(--blue-100); stroke: var(--blue-500); }
+.lad-top text { font-size: 13px; font-weight: 700; fill: var(--blue-700); cursor: pointer; }
+.lad-top.done rect { fill: #fff; }
+.lad-bot rect { fill: var(--muted-bg); stroke: var(--line-2); rx: 8; }
+.lad-bot text { font-size: 12.5px; font-weight: 600; fill: var(--ink-3); }
+.lad-bot.revealed rect { fill: var(--ok-bg); stroke: #bfe3cd; }
+.lad-bot.revealed text { fill: var(--ok); cursor: pointer; }
+.lad-trace { fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; opacity: .95;
+  transition: stroke-dashoffset 1.1s ease; }
+.ladder-results { margin-top: 16px; display: grid; gap: 6px; }
+.ladder-results .lr { display: flex; align-items: center; gap: 8px; font-size: 13.5px; padding: 8px 12px; background: var(--blue-50); border: 1px solid var(--blue-100); border-radius: 8px; }
+.ladder-results .lr .who { font-weight: 700; min-width: 72px; }
+.ladder-results .lr .arrow { color: var(--ink-3); }
+.ladder-results .lr a { font-weight: 600; text-decoration: none; }
+.ladder-results .lr .meta { color: var(--ink-3); font-size: 12px; margin-left: auto; }
+
 .hidden { display: none !important; }
 footer.site-footer { margin: 40px 0 24px; font-size: 12px; color: var(--ink-3); text-align: center; line-height: 1.7; }
 

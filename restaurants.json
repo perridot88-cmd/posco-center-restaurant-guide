@@ -4555,5 +4555,507 @@
     ],
     "lastVerified": "2026-07-04",
     "priority": 3
+  },
+  {
+    "id": "restaurant-071",
+    "name": "우곱집 선릉점",
+    "category": "고기/구이",
+    "subType": "양곱창/곱창",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "양곱창",
+      "대창",
+      "막창"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로81길 36 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 가능",
+      "method": "캐치테이블/전화",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "활기참",
+      "편안함"
+    ],
+    "tags": [
+      "저녁",
+      "회식 가능",
+      "예약 가능",
+      "도보 5분"
+    ],
+    "comment": "양·대창 중심 곱창집. 저녁 팀 회식 자리로 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9A%B0%EA%B3%B1%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%9A%B0%EA%B3%B1%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%9A%B0%EA%B3%B1%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://app.catchtable.co.kr/ct/shop/Ugobjip"
+    ],
+    "lastVerified": "2026-07-04",
+    "priority": 2
+  },
+  {
+    "id": "restaurant-072",
+    "name": "대파 양곱창",
+    "category": "고기/구이",
+    "subType": "양곱창",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "양곱창",
+      "막창",
+      "대창"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 역삼로63길 14",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "가성비"
+    ],
+    "atmosphere": [
+      "활기참",
+      "노포 느낌"
+    ],
+    "tags": [
+      "저녁",
+      "회식 가능",
+      "가성비",
+      "도보 10분"
+    ],
+    "comment": "가성비 양곱창. 저녁 팀 회식에 적합하나 피크타임 웨이팅 김.",
+    "cautions": "피크타임 웨이팅 김. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%8C%80%ED%8C%8C%20%EC%96%91%EA%B3%B1%EC%B0%BD",
+      "kakao": "https://map.kakao.com/?q=%EB%8C%80%ED%8C%8C%20%EC%96%91%EA%B3%B1%EC%B0%BD",
+      "google": "https://www.google.com/maps/search/%EB%8C%80%ED%8C%8C%20%EC%96%91%EA%B3%B1%EC%B0%BD"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 3
+  },
+  {
+    "id": "restaurant-073",
+    "name": "냉동고집 삼성점",
+    "category": "고기/구이",
+    "subType": "냉동 삼겹살",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "냉동 삼겹살",
+      "목살",
+      "된장찌개"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로 517 1층 104호",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "회식",
+      "가성비"
+    ],
+    "atmosphere": [
+      "편안함",
+      "활기참"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "회식 가능",
+      "가성비",
+      "도보 5분"
+    ],
+    "comment": "가성비 냉동 삼겹살. 점심~저녁 팀 회식에 부담 없이 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%83%89%EB%8F%99%EA%B3%A0%EC%A7%91%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%83%89%EB%8F%99%EA%B3%A0%EC%A7%91%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%83%89%EB%8F%99%EA%B3%A0%EC%A7%91%20%EC%82%BC%EC%84%B1%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 2
+  },
+  {
+    "id": "restaurant-074",
+    "name": "육성급 삼성본점",
+    "category": "고기/구이",
+    "subType": "삼겹살/생고기",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "삼겹살",
+      "목살",
+      "생고기"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 테헤란로79길 25 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "활기참",
+      "편안함"
+    ],
+    "tags": [
+      "회식 가능",
+      "팀 점심 추천",
+      "도보 5분"
+    ],
+    "comment": "생고기·삼겹살 구이. 저녁 팀 회식에 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9C%A1%EC%84%B1%EA%B8%89%20%EC%82%BC%EC%84%B1%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%9C%A1%EC%84%B1%EA%B8%89%20%EC%82%BC%EC%84%B1%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%9C%A1%EC%84%B1%EA%B8%89%20%EC%82%BC%EC%84%B1%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "http://www.instagram.com/6star_grade"
+    ],
+    "lastVerified": "2026-07-04",
+    "priority": 3
+  },
+  {
+    "id": "restaurant-075",
+    "name": "규돈",
+    "category": "고기/구이",
+    "subType": "삼겹살",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "삼겹살",
+      "생목살"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 선릉로86길 44-4 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심",
+      "가성비"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "회식 가능",
+      "가성비",
+      "도보 5분"
+    ],
+    "comment": "삼겹살 구이. 부담 없는 팀 점심·저녁 회식에 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EA%B7%9C%EB%8F%88",
+      "kakao": "https://map.kakao.com/?q=%EA%B7%9C%EB%8F%88",
+      "google": "https://www.google.com/maps/search/%EA%B7%9C%EB%8F%88"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 3
+  },
+  {
+    "id": "restaurant-076",
+    "name": "돈그리아",
+    "category": "고기/구이",
+    "subType": "삼겹살",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "삼겹살",
+      "김치찌개"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 선릉로86길 6-5 프라임빌딩",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "활기참",
+      "편안함"
+    ],
+    "tags": [
+      "회식 가능",
+      "팀 점심 추천",
+      "도보 10분"
+    ],
+    "comment": "삼겹살+김치찌개로 인기. 저녁 팀 회식에 적합하나 피크타임 웨이팅 김.",
+    "cautions": "피크타임 웨이팅 김. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%8F%88%EA%B7%B8%EB%A6%AC%EC%95%84",
+      "kakao": "https://map.kakao.com/?q=%EB%8F%88%EA%B7%B8%EB%A6%AC%EC%95%84",
+      "google": "https://www.google.com/maps/search/%EB%8F%88%EA%B7%B8%EB%A6%AC%EC%95%84"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 2
+  },
+  {
+    "id": "restaurant-077",
+    "name": "길목 신관",
+    "category": "고기/구이",
+    "subType": "돼지갈비/삼겹살",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "돼지갈비",
+      "삼겹살"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 15,
+    "distanceLabel": "도보 15분",
+    "address": "서울 강남구 봉은사로 504 진양빌딩 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "활기참",
+      "노포 느낌"
+    ],
+    "tags": [
+      "저녁",
+      "회식 가능",
+      "도보 15분"
+    ],
+    "comment": "오래된 돼지갈비 노포(길목). 저녁 팀 회식·손님 접대에 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EA%B8%B8%EB%AA%A9%20%EC%8B%A0%EA%B4%80",
+      "kakao": "https://map.kakao.com/?q=%EA%B8%B8%EB%AA%A9%20%EC%8B%A0%EA%B4%80",
+      "google": "https://www.google.com/maps/search/%EA%B8%B8%EB%AA%A9%20%EC%8B%A0%EA%B4%80"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 2
+  },
+  {
+    "id": "restaurant-078",
+    "name": "길목 신별관",
+    "category": "고기/구이",
+    "subType": "돼지갈비/삼겹살",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "돼지갈비",
+      "삼겹살"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 18,
+    "distanceLabel": "도보 18분 (차량 권장)",
+    "address": "서울 강남구 삼성로116길 6 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "활기참",
+      "노포 느낌"
+    ],
+    "tags": [
+      "저녁",
+      "회식 가능",
+      "차량 이동 권장"
+    ],
+    "comment": "길목 노포 계열. 저녁 회식에 적합하나 웨이팅 매우 길고 포스코센터에서 거리 있음.",
+    "cautions": "포스코센터 기준 도보 15분 초과, 차량 이동 권장. 피크타임 웨이팅 매우 김. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EA%B8%B8%EB%AA%A9%20%EC%8B%A0%EB%B3%84%EA%B4%80",
+      "kakao": "https://map.kakao.com/?q=%EA%B8%B8%EB%AA%A9%20%EC%8B%A0%EB%B3%84%EA%B4%80",
+      "google": "https://www.google.com/maps/search/%EA%B8%B8%EB%AA%A9%20%EC%8B%A0%EB%B3%84%EA%B4%80"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 3
   }
 ]

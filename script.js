@@ -96,6 +96,7 @@
     cards: $('cards'), tableView: $('tableView'), tableBody: $('tableBody'),
     resultCount: $('resultCount'), empty: $('emptyState'), error: $('errorState'),
     search: $('search'), sort: $('sort'), toast: $('toast'), randomPick: $('randomPick'),
+    ladderView: $('ladderView'), ladderStage: $('ladderStage'), ladderResults: $('ladderResults'),
   };
 
   /* ---------- 데이터 로드 ---------- */
@@ -207,6 +208,8 @@
     $('printBtn').addEventListener('click', () => window.print());
     $('randomLunch').addEventListener('click', () => randomPick('lunch'));
     $('randomDinner').addEventListener('click', () => randomPick('dinner'));
+    $('view-ladder').addEventListener('click', () => setView('ladder'));
+    bindLadder();
 
     // 표 헤더 정렬
     document.querySelectorAll('th[data-sort]').forEach(th => {
@@ -217,6 +220,7 @@
     state.view = v;
     $('view-card').setAttribute('aria-pressed', String(v === 'card'));
     $('view-table').setAttribute('aria-pressed', String(v === 'table'));
+    $('view-ladder').setAttribute('aria-pressed', String(v === 'ladder'));
     render();
   }
   function resetAll() {
@@ -274,12 +278,15 @@
     const list = getFiltered();
     els.resultCount.textContent = list.length;
 
-    const showEmpty = list.length === 0;
+    const isLadder = state.view === 'ladder';
+    const showEmpty = list.length === 0 && !isLadder;
     els.empty.classList.toggle('hidden', !showEmpty);
     els.cards.classList.toggle('hidden', showEmpty || state.view !== 'card');
     els.tableView.classList.toggle('hidden', showEmpty || state.view !== 'table');
+    els.ladderView.classList.toggle('hidden', !isLadder);
 
-    if (state.view === 'card') renderCards(list); else renderTable(list);
+    if (state.view === 'card') renderCards(list);
+    else if (state.view === 'table') renderTable(list);
   }
 
   function mealLabel(r) {
@@ -425,6 +432,136 @@
     ta.select(); try { document.execCommand('copy'); cb(); } catch (e) { toast('복사 실패'); }
     document.body.removeChild(ta);
   }
+
+  /* ---------- 사다리타기 게임 ---------- */
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  const LAD = {
+    meal: 'lunch', n: 4,
+    palette: ['#1560b0', '#1a7f47', '#b42318', '#9a6b00', '#6b3fa0', '#0f766e', '#be185d', '#3f6212'],
+    data: null,
+  };
+  function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+  function bindLadder() {
+    $('lad-lunch').addEventListener('click', () => setLadMeal('lunch'));
+    $('lad-dinner').addEventListener('click', () => setLadMeal('dinner'));
+    $('lad-minus').addEventListener('click', () => { LAD.n = Math.max(2, LAD.n - 1); $('lad-count').textContent = LAD.n; });
+    $('lad-plus').addEventListener('click', () => { LAD.n = Math.min(8, LAD.n + 1); $('lad-count').textContent = LAD.n; });
+    $('lad-start').addEventListener('click', buildLadder);
+    $('lad-reveal').addEventListener('click', revealAll);
+    $('lad-names').addEventListener('keydown', e => { if (e.key === 'Enter') buildLadder(); });
+  }
+  function setLadMeal(m) {
+    LAD.meal = m;
+    $('lad-lunch').setAttribute('aria-pressed', String(m === 'lunch'));
+    $('lad-dinner').setAttribute('aria-pressed', String(m === 'dinner'));
+  }
+
+  function buildLadder() {
+    const N = LAD.n;
+    const pool = getFiltered().filter(r => r.mealTime.includes(LAD.meal));
+    els.ladderResults.innerHTML = '';
+    if (pool.length < N) {
+      els.ladderStage.innerHTML = `<div class="lad-msg">현재 필터에서 <b>${LAD.meal === 'lunch' ? '점심' : '저녁'}</b> 가능 식당이 ${pool.length}곳뿐이라 ${N}명 사다리를 만들 수 없어요.<br>인원을 줄이거나 필터·검색을 완화해 주세요.</div>`;
+      return;
+    }
+    const results = shuffle(pool.slice()).slice(0, N);
+    const names = ($('lad-names').value || '').split(',').map(s => s.trim()).filter(Boolean);
+    const participants = Array.from({ length: N }, (_, i) => names[i] || ('참가자 ' + (i + 1)));
+    const rows = Math.max(9, N + 5);
+    const rungs = genRungs(N, rows);
+    const geo = { pad: 46, colGap: Math.max(78, Math.min(120, 640 / (N - 1 || 1))), topY: 30, ladTop: 84, ladBot: 384, H: 430, rows };
+    geo.width = geo.pad * 2 + (N - 1) * geo.colGap;
+    LAD.data = { N, rows, rungs, participants, results, geo, traced: {} };
+    drawLadder();
+  }
+  function genRungs(N, rows) {
+    const rungs = [];
+    for (let r = 1; r < rows; r++) {
+      let last = -2;
+      for (let c = 0; c < N - 1; c++) {
+        if (c === last + 1) continue;         // 인접 가로줄 금지
+        if (Math.random() < 0.42) { rungs.push({ row: r, col: c }); last = c; }
+      }
+    }
+    return rungs;
+  }
+  const cx = c => LAD.data.geo.pad + c * LAD.data.geo.colGap;
+  const ry = r => { const g = LAD.data.geo; return g.ladTop + (g.ladBot - g.ladTop) * (r / g.rows); };
+  function traceLadder(start) {
+    const { rows, rungs, geo } = LAD.data;
+    let pos = start; const pts = [[cx(pos), geo.ladTop]];
+    for (let r = 1; r < rows; r++) {
+      const y = ry(r);
+      if (rungs.some(g => g.row === r && g.col === pos - 1)) { pts.push([cx(pos), y]); pos--; pts.push([cx(pos), y]); }
+      else if (rungs.some(g => g.row === r && g.col === pos)) { pts.push([cx(pos), y]); pos++; pts.push([cx(pos), y]); }
+    }
+    pts.push([cx(pos), geo.ladBot]);
+    return { end: pos, pts };
+  }
+  function drawLadder() {
+    const { N, rungs, participants, geo } = LAD.data;
+    let s = `<svg id="ladderSvg" viewBox="0 0 ${geo.width} ${geo.H}" role="img" aria-label="사다리타기 판">`;
+    for (let c = 0; c < N; c++) s += `<line class="lad-vline" x1="${cx(c)}" y1="${geo.ladTop}" x2="${cx(c)}" y2="${geo.ladBot}"/>`;
+    rungs.forEach(g => { s += `<line class="lad-rung" x1="${cx(g.col)}" y1="${ry(g.row)}" x2="${cx(g.col + 1)}" y2="${ry(g.row)}"/>`; });
+    for (let c = 0; c < N; c++) {
+      const w = Math.min(geo.colGap - 10, 96);
+      s += `<g class="lad-top" data-col="${c}" tabindex="0" role="button" aria-label="${esc(participants[c])} 결과 보기">
+        <rect x="${cx(c) - w / 2}" y="${geo.topY}" width="${w}" height="34"/>
+        <text x="${cx(c)}" y="${geo.topY + 22}" text-anchor="middle">${esc(clip(participants[c], 6))}</text></g>`;
+      s += `<g class="lad-bot" data-idx="${c}"><rect x="${cx(c) - w / 2}" y="${geo.ladBot + 8}" width="${w}" height="34"/>
+        <text x="${cx(c)}" y="${geo.ladBot + 30}" text-anchor="middle">?</text></g>`;
+    }
+    s += `</svg>`;
+    els.ladderStage.innerHTML = s;
+    els.ladderResults.innerHTML = '';
+    els.ladderStage.querySelectorAll('.lad-top').forEach(g => {
+      const run = () => revealOne(Number(g.dataset.col));
+      g.addEventListener('click', run);
+      g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); run(); } });
+    });
+  }
+  function revealOne(startCol) {
+    const D = LAD.data; if (!D || D.traced[startCol] != null) return;
+    const svg = $('ladderSvg'); const color = LAD.palette[startCol % LAD.palette.length];
+    const { end, pts } = traceLadder(startCol);
+    D.traced[startCol] = end;
+    const poly = document.createElementNS(SVGNS, 'polyline');
+    poly.setAttribute('class', 'lad-trace');
+    poly.setAttribute('points', pts.map(p => p.join(',')).join(' '));
+    poly.setAttribute('stroke', color);
+    svg.appendChild(poly);
+    const len = poly.getTotalLength();
+    poly.style.strokeDasharray = len; poly.style.strokeDashoffset = len;
+    requestAnimationFrame(() => { poly.style.strokeDashoffset = '0'; });
+    const top = svg.querySelector(`.lad-top[data-col="${startCol}"]`);
+    if (top) { top.classList.add('done'); top.querySelector('rect').setAttribute('stroke', color); top.querySelector('text').setAttribute('fill', color); }
+    setTimeout(() => revealBottom(end, startCol, color), 700);
+  }
+  function revealBottom(idx, startCol, color) {
+    const D = LAD.data; const r = D.results[idx];
+    const bot = $('ladderSvg').querySelector(`.lad-bot[data-idx="${idx}"]`);
+    if (bot && !bot.classList.contains('revealed')) {
+      bot.classList.add('revealed');
+      bot.querySelector('rect').setAttribute('stroke', color);
+      const t = bot.querySelector('text'); t.textContent = clip(r.name, 7); t.setAttribute('fill', color);
+    }
+    addResultRow(D.participants[startCol], r, color);
+  }
+  function addResultRow(who, r, color) {
+    const div = document.createElement('div');
+    div.className = 'lr';
+    div.innerHTML = `<span class="who" style="color:${color}">${esc(who)}</span>
+      <span class="arrow">→</span>
+      <a href="${r.mapLinks.naver}" target="_blank" rel="noopener">${esc(r.name)}</a>
+      <span class="meta">${esc(r.category)} · ${esc(r.distanceLabel)} · ${esc(r.representativeMenus[0] || '')}</span>`;
+    els.ladderResults.appendChild(div);
+  }
+  function revealAll() {
+    const D = LAD.data; if (!D) { toast('먼저 사다리를 만들어 주세요.'); return; }
+    for (let c = 0; c < D.N; c++) setTimeout(() => revealOne(c), c * 260);
+  }
+  const clip = (s, n) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
 
   /* ---------- 랜덤 뽑기 ---------- */
   function randomPick(meal) {

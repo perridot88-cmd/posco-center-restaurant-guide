@@ -48,6 +48,7 @@
         <div class="view-toggle" role="group" aria-label="보기 방식">
           <button id="view-card" aria-pressed="true">카드 보기</button>
           <button id="view-table" aria-pressed="false">표 보기</button>
+          <button id="view-ladder" aria-pressed="false">🎲 사다리타기</button>
         </div>
       </div>
 
@@ -95,6 +96,36 @@
         </thead>
         <tbody id="tableBody"></tbody>
       </table>
+    </section>
+
+    <!-- 사다리타기 뷰 -->
+    <section class="ladder-view hidden" id="ladderView" aria-label="사다리타기">
+      <div class="ladder-controls">
+        <div class="lc-row">
+          <span class="lc-label">식사</span>
+          <div class="seg" role="group" aria-label="식사 시간 선택">
+            <button id="lad-lunch" aria-pressed="true">점심</button>
+            <button id="lad-dinner" aria-pressed="false">저녁·회식</button>
+          </div>
+        </div>
+        <div class="lc-row">
+          <span class="lc-label">인원</span>
+          <button class="btn lad-step" id="lad-minus" aria-label="인원 줄이기">−</button>
+          <span class="lad-count"><b id="lad-count">4</b>명</span>
+          <button class="btn lad-step" id="lad-plus" aria-label="인원 늘리기">+</button>
+        </div>
+        <div class="lc-row lc-names">
+          <label class="lc-label" for="lad-names">이름</label>
+          <input id="lad-names" placeholder="선택 · 쉼표로 구분 (예: 김대리, 이과장, 박사원)" autocomplete="off">
+        </div>
+        <div class="lc-row">
+          <button class="btn btn-primary" id="lad-start">🎲 사다리 만들기</button>
+          <button class="btn" id="lad-reveal">전체 결과 보기</button>
+        </div>
+        <p class="lad-hint">참가자 이름을 클릭하면 결과 식당까지 경로가 그려집니다. 사다리 하단 식당은 <b>현재 필터·검색이 적용된 목록</b>에서 무작위로 뽑힙니다.</p>
+      </div>
+      <div class="ladder-stage" id="ladderStage"></div>
+      <div class="ladder-results" id="ladderResults"></div>
     </section>
 
     <!-- 빈 결과 -->
