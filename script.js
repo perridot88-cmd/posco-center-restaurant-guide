@@ -28,8 +28,12 @@
     },
     purpose: {
       label: '이용 목적',
-      options: ['팀 점심', '임원 동석', '외부 손님 접대', '회식', '조용한 대화', '빠른 식사', '가성비', '분위기 좋은 곳'].map(v => ({ v, t: v })),
+      options: [
+        { v: '작성자 최애', t: '❤️ 작성자 최애' },
+        ...['팀 점심', '임원 동석', '외부 손님 접대', '회식', '조용한 대화', '빠른 식사', '가성비', '분위기 좋은 곳'].map(v => ({ v, t: v })),
+      ],
       match: (r, sel) => sel.every(v => {
+        if (v === '작성자 최애') return !!r.authorPick;
         if (v === '분위기 좋은 곳') return r.atmosphere.some(a => a.includes('분위기 좋음'));
         return r.recommendedFor.includes(v);
       }),
@@ -73,6 +77,7 @@
 
   // 상황별 추천 버튼 → 필터 프리셋
   const SITUATIONS = [
+    { t: '❤️ 작성자 최애', set: { purpose: ['작성자 최애'] } },
     { t: '🍚 오늘 팀 점심', set: { meal: ['lunch'], purpose: ['팀 점심'] } },
     { t: '🤝 외부 손님과 식사', set: { purpose: ['외부 손님 접대'] } },
     { t: '👔 임원 동석', set: { purpose: ['임원 동석'] } },
@@ -124,15 +129,17 @@
     const resv = DATA.filter(r => ['예약 가능', '예약 권장'].includes(r.reservation.status)).length;
     const lunch = DATA.filter(r => r.mealTime.includes('lunch') && r.recommendedFor.some(x => ['팀 점심', '빠른 식사', '가성비'].includes(x))).length;
     const dinner = DATA.filter(r => r.mealTime.includes('dinner') && r.recommendedFor.some(x => ['회식', '임원 동석', '외부 손님 접대'].includes(x))).length;
+    const picks = DATA.filter(r => r.authorPick).length;
     const cards = [
-      { num: total, lbl: '전체 식당' },
-      { num: room, lbl: '룸 보유(확인됨)' },
-      { num: resv, lbl: '예약 가능·권장' },
-      { num: lunch, lbl: '점심 추천' },
-      { num: dinner, lbl: '저녁·회식 추천' },
+      { num: total, lbl: '전체 식당', ico: '🍽️' },
+      { num: picks, lbl: '작성자 최애', ico: '❤️' },
+      { num: room, lbl: '룸 보유(확인됨)', ico: '🚪' },
+      { num: resv, lbl: '예약 가능·권장', ico: '📅' },
+      { num: lunch, lbl: '점심 추천', ico: '☀️' },
+      { num: dinner, lbl: '저녁·회식 추천', ico: '🌙' },
     ];
     els.summary.innerHTML = cards.map(c =>
-      `<div class="stat"><div class="num">${c.num}</div><div class="lbl">${c.lbl}</div></div>`).join('');
+      `<div class="stat"><div class="ico" aria-hidden="true">${c.ico}</div><div class="num">${c.num}</div><div class="lbl">${c.lbl}</div></div>`).join('');
   }
 
   /* ---------- 상황별 버튼 ---------- */
@@ -211,6 +218,13 @@
     $('view-ladder').addEventListener('click', () => setView('ladder'));
     bindLadder();
 
+    // 맨 위로 버튼
+    const topBtn = document.createElement('button');
+    topBtn.className = 'back-top'; topBtn.setAttribute('aria-label', '맨 위로'); topBtn.textContent = '↑';
+    document.body.appendChild(topBtn);
+    topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    window.addEventListener('scroll', () => topBtn.classList.toggle('show', window.scrollY > 400), { passive: true });
+
     // 표 헤더 정렬
     document.querySelectorAll('th[data-sort]').forEach(th => {
       th.addEventListener('click', () => { state.sort = th.dataset.sort; els.sort.value = th.dataset.sort; render(); });
@@ -265,8 +279,8 @@
       if (s === 'verified') return b.lastVerified.localeCompare(a.lastVerified) || a.priority - b.priority;
       if (s === 'name') return a.name.localeCompare(b.name, 'ko');
       if (s === 'category') return a.category.localeCompare(b.category, 'ko') || a.priority - b.priority;
-      // recommend
-      return a.priority - b.priority || a.distanceMinutes - b.distanceMinutes;
+      // recommend — 작성자 최애 우선
+      return (b.authorPick ? 1 : 0) - (a.authorPick ? 1 : 0) || a.priority - b.priority || a.distanceMinutes - b.distanceMinutes;
     });
     return out;
   }
@@ -307,11 +321,15 @@
         let cls = 'tag';
         if (/룸/.test(t)) cls += ' room';
         if (/차량|확인/.test(t)) cls += ' warn';
+        if (/최애|숨은 맛집/.test(t)) cls += ' pick';
         return `<span class="${cls}">${esc(t)}</span>`;
       }).join('');
       const open = state.expanded.has(r.id);
+      const pickBadge = r.authorPick
+        ? `<div class="pick-ribbon" title="${esc(r.authorPick.note)}">❤️ ${esc(r.authorPick.note)}</div>` : '';
       return `
-      <article class="rcard" data-id="${r.id}">
+      <article class="rcard ${r.authorPick ? 'is-pick' : ''}" data-id="${r.id}">
+        ${pickBadge}
         <div class="rcard-head">
           <div class="rcard-titlerow">
             <div>
@@ -383,8 +401,8 @@
   /* ---------- 표 ---------- */
   function renderTable(list) {
     els.tableBody.innerHTML = list.map(r => `
-      <tr>
-        <td class="name">${esc(r.name)}</td>
+      <tr class="${r.authorPick ? 'is-pick' : ''}">
+        <td class="name">${r.authorPick ? '❤️ ' : ''}${esc(r.name)}</td>
         <td>${esc(r.category)}</td>
         <td>${mealLabel(r)}</td>
         <td>${esc(r.representativeMenus.join(', '))}</td>
