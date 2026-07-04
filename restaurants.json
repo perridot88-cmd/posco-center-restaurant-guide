@@ -5290,27 +5290,27 @@
     "id": "restaurant-081",
     "name": "초가집",
     "category": "한식",
-    "subType": "닭도리탕/삼계탕",
+    "subType": "닭볶음탕/삼계탕",
     "mealTime": [
       "lunch",
       "dinner"
     ],
     "representativeMenus": [
-      "닭도리탕(닭볶음탕)",
-      "삼계탕",
-      "닭한마리"
+      "닭볶음탕(닭도리탕)",
+      "닭한마리",
+      "한방삼계탕"
     ],
-    "lunchPriceRange": "2만원대",
+    "lunchPriceRange": "1만원대",
     "dinnerPriceRange": "2만원대",
     "distanceMinutes": 15,
     "distanceLabel": "도보 15분",
     "address": "서울 강남구 테헤란로55길 15 2층",
-    "phone": "확인 필요",
-    "businessHours": "주중 11:00~22:00 (지도 기준, 변동 가능)",
-    "breakTime": "확인 필요",
-    "closedDays": "확인 필요",
-    "lunchMenu": "확인 필요",
-    "dinnerMenu": "확인 필요",
+    "phone": "02-556-5514",
+    "businessHours": "월~토 10:00~21:40 (다이닝코드 기준)",
+    "breakTime": "15:00~16:30",
+    "closedDays": "일요일",
+    "lunchMenu": "한방삼계탕 18,000 / 삼계탕 16,000 / 반계탕 11,500",
+    "dinnerMenu": "닭볶음탕·닭한마리 (가격 메뉴판 확인 권장)",
     "room": {
       "status": "확인 필요",
       "capacity": "확인 필요",
@@ -5327,26 +5327,27 @@
     },
     "recommendedFor": [
       "회식",
-      "팀 점심",
-      "조용한 대화"
+      "팀 점심"
     ],
     "atmosphere": [
-      "편안함",
-      "노포 느낌"
+      "편안함"
     ],
     "tags": [
       "회식 가능",
       "팀 점심 추천",
       "도보 15분"
     ],
-    "comment": "선릉 먹자골목 2층 노포. 저녁 닭도리탕에 소주 곁들이는 회식 자리로 좋고, 점심 삼계탕도 가능.",
-    "cautions": "전화·휴무일·정확한 가격은 미확인, 방문 전 확인 필요. 영업시간은 지도 기준으로 변동 가능.",
+    "comment": "닭볶음탕(닭도리탕)·닭한마리·삼계탕을 함께 하는 집. 저녁 닭볶음탕, 점심 삼계탕 모두 무난.",
+    "cautions": "닭볶음탕·닭한마리 가격은 메뉴판 확인 권장. 정보는 네이버지도·다이닝코드 기준(2026-07-04), 방문 전 재확인.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/entry/place/20635217",
       "kakao": "https://map.kakao.com/?q=%EC%B4%88%EA%B0%80%EC%A7%91%20%EC%82%BC%EA%B3%84%ED%83%95",
       "google": "https://www.google.com/maps/search/%EC%B4%88%EA%B0%80%EC%A7%91%20%EC%82%BC%EA%B3%84%ED%83%95"
     },
-    "sourceLinks": [],
+    "sourceLinks": [
+      "https://map.naver.com/p/entry/place/20635217",
+      "https://www.diningcode.com/profile.php?rid=fbSS31xBrzLf"
+    ],
     "lastVerified": "2026-07-04",
     "priority": 2,
     "authorPick": null
