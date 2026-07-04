@@ -1,0 +1,10 @@
+# Vercel (프로젝트 링크 정보 — 커밋 금지)
+.vercel
+
+# 의존성/OS
+node_modules
+.DS_Store
+Thumbs.db
+
+# 로컬 미리보기 설정
+.claude
