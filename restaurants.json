@@ -5288,17 +5288,17 @@
   },
   {
     "id": "restaurant-081",
-    "name": "초가집 삼계탕",
+    "name": "초가집",
     "category": "한식",
-    "subType": "삼계탕",
+    "subType": "닭도리탕/삼계탕",
     "mealTime": [
       "lunch",
       "dinner"
     ],
     "representativeMenus": [
+      "닭도리탕(닭볶음탕)",
       "삼계탕",
-      "전복삼계탕",
-      "닭볶음탕"
+      "닭한마리"
     ],
     "lunchPriceRange": "2만원대",
     "dinnerPriceRange": "2만원대",
@@ -5306,7 +5306,7 @@
     "distanceLabel": "도보 15분",
     "address": "서울 강남구 테헤란로55길 15 2층",
     "phone": "확인 필요",
-    "businessHours": "확인 필요",
+    "businessHours": "주중 11:00~22:00 (지도 기준, 변동 가능)",
     "breakTime": "확인 필요",
     "closedDays": "확인 필요",
     "lunchMenu": "확인 필요",
@@ -5326,22 +5326,23 @@
       "note": ""
     },
     "recommendedFor": [
+      "회식",
       "팀 점심",
       "조용한 대화"
     ],
     "atmosphere": [
       "편안함",
-      "깔끔함"
+      "노포 느낌"
     ],
     "tags": [
+      "회식 가능",
       "팀 점심 추천",
-      "보양식",
       "도보 15분"
     ],
-    "comment": "삼계탕 보양식. 복날·기력 보충용 팀 점심에 적합.",
-    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "comment": "선릉 먹자골목 2층 노포. 저녁 닭도리탕에 소주 곁들이는 회식 자리로 좋고, 점심 삼계탕도 가능.",
+    "cautions": "전화·휴무일·정확한 가격은 미확인, 방문 전 확인 필요. 영업시간은 지도 기준으로 변동 가능.",
     "mapLinks": {
-      "naver": "https://map.naver.com/p/search/%EC%B4%88%EA%B0%80%EC%A7%91%20%EC%82%BC%EA%B3%84%ED%83%95",
+      "naver": "https://map.naver.com/p/entry/place/20635217",
       "kakao": "https://map.kakao.com/?q=%EC%B4%88%EA%B0%80%EC%A7%91%20%EC%82%BC%EA%B3%84%ED%83%95",
       "google": "https://www.google.com/maps/search/%EC%B4%88%EA%B0%80%EC%A7%91%20%EC%82%BC%EA%B3%84%ED%83%95"
     },
