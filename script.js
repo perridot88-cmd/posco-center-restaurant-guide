@@ -299,7 +299,9 @@
     els.tableView.classList.toggle('hidden', showEmpty || state.view !== 'table');
     els.ladderView.classList.toggle('hidden', !isLadder);
 
-    if (state.view === 'card') renderCards(list);
+    const animate = state.view !== state._lastView;
+    state._lastView = state.view;
+    if (state.view === 'card') renderCards(list, animate);
     else if (state.view === 'table') renderTable(list);
   }
 
@@ -314,9 +316,19 @@
   }
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-  function renderCards(list) {
-    els.cards.innerHTML = list.map(r => {
+  // 카테고리별 색상·아이콘 (컬러 코딩)
+  const CAT_META = {
+    '한식': ['#c2410c', '🍚'], '중식': ['#b91c1c', '🥟'], '일식': ['#1d4ed8', '🍣'],
+    '양식': ['#7c3aed', '🍝'], '고기/구이': ['#9f1239', '🥩'], '해산물': ['#0e7490', '🦐'],
+    '분식/가벼운 식사': ['#a16207', '🍜'], '카페/디저트': ['#be185d', '☕'], '기타': ['#475569', '🍽️'],
+  };
+  const catMeta = c => CAT_META[c] || CAT_META['기타'];
+
+  function renderCards(list, animate) {
+    els.cards.classList.toggle('anim', !!animate);
+    els.cards.innerHTML = list.map((r, i) => {
       const fav = favs.includes(r.id);
+      const [catCol, catIco] = catMeta(r.category);
       const tags = r.tags.map(t => {
         let cls = 'tag';
         if (/룸/.test(t)) cls += ' room';
@@ -327,25 +339,29 @@
       const open = state.expanded.has(r.id);
       const pickBadge = r.authorPick
         ? `<div class="pick-ribbon" title="${esc(r.authorPick.note)}">❤️ ${esc(r.authorPick.note)}</div>` : '';
+      const price = r.lunchPriceRange !== CONFIRM ? r.lunchPriceRange : r.dinnerPriceRange;
       return `
-      <article class="rcard ${r.authorPick ? 'is-pick' : ''}" data-id="${r.id}">
+      <article class="rcard ${r.authorPick ? 'is-pick' : ''}" data-id="${r.id}" data-cat="${esc(r.category)}" style="--i:${i};--cat:${catCol}">
         ${pickBadge}
         <div class="rcard-head">
           <div class="rcard-titlerow">
-            <div>
+            <div class="rtitle">
+              <span class="cat-badge">${catIco}<span>${esc(r.category)}</span></span>
               <h3>${esc(r.name)}</h3>
-              <div class="cat">${esc(r.category)}${r.subType ? ' · ' + esc(r.subType) : ''}</div>
+              ${r.subType ? `<div class="cat">${esc(r.subType)}</div>` : ''}
             </div>
             <button class="fav-btn" aria-pressed="${fav}" aria-label="${esc(r.name)} 즐겨찾기" data-fav="${r.id}">${fav ? '★' : '☆'}</button>
           </div>
           <p class="menus"><b>대표</b> ${esc(r.representativeMenus.join(', '))}</p>
         </div>
         <div class="keyfacts">
-          <span class="kf">🕒 <b>${mealLabel(r)}</b></span>
-          <span class="kf">🚶 <b>${esc(r.distanceLabel)}</b></span>
-          <span class="kf">💳 ${esc(r.lunchPriceRange !== CONFIRM ? r.lunchPriceRange : r.dinnerPriceRange)}</span>
+          <span class="kf kf-strong">🚶 <b>${esc(r.distanceLabel)}</b></span>
+          <span class="kf kf-strong">💳 <b>${esc(price)}</b></span>
+          <span class="kf">🕒 ${mealLabel(r)}</span>
+        </div>
+        <div class="facts2">
           <span class="kf">🚪 룸 ${badge(r.room.status)}</span>
-          <span class="kf">📅 ${badge(r.reservation.status)}</span>
+          <span class="kf">📅 예약 ${badge(r.reservation.status)}</span>
         </div>
         <div class="tags">${tags}</div>
         <p class="comment">${esc(r.comment)}</p>
@@ -353,9 +369,9 @@
         <div class="rcard-foot">
           <button data-toggle="${r.id}" aria-expanded="${open}" aria-controls="detail-${r.id}">${open ? '▲ 접기' : '▼ 상세'}</button>
           <button data-copy="${r.id}">📋 복사</button>
-          <a class="maplink" href="${r.mapLinks.naver}" target="_blank" rel="noopener">네이버</a>
-          <a class="maplink" href="${r.mapLinks.kakao}" target="_blank" rel="noopener">카카오</a>
-          <a class="maplink" href="${r.mapLinks.google}" target="_blank" rel="noopener">구글</a>
+          <a class="maplink naver" href="${r.mapLinks.naver}" target="_blank" rel="noopener" aria-label="${esc(r.name)} 네이버지도">네이버</a>
+          <a class="maplink kakao" href="${r.mapLinks.kakao}" target="_blank" rel="noopener" aria-label="${esc(r.name)} 카카오맵">카카오</a>
+          <a class="maplink google" href="${r.mapLinks.google}" target="_blank" rel="noopener" aria-label="${esc(r.name)} 구글맵">구글</a>
         </div>
       </article>`;
     }).join('');
