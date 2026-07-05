@@ -5420,5 +5420,644 @@
     "lastVerified": "2026-07-04",
     "priority": 1,
     "authorPick": null
+  },
+  {
+    "id": "restaurant-083",
+    "name": "센마키 포스코센터",
+    "category": "일식",
+    "subType": "초밥/롤",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "초밥",
+      "마키롤",
+      "덮밥"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 1,
+    "distanceLabel": "도보 1분 (포스코센터 지하)",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층 D존 01호",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 가능",
+      "method": "캐치테이블/전화",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 지하주차(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "빠른 식사",
+      "팀 점심",
+      "가성비"
+    ],
+    "atmosphere": [
+      "깔끔함",
+      "캐주얼"
+    ],
+    "tags": [
+      "건물 내",
+      "빠른 식사",
+      "가성비",
+      "도보 1분"
+    ],
+    "comment": "포스코센터 지하 일식(초밥·롤). 이동 없이 빠른 점심에 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%84%BC%EB%A7%88%ED%82%A4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%EC%84%BC%EB%A7%88%ED%82%A4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%EC%84%BC%EB%A7%88%ED%82%A4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://app.catchtable.co.kr/ct/shop/senmaki_posco"
+    ],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-084",
+    "name": "브라이언스커피 포스코사거리",
+    "category": "카페/디저트",
+    "subType": "스페셜티 카페",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "스페셜티 커피",
+      "디저트"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 2,
+    "distanceLabel": "도보 2분",
+    "address": "서울 강남구 테헤란로 504 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "없음",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 불가",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "빠른 식사",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "깔끔함",
+      "편안함"
+    ],
+    "tags": [
+      "카페",
+      "조용한 대화",
+      "도보 2분"
+    ],
+    "comment": "포스코사거리 스페셜티 커피. 식후 커피·가벼운 미팅 장소.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B8%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4%EC%BB%A4%ED%94%BC%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%82%AC%EA%B1%B0%EB%A6%AC",
+      "kakao": "https://map.kakao.com/?q=%EB%B8%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4%EC%BB%A4%ED%94%BC%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%82%AC%EA%B1%B0%EB%A6%AC",
+      "google": "https://www.google.com/maps/search/%EB%B8%8C%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4%EC%BB%A4%ED%94%BC%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%82%AC%EA%B1%B0%EB%A6%AC"
+    },
+    "sourceLinks": [
+      "https://www.brianscoffee.com"
+    ],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-085",
+    "name": "반룡산",
+    "category": "한식",
+    "subType": "이북음식/평양냉면",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "평양냉면",
+      "어복쟁반",
+      "만두"
+    ],
+    "lunchPriceRange": "2만원대",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 3,
+    "distanceLabel": "도보 3분",
+    "address": "서울 강남구 테헤란로78길 26 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "조용한 대화",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "깔끔함",
+      "조용한 편"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "외부 손님 접대",
+      "조용한 편",
+      "도보 3분"
+    ],
+    "comment": "이북식 평양냉면·어복쟁반 전문. 조용한 팀 점심·가벼운 접대에 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B0%98%EB%A3%A1%EC%82%B0",
+      "kakao": "https://map.kakao.com/?q=%EB%B0%98%EB%A3%A1%EC%82%B0",
+      "google": "https://www.google.com/maps/search/%EB%B0%98%EB%A3%A1%EC%82%B0"
+    },
+    "sourceLinks": [
+      "http://www.banryongsan.com/"
+    ],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-086",
+    "name": "아티제 선릉대치타워점",
+    "category": "카페/디저트",
+    "subType": "베이커리 카페",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "커피",
+      "베이커리",
+      "샌드위치"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 테헤란로 424 삼성생명대치타워 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "없음",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 불가",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "빠른 식사",
+      "조용한 대화",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "깔끔함",
+      "분위기 좋음"
+    ],
+    "tags": [
+      "카페",
+      "조용한 대화",
+      "외부 손님 접대",
+      "도보 4분"
+    ],
+    "comment": "베이커리 카페. 샌드위치 간단 점심·손님 응대·미팅 겸용.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%95%84%ED%8B%B0%EC%A0%9C%20%EC%84%A0%EB%A6%89%EB%8C%80%EC%B9%98%ED%83%80%EC%9B%8C%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%95%84%ED%8B%B0%EC%A0%9C%20%EC%84%A0%EB%A6%89%EB%8C%80%EC%B9%98%ED%83%80%EC%9B%8C%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%95%84%ED%8B%B0%EC%A0%9C%20%EC%84%A0%EB%A6%89%EB%8C%80%EC%B9%98%ED%83%80%EC%9B%8C%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.cafeartisee.com/"
+    ],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-087",
+    "name": "수묵",
+    "category": "한식",
+    "subType": "한식당",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "한식 정식"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 테헤란로70길 13 보성빌딩 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "도보 4분"
+    ],
+    "comment": "테헤란로70길 인접 한식당(도보 4분).",
+    "cautions": "대표 메뉴·성격·가격은 정보가 적어 방문 전 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%88%98%EB%AC%B5",
+      "kakao": "https://map.kakao.com/?q=%EC%88%98%EB%AC%B5",
+      "google": "https://www.google.com/maps/search/%EC%88%98%EB%AC%B5"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-088",
+    "name": "모미지 선릉점",
+    "category": "일식",
+    "subType": "일식/이자카야",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "사시미",
+      "일식 안주"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로85길 43 3층 1호",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 가능",
+      "method": "캐치테이블/전화",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "조용한 대화",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "분위기 좋음",
+      "아늑함"
+    ],
+    "tags": [
+      "분위기 좋음",
+      "회식 가능",
+      "예약 가능",
+      "저녁",
+      "도보 5분"
+    ],
+    "comment": "분위기 좋은 일식(사시미·안주). 저녁 회식·접대·조용한 대화에 적합.",
+    "cautions": "주로 저녁 영업(점심 여부 확인). 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%AA%A8%EB%AF%B8%EC%A7%80%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%AA%A8%EB%AF%B8%EC%A7%80%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%AA%A8%EB%AF%B8%EC%A7%80%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://app.catchtable.co.kr/ct/shop/momiji_seonleungjeom"
+    ],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-089",
+    "name": "작은동경 본점",
+    "category": "일식",
+    "subType": "이자카야",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "사시미",
+      "일식 안주",
+      "튀김"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 테헤란로70길 25 2층 202호",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "아늑함",
+      "편안함"
+    ],
+    "tags": [
+      "저녁",
+      "회식 가능",
+      "도보 5분"
+    ],
+    "comment": "일식 이자카야. 저녁 소규모 회식·대화 자리에 적합.",
+    "cautions": "주로 저녁 영업. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9E%91%EC%9D%80%EB%8F%99%EA%B2%BD%20%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%9E%91%EC%9D%80%EB%8F%99%EA%B2%BD%20%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%9E%91%EC%9D%80%EB%8F%99%EA%B2%BD%20%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-090",
+    "name": "무쇠김치삼겹 선릉점",
+    "category": "고기/구이",
+    "subType": "돼지고기 구이",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "김치 삼겹살",
+      "목살"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 선릉로82길 47 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "회식",
+      "가성비"
+    ],
+    "atmosphere": [
+      "편안함",
+      "활기참"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "회식 가능",
+      "가성비",
+      "도보 5분"
+    ],
+    "comment": "김치 삼겹살 구이. 점심~저녁 팀 회식에 부담 없이 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%AC%B4%EC%87%A0%EA%B9%80%EC%B9%98%EC%82%BC%EA%B2%B9%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%AC%B4%EC%87%A0%EA%B9%80%EC%B9%98%EC%82%BC%EA%B2%B9%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%AC%B4%EC%87%A0%EA%B9%80%EC%B9%98%EC%82%BC%EA%B2%B9%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.instagram.com/shingane_official/"
+    ],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-091",
+    "name": "던킨 선릉역점",
+    "category": "카페/디저트",
+    "subType": "도넛/커피",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "도넛",
+      "커피"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 테헤란로 422 KT타워 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "없음",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 불가",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "캐주얼"
+    ],
+    "tags": [
+      "카페",
+      "빠른 식사",
+      "도보 5분"
+    ],
+    "comment": "KT타워 1층 도넛·커피. 간식·테이크아웃용.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%8D%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%8D%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%8D%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-092",
+    "name": "파이어랩 베이커리",
+    "category": "카페/디저트",
+    "subType": "베이커리",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "빵",
+      "커피"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 6,
+    "distanceLabel": "도보 6분",
+    "address": "서울 강남구 선릉로92길 37-4 101호",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "없음",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 불가",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "빠른 식사",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "아늑함",
+      "깔끔함"
+    ],
+    "tags": [
+      "카페",
+      "조용한 대화",
+      "도보 6분"
+    ],
+    "comment": "베이커리 카페. 빵·커피, 가벼운 미팅 장소.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%9E%A9%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC",
+      "kakao": "https://map.kakao.com/?q=%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%9E%A9%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC",
+      "google": "https://www.google.com/maps/search/%ED%8C%8C%EC%9D%B4%EC%96%B4%EB%9E%A9%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "authorPick": null
   }
 ]
