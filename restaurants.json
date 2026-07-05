@@ -5940,66 +5940,6 @@
   },
   {
     "id": "restaurant-091",
-    "name": "던킨 선릉역점",
-    "category": "카페/디저트",
-    "subType": "도넛/커피",
-    "mealTime": [
-      "lunch",
-      "dinner"
-    ],
-    "representativeMenus": [
-      "도넛",
-      "커피"
-    ],
-    "lunchPriceRange": "1만원대",
-    "dinnerPriceRange": "1만원대",
-    "distanceMinutes": 5,
-    "distanceLabel": "도보 5분",
-    "address": "서울 강남구 테헤란로 422 KT타워 1층",
-    "phone": "확인 필요",
-    "businessHours": "확인 필요",
-    "breakTime": "확인 필요",
-    "closedDays": "확인 필요",
-    "lunchMenu": "확인 필요",
-    "dinnerMenu": "확인 필요",
-    "room": {
-      "status": "없음",
-      "capacity": "확인 필요",
-      "note": ""
-    },
-    "reservation": {
-      "status": "예약 불가",
-      "method": "확인 필요",
-      "note": ""
-    },
-    "parking": {
-      "status": "확인 필요",
-      "note": ""
-    },
-    "recommendedFor": [
-      "빠른 식사"
-    ],
-    "atmosphere": [
-      "캐주얼"
-    ],
-    "tags": [
-      "카페",
-      "빠른 식사",
-      "도보 5분"
-    ],
-    "comment": "KT타워 1층 도넛·커피. 간식·테이크아웃용.",
-    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
-    "mapLinks": {
-      "naver": "https://map.naver.com/p/search/%EB%8D%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90",
-      "kakao": "https://map.kakao.com/?q=%EB%8D%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90",
-      "google": "https://www.google.com/maps/search/%EB%8D%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90"
-    },
-    "sourceLinks": [],
-    "lastVerified": "2026-07-04",
-    "authorPick": null
-  },
-  {
-    "id": "restaurant-092",
     "name": "파이어랩 베이커리",
     "category": "카페/디저트",
     "subType": "베이커리",
@@ -6058,6 +5998,72 @@
     },
     "sourceLinks": [],
     "lastVerified": "2026-07-04",
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-092",
+    "name": "황태마을",
+    "category": "한식",
+    "subType": "황태해장국",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "황태해장국",
+      "황태구이",
+      "황태찜"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 2,
+    "distanceLabel": "도보 2분",
+    "address": "서울 강남구 테헤란로78길 14-6 동성빌딩",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사",
+      "가성비"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "빠른 식사",
+      "가성비",
+      "해장",
+      "도보 2분"
+    ],
+    "comment": "황태해장국·황태구이 중심. 회식 다음날 해장·빠른 팀 점심에 적합.",
+    "cautions": "가격대는 공개 리뷰 기준 추정치, 메뉴판 확인 권장. 영업시간·전화·휴무 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%99%A9%ED%83%9C%EB%A7%88%EC%9D%84",
+      "kakao": "https://map.kakao.com/?q=%ED%99%A9%ED%83%9C%EB%A7%88%EC%9D%84",
+      "google": "https://www.google.com/maps/search/%ED%99%A9%ED%83%9C%EB%A7%88%EC%9D%84"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 2,
     "authorPick": null
   }
 ]
