@@ -613,7 +613,7 @@
     "id": "restaurant-010",
     "name": "센도수산",
     "category": "해산물",
-    "subType": "초밥/생선회",
+    "subType": "이자카야/생선회",
     "mealTime": [
       "lunch",
       "dinner"
@@ -657,11 +657,12 @@
       "깔끔함"
     ],
     "tags": [
+      "이자카야",
       "팀 점심 추천",
       "회식 가능",
       "도보 10분"
     ],
-    "comment": "초밥·회 중심. 팀 점심 및 가벼운 접대에 활용 가능.",
+    "comment": "이자카야(생선회·초밥·안주). 점심 식사부터 저녁 회식·술자리까지 가능.",
     "cautions": "룸/예약 가능 여부는 미확인. 예약 시 전화로 확인 권장. 가격대는 공개 리뷰·업종 기준 추정치이며 메뉴판 미확인. 영업시간·브레이크타임·휴무일·전화번호는 미확인. 방문 전 지도/전화 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EC%84%BC%EB%8F%84%EC%88%98%EC%82%B0",
@@ -7025,13 +7026,14 @@
     "id": "restaurant-105",
     "name": "형제회관",
     "category": "한식",
-    "subType": "한식당",
+    "subType": "김치찌개/한식",
     "mealTime": [
       "lunch",
       "dinner"
     ],
     "representativeMenus": [
-      "확인 필요"
+      "김치찌개",
+      "계란말이"
     ],
     "lunchPriceRange": "확인 필요",
     "dinnerPriceRange": "확인 필요",
@@ -7042,7 +7044,7 @@
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
     "closedDays": "확인 필요",
-    "lunchMenu": "확인 필요",
+    "lunchMenu": "김치찌개 + 계란말이 (작성자 추천 조합)",
     "dinnerMenu": "확인 필요",
     "room": {
       "status": "확인 필요",
@@ -7066,11 +7068,12 @@
     ],
     "tags": [
       "작성자 최애",
+      "김치찌개",
       "팀 점심 추천",
       "도보 3분"
     ],
-    "comment": "작성자가 점심으로 애정하는 한식집. 성균관사시미와 같은 골목(삼성로81길).",
-    "cautions": "대표 메뉴·가격·영업시간은 지도 정보가 없어 확인 필요.",
+    "comment": "작성자 점심 최애. 김치찌개+계란말이 조합이 맛있음. 단, 포스코 직원이 많아 구내식당 느낌이 날 수 있음.",
+    "cautions": "점심 피크에 포스코 직원 다수로 혼잡할 수 있음. 가격·영업시간은 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%ED%98%95%EC%A0%9C%ED%9A%8C%EA%B4%80%20%EB%8C%80%EC%B9%98%EB%8F%99",
       "kakao": "https://map.kakao.com/?q=%ED%98%95%EC%A0%9C%ED%9A%8C%EA%B4%80%20%EB%8C%80%EC%B9%98%EB%8F%99",
@@ -7083,6 +7086,334 @@
       "meal": "lunch",
       "note": "작성자 최애 · 점심"
     },
+    "grillService": null
+  },
+  {
+    "id": "restaurant-106",
+    "name": "교촌치킨 선릉점",
+    "category": "기타",
+    "subType": "치킨",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "허니콤보",
+      "레드콤보",
+      "치맥"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "가성비"
+    ],
+    "atmosphere": [
+      "캐주얼",
+      "활기참"
+    ],
+    "tags": [
+      "치킨",
+      "회식 가능",
+      "저녁",
+      "도보 4분"
+    ],
+    "comment": "교촌 치킨+맥주. 가볍게 치맥 회식·2차 자리에 적합.",
+    "cautions": "주로 저녁 영업(점심 여부 확인). 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://m.kyochon.com/"
+    ],
+    "lastVerified": "2026-07-06",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-107",
+    "name": "지칸 삼성1호점",
+    "category": "일식",
+    "subType": "이자카야",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "사시미",
+      "일식 안주",
+      "사케"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 12,
+    "distanceLabel": "도보 12분",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "분위기 좋음",
+      "아늑함"
+    ],
+    "tags": [
+      "이자카야",
+      "회식 가능",
+      "분위기 좋음",
+      "저녁",
+      "도보 12분"
+    ],
+    "comment": "분위기 평이 좋은 이자카야. 저녁 회식·소규모 모임에 적합.",
+    "cautions": "주로 저녁 영업(점심 여부 확인). 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%A7%80%EC%B9%B8%20%EC%82%BC%EC%84%B11%ED%98%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%A7%80%EC%B9%B8%20%EC%82%BC%EC%84%B11%ED%98%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%A7%80%EC%B9%B8%20%EC%82%BC%EC%84%B11%ED%98%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.instagram.com/jikan_dining"
+    ],
+    "lastVerified": "2026-07-06",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-108",
+    "name": "오레노유메 선릉본점",
+    "category": "일식",
+    "subType": "이자카야",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "일식 안주",
+      "사시미",
+      "하이볼"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 15,
+    "distanceLabel": "도보 15분",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "분위기 좋음",
+      "아늑함"
+    ],
+    "tags": [
+      "이자카야",
+      "회식 가능",
+      "저녁",
+      "도보 15분"
+    ],
+    "comment": "아늑한 이자카야. 저녁 소규모 회식·대화 자리에 적합.",
+    "cautions": "주로 저녁 영업(점심 여부 확인). 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%98%A4%EB%A0%88%EB%85%B8%EC%9C%A0%EB%A9%94%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%98%A4%EB%A0%88%EB%85%B8%EC%9C%A0%EB%A9%94%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%98%A4%EB%A0%88%EB%85%B8%EC%9C%A0%EB%A9%94%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-06",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-109",
+    "name": "우오하나 선릉점",
+    "category": "일식",
+    "subType": "이자카야",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "사시미",
+      "일식 안주",
+      "사케"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 6,
+    "distanceLabel": "도보 6분",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "아늑함"
+    ],
+    "tags": [
+      "이자카야",
+      "회식 가능",
+      "저녁",
+      "도보 6분"
+    ],
+    "comment": "생선 안주 중심 이자카야. 저녁 술자리에 적합.",
+    "cautions": "주로 저녁 영업(점심 여부 확인). 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9A%B0%EC%98%A4%ED%95%98%EB%82%98%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%9A%B0%EC%98%A4%ED%95%98%EB%82%98%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%9A%B0%EC%98%A4%ED%95%98%EB%82%98%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-06",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-110",
+    "name": "스시사카바 산원",
+    "category": "일식",
+    "subType": "스시/이자카야",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "스시",
+      "사시미",
+      "사케"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 8,
+    "distanceLabel": "도보 8분",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 가능",
+      "method": "네이버 예약",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "조용한 대화",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "분위기 좋음",
+      "깔끔함"
+    ],
+    "tags": [
+      "이자카야",
+      "회식 가능",
+      "분위기 좋음",
+      "예약 가능",
+      "저녁",
+      "도보 8분"
+    ],
+    "comment": "스시+사카바(이자카야) 스타일. 분위기 좋아 회식·가벼운 접대에 적합.",
+    "cautions": "주로 저녁 영업(점심 여부 확인). 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%8A%A4%EC%8B%9C%EC%82%AC%EC%B9%B4%EB%B0%94%20%EC%82%B0%EC%9B%90",
+      "kakao": "https://map.kakao.com/?q=%EC%8A%A4%EC%8B%9C%EC%82%AC%EC%B9%B4%EB%B0%94%20%EC%82%B0%EC%9B%90",
+      "google": "https://www.google.com/maps/search/%EC%8A%A4%EC%8B%9C%EC%82%AC%EC%B9%B4%EB%B0%94%20%EC%82%B0%EC%9B%90"
+    },
+    "sourceLinks": [
+      "https://booking.naver.com/booking/6/bizes/953234"
+    ],
+    "lastVerified": "2026-07-06",
+    "priority": 2,
+    "authorPick": null,
     "grillService": null
   }
 ]
