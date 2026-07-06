@@ -6130,5 +6130,263 @@
     "lastVerified": "2026-07-04",
     "priority": 2,
     "authorPick": null
+  },
+  {
+    "id": "restaurant-094",
+    "name": "더맛있는족발 보쌈 선릉본점",
+    "category": "고기/구이",
+    "subType": "족발/보쌈",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "족발",
+      "보쌈",
+      "막국수"
+    ],
+    "lunchPriceRange": "2만원대",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로85길 42 105호 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "회식",
+      "가성비"
+    ],
+    "atmosphere": [
+      "편안함",
+      "활기참"
+    ],
+    "tags": [
+      "회사 근처",
+      "팀 점심 추천",
+      "회식 가능",
+      "가성비",
+      "도보 5분"
+    ],
+    "comment": "족발·보쌈으로 평이 좋은 집(회사 근처). 팀 점심~저녁 회식에 두루 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%8D%94%EB%A7%9B%EC%9E%88%EB%8A%94%EC%A1%B1%EB%B0%9C%20%EB%B3%B4%EC%8C%88%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%8D%94%EB%A7%9B%EC%9E%88%EB%8A%94%EC%A1%B1%EB%B0%9C%20%EB%B3%B4%EC%8C%88%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%8D%94%EB%A7%9B%EC%9E%88%EB%8A%94%EC%A1%B1%EB%B0%9C%20%EB%B3%B4%EC%8C%88%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.instagram.com/the_jok_seolleung"
+    ],
+    "lastVerified": "2026-07-04",
+    "priority": 2,
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-095",
+    "name": "천미미 삼성점",
+    "category": "중식",
+    "subType": "중식당",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "중식 요리",
+      "짜장면",
+      "짬뽕"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "3만원대",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 삼성로 534 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "회식"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "회식 가능",
+      "도보 10분"
+    ],
+    "comment": "삼성동 중식당. 점심 식사~저녁 요리 겸용.",
+    "cautions": "'고급 중식' 여부 등 세부 정보는 방문 전 확인 권장. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B2%9C%EB%AF%B8%EB%AF%B8%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%B2%9C%EB%AF%B8%EB%AF%B8%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%B2%9C%EB%AF%B8%EB%AF%B8%20%EC%82%BC%EC%84%B1%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 3,
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-096",
+    "name": "멍텅구리 꼼장어 막창 삼성본점",
+    "category": "기타",
+    "subType": "꼼장어/막창",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "꼼장어 구이",
+      "막창",
+      "볶음"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 16,
+    "distanceLabel": "도보 16분 (차량 권장)",
+    "address": "서울 강남구 봉은사로 445 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "활기참",
+      "노포 느낌"
+    ],
+    "tags": [
+      "저녁",
+      "회식 가능",
+      "차량 이동 권장"
+    ],
+    "comment": "꼼장어·막창 구이 노포. 저녁 회식·술자리에 적합하나 포스코센터에서 거리 있음.",
+    "cautions": "포스코센터 기준 도보 15분 초과, 차량 이동 권장. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%A9%8D%ED%85%85%EA%B5%AC%EB%A6%AC%20%EA%BC%BC%EC%9E%A5%EC%96%B4%20%EB%A7%89%EC%B0%BD%20%EC%82%BC%EC%84%B1%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%A9%8D%ED%85%85%EA%B5%AC%EB%A6%AC%20%EA%BC%BC%EC%9E%A5%EC%96%B4%20%EB%A7%89%EC%B0%BD%20%EC%82%BC%EC%84%B1%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%A9%8D%ED%85%85%EA%B5%AC%EB%A6%AC%20%EA%BC%BC%EC%9E%A5%EC%96%B4%20%EB%A7%89%EC%B0%BD%20%EC%82%BC%EC%84%B1%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 3,
+    "authorPick": null
+  },
+  {
+    "id": "restaurant-097",
+    "name": "장독대 김치찌개 선릉점",
+    "category": "한식",
+    "subType": "김치찌개",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "김치찌개",
+      "제육볶음"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 테헤란로64길 24",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사",
+      "가성비"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "가성비",
+      "빠른 식사",
+      "도보 10분"
+    ],
+    "comment": "김치찌개·제육 백반형. 부담 없는 팀 점심에 적합.",
+    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9E%A5%EB%8F%85%EB%8C%80%20%EA%B9%80%EC%B9%98%EC%B0%8C%EA%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%9E%A5%EB%8F%85%EB%8C%80%20%EA%B9%80%EC%B9%98%EC%B0%8C%EA%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%9E%A5%EB%8F%85%EB%8C%80%20%EA%B9%80%EC%B9%98%EC%B0%8C%EA%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-04",
+    "priority": 3,
+    "authorPick": null
   }
 ]

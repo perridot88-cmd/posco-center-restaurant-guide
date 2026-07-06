@@ -100,12 +100,12 @@ h1, h2, h3 { letter-spacing: -0.02em; }
 /* 헤더 크레딧 */
 .header-credit {
   position: absolute; top: 0; right: 20px; text-align: right; z-index: 2;
-  font-size: 11.5px; line-height: 1.5; color: #cfe0f3; max-width: 46%;
+  font-size: 13.5px; line-height: 1.55; color: #dcebfb; max-width: 52%;
 }
-.header-credit b { color: #fff; font-weight: 700; }
+.header-credit b { color: #fff; font-weight: 800; font-size: 15.5px; }
 .header-credit a { color: #fff; font-weight: 700; text-decoration: none; margin-left: 6px; border-bottom: 1px dotted rgba(255,255,255,.5); }
 .header-credit a:hover { border-bottom-style: solid; }
-.header-credit .hc-sub { display: block; color: #9fbfe4; font-size: 11px; margin-top: 2px; }
+.header-credit .hc-sub { display: block; color: #a8c6e8; font-size: 11.5px; margin-top: 3px; }
 
 /* ===== 요약 KPI ===== */
 .summary { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin: -26px 0 0; position: relative; z-index: 3; }
