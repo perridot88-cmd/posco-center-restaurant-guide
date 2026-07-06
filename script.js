@@ -96,7 +96,7 @@
 
   // 상태
   let DATA = [];
-  const state = { filters: {}, search: '', sort: 'recommend', view: 'card', favOnly: false, expanded: new Set() };
+  const state = { filters: {}, search: '', sort: 'recommend', view: 'card', favOnly: false, kpi: null, expanded: new Set() };
   Object.keys(FILTERS).forEach(k => (state.filters[k] = []));
   let favs = loadFavs();
 
@@ -128,24 +128,41 @@
     render();
   }
 
-  /* ---------- 요약 카드 ---------- */
+  /* ---------- 요약 카드 (클릭 시 해당 카테고리 필터) ---------- */
+  const KPI = {
+    total:  { lbl: '전체 식당', ico: '🍽️', pred: () => true },
+    picks:  { lbl: '작성자 최애', ico: '❤️', pred: r => !!r.authorPick },
+    room:   { lbl: '룸 보유(확인됨)', ico: '🚪', pred: r => r.room.status === '있음' },
+    resv:   { lbl: '예약 가능·권장', ico: '📅', pred: r => ['예약 가능', '예약 권장'].includes(r.reservation.status) },
+    lunch:  { lbl: '점심 추천', ico: '☀️', pred: r => r.mealTime.includes('lunch') && r.recommendedFor.some(x => ['팀 점심', '빠른 식사', '가성비'].includes(x)) },
+    dinner: { lbl: '저녁·회식 추천', ico: '🌙', pred: r => r.mealTime.includes('dinner') && r.recommendedFor.some(x => ['회식', '임원 동석', '외부 손님 접대'].includes(x)) },
+  };
   function buildSummary() {
-    const total = DATA.length;
-    const room = DATA.filter(r => r.room.status === '있음').length;
-    const resv = DATA.filter(r => ['예약 가능', '예약 권장'].includes(r.reservation.status)).length;
-    const lunch = DATA.filter(r => r.mealTime.includes('lunch') && r.recommendedFor.some(x => ['팀 점심', '빠른 식사', '가성비'].includes(x))).length;
-    const dinner = DATA.filter(r => r.mealTime.includes('dinner') && r.recommendedFor.some(x => ['회식', '임원 동석', '외부 손님 접대'].includes(x))).length;
-    const picks = DATA.filter(r => r.authorPick).length;
-    const cards = [
-      { num: total, lbl: '전체 식당', ico: '🍽️' },
-      { num: picks, lbl: '작성자 최애', ico: '❤️' },
-      { num: room, lbl: '룸 보유(확인됨)', ico: '🚪' },
-      { num: resv, lbl: '예약 가능·권장', ico: '📅' },
-      { num: lunch, lbl: '점심 추천', ico: '☀️' },
-      { num: dinner, lbl: '저녁·회식 추천', ico: '🌙' },
-    ];
-    els.summary.innerHTML = cards.map(c =>
-      `<div class="stat"><div class="ico" aria-hidden="true">${c.ico}</div><div class="num">${c.num}</div><div class="lbl">${c.lbl}</div></div>`).join('');
+    els.summary.innerHTML = Object.entries(KPI).map(([key, k]) =>
+      `<button class="stat" data-kpi="${key}" aria-pressed="false" title="클릭하면 ${k.lbl} 기준으로 목록이 필터링됩니다">
+        <div class="ico" aria-hidden="true">${k.ico}</div>
+        <div class="num">${DATA.filter(k.pred).length}</div>
+        <div class="lbl">${k.lbl}</div>
+      </button>`).join('');
+    els.summary.querySelectorAll('[data-kpi]').forEach(b => b.addEventListener('click', () => applyKpi(b.dataset.kpi)));
+  }
+  function applyKpi(key) {
+    // 다른 필터 초기화 후 KPI 기준만 적용 (재클릭·전체 클릭 시 해제)
+    const turnOff = state.kpi === key || key === 'total';
+    Object.keys(state.filters).forEach(k => (state.filters[k] = []));
+    state.search = ''; els.search.value = '';
+    state.favOnly = false; $('favOnly').setAttribute('aria-pressed', 'false');
+    state.kpi = turnOff ? null : key;
+    syncChips(); syncKpi(); render();
+    toast(state.kpi ? `'${KPI[key].lbl}' 기준으로 정렬·필터링했습니다.` : '전체 목록을 표시합니다.');
+    document.querySelector('.result-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  function syncKpi() {
+    els.summary.querySelectorAll('[data-kpi]').forEach(b => {
+      const on = state.kpi === b.dataset.kpi;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-pressed', String(on));
+    });
   }
 
   /* ---------- 상황별 버튼 ---------- */
@@ -162,6 +179,7 @@
     Object.keys(state.filters).forEach(k => (state.filters[k] = []));
     state.search = ''; els.search.value = '';
     state.favOnly = false; $('favOnly').setAttribute('aria-pressed', 'false');
+    state.kpi = null; syncKpi();
     Object.entries(set).forEach(([k, vals]) => (state.filters[k] = vals.slice()));
     syncChips();
     render();
@@ -248,6 +266,7 @@
     state.search = ''; els.search.value = '';
     state.sort = 'recommend'; els.sort.value = 'recommend';
     state.favOnly = false; $('favOnly').setAttribute('aria-pressed', 'false');
+    state.kpi = null; syncKpi();
     els.randomPick.classList.add('hidden');
     syncChips(); render();
     toast('필터를 초기화했습니다.');
@@ -267,6 +286,7 @@
         if (sel.length && !cfg.match(r, sel)) return false;
       }
       if (state.favOnly && !favs.includes(r.id)) return false;
+      if (state.kpi && !KPI[state.kpi].pred(r)) return false;
       if (state.search) {
         const q = state.search.toLowerCase();
         const hay = [r.name, r.category, r.subType, r.comment, r.cautions,
