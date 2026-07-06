@@ -58,6 +58,12 @@
       match: (r, sel) => sel.includes(r.room.status),
       or: true,
     },
+    grill: {
+      label: '구이 서비스 (고기집)',
+      options: [{ v: '구워줌', t: '🔥 구워줌' }, { v: '셀프', t: '셀프' }, { v: CONFIRM, t: '확인 필요' }],
+      match: (r, sel) => !!r.grillService && sel.includes(r.grillService.status),
+      or: true,
+    },
     reservation: {
       label: '예약 가능 여부',
       options: [
@@ -310,7 +316,7 @@
     return l && d ? '점심·저녁' : l ? '점심' : d ? '저녁' : '-';
   }
   function badge(status) {
-    if (status === '있음' || status === '예약 가능' || status === '가능') return `<span class="badge b-ok">${status}</span>`;
+    if (status === '있음' || status === '예약 가능' || status === '가능' || status === '구워줌') return `<span class="badge b-ok">${status}</span>`;
     if (status === CONFIRM || status === '예약 권장') return `<span class="badge b-warn">${status}</span>`;
     return `<span class="badge b-muted">${status}</span>`;
   }
@@ -362,6 +368,7 @@
         <div class="facts2">
           <span class="kf">🚪 룸 ${badge(r.room.status)}</span>
           <span class="kf">📅 예약 ${badge(r.reservation.status)}</span>
+          ${r.grillService ? `<span class="kf">🔥 구이 ${badge(r.grillService.status)}</span>` : ''}
         </div>
         <div class="tags">${tags}</div>
         <p class="comment">${esc(r.comment)}</p>
@@ -394,6 +401,7 @@
       ${row('휴무일', r.closedDays)}
       ${row('점심 메뉴', r.lunchMenu)}
       ${row('저녁 메뉴', r.dinnerMenu)}
+      ${r.grillService ? row('구이 서비스', `${r.grillService.status}${r.grillService.note ? ' · ' + r.grillService.note : ''}`) : ''}
       ${row('룸', `${r.room.status} / 수용 ${r.room.capacity}${r.room.note ? ' · ' + r.room.note : ''}`)}
       ${row('예약', `${r.reservation.status} / ${r.reservation.method}${r.reservation.note ? ' · ' + r.reservation.note : ''}`)}
       ${row('주차', `${r.parking.status}${r.parking.note ? ' · ' + r.parking.note : ''}`)}
