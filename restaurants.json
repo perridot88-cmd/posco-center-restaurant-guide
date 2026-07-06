@@ -1103,8 +1103,9 @@
     ],
     "representativeMenus": [
       "연탄 삼겹살",
-      "목살",
-      "연탄구이"
+      "제육볶음",
+      "김치찌개",
+      "된장찌개"
     ],
     "lunchPriceRange": "1만원대",
     "dinnerPriceRange": "2만원대",
@@ -1120,7 +1121,7 @@
     "room": {
       "status": "확인 필요",
       "capacity": "확인 필요",
-      "note": ""
+      "note": "리뷰상 개별룸 언급 있음(지점별 상이 가능)—예약 시 확인"
     },
     "reservation": {
       "status": "예약 가능",
@@ -1156,7 +1157,7 @@
     "sourceLinks": [
       "https://app.catchtable.co.kr/ct/shop/yeon_tan_pyeongseon_kim"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-06",
     "priority": 2,
     "authorPick": null,
     "grillService": {
@@ -2267,14 +2268,15 @@
     "id": "restaurant-034",
     "name": "미미동 삼성점",
     "category": "일식",
-    "subType": "우동/일식당",
+    "subType": "카이센동/이자카야",
     "mealTime": [
       "lunch",
       "dinner"
     ],
     "representativeMenus": [
-      "붓카케 우동",
-      "텐동"
+      "카이센동",
+      "사시미",
+      "이자카야 안주"
     ],
     "lunchPriceRange": "1만원대",
     "dinnerPriceRange": "1만원대",
@@ -2282,7 +2284,7 @@
     "distanceLabel": "도보 5분",
     "address": "서울 강남구 삼성로 511 아이콘삼성 지하1층 2호",
     "phone": "확인 필요",
-    "businessHours": "확인 필요",
+    "businessHours": "11:00~23:00 (식신 기준)",
     "breakTime": "확인 필요",
     "closedDays": "확인 필요",
     "lunchMenu": "확인 필요",
@@ -2303,18 +2305,20 @@
     },
     "recommendedFor": [
       "팀 점심",
-      "빠른 식사"
+      "빠른 식사",
+      "회식"
     ],
     "atmosphere": [
       "깔끔함"
     ],
     "tags": [
+      "이자카야",
       "팀 점심 추천",
       "빠른 식사",
       "예약 가능",
       "도보 5분"
     ],
-    "comment": "우동·덮밥 중심 일식. 깔끔한 팀 점심에 적합.",
+    "comment": "카이센동·사시미 중심 일식/이자카야. 점심 덮밥부터 저녁 술자리까지 가능.",
     "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 미확인. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EB%AF%B8%EB%AF%B8%EB%8F%99%20%EC%82%BC%EC%84%B1%EC%A0%90",
@@ -2322,9 +2326,10 @@
       "google": "https://www.google.com/maps/search/%EB%AF%B8%EB%AF%B8%EB%8F%99%20%EC%82%BC%EC%84%B1%EC%A0%90"
     },
     "sourceLinks": [
+      "https://www.siksinhot.com/P/1829961",
       "https://app.catchtable.co.kr/ct/shop/mimidong"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-06",
     "priority": 2,
     "authorPick": null,
     "grillService": null
@@ -2600,24 +2605,25 @@
     "id": "restaurant-039",
     "name": "돌산등대집",
     "category": "한식",
-    "subType": "생선구이/찌개",
+    "subType": "등갈비찜/쭈꾸미",
     "mealTime": [
       "lunch",
       "dinner"
     ],
     "representativeMenus": [
-      "생선구이 백반",
-      "김치찌개"
+      "갓김치등갈비찜",
+      "돌산 불쭈꾸미",
+      "빠삭오징어튀김전"
     ],
     "lunchPriceRange": "1만원대",
     "dinnerPriceRange": "2만원대",
     "distanceMinutes": 5,
     "distanceLabel": "도보 5분",
     "address": "서울 강남구 테헤란로70길 16 1층",
-    "phone": "확인 필요",
-    "businessHours": "확인 필요",
+    "phone": "02-558-1116",
+    "businessHours": "11:00~22:30 (다이닝코드 기준)",
     "breakTime": "확인 필요",
-    "closedDays": "확인 필요",
+    "closedDays": "일요일",
     "lunchMenu": "확인 필요",
     "dinnerMenu": "확인 필요",
     "room": {
@@ -2636,27 +2642,28 @@
     },
     "recommendedFor": [
       "팀 점심",
-      "빠른 식사"
+      "회식"
     ],
     "atmosphere": [
       "편안함"
     ],
     "tags": [
       "팀 점심 추천",
-      "빠른 식사",
+      "회식 가능",
       "도보 5분"
     ],
-    "comment": "생선구이·찌개 백반형. 든든한 팀 점심에 적합.",
-    "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 미확인. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "comment": "갓김치등갈비찜 전문(전국 최초). 매콤한 찜 계열 팀 점심·저녁 회식에 적합.",
+    "cautions": "매운 메뉴 위주라 맵기 조절 확인 권장. 가격은 메뉴판 확인.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EB%8F%8C%EC%82%B0%EB%93%B1%EB%8C%80%EC%A7%91",
       "kakao": "https://map.kakao.com/?q=%EB%8F%8C%EC%82%B0%EB%93%B1%EB%8C%80%EC%A7%91",
       "google": "https://www.google.com/maps/search/%EB%8F%8C%EC%82%B0%EB%93%B1%EB%8C%80%EC%A7%91"
     },
     "sourceLinks": [
-      "https://www.instagram.com/dolsanhouse"
+      "https://www.diningcode.com/profile.php?rid=99rlmWRH6sa4",
+      "https://app.catchtable.co.kr/ct/shop/Dolsanhouse"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-06",
     "priority": 3,
     "authorPick": null,
     "grillService": null
@@ -4840,8 +4847,7 @@
       "note": ""
     },
     "recommendedFor": [
-      "회식",
-      "가성비"
+      "회식"
     ],
     "atmosphere": [
       "활기참",
@@ -4851,10 +4857,9 @@
       "작성자 최애",
       "저녁",
       "회식 가능",
-      "가성비",
       "도보 10분"
     ],
-    "comment": "가성비 양곱창. 저녁 팀 회식에 적합하나 피크타임 웨이팅 김.",
+    "comment": "곱창과 대파김치의 조합이 매우 좋은 집. 저녁 팀 회식에 적합하나 피크타임 웨이팅 김.",
     "cautions": "피크타임 웨이팅 김. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EB%8C%80%ED%8C%8C%20%EC%96%91%EA%B3%B1%EC%B0%BD",
@@ -5707,14 +5712,16 @@
     "id": "restaurant-085",
     "name": "반룡산",
     "category": "한식",
-    "subType": "이북음식",
+    "subType": "이북음식(함경도)",
     "mealTime": [
       "lunch",
       "dinner"
     ],
     "representativeMenus": [
-      "어복쟁반",
-      "만두"
+      "가릿국밥",
+      "함흥냉면",
+      "오징어순대",
+      "녹두전"
     ],
     "lunchPriceRange": "2만원대",
     "dinnerPriceRange": "3만원대",
@@ -5756,7 +5763,7 @@
       "조용한 편",
       "도보 3분"
     ],
-    "comment": "이북식 어복쟁반·만두 전문. 조용한 팀 점심·가벼운 접대에 적합.",
+    "comment": "함경도 향토음식 전문(수요미식회 방영). 가릿국밥·함흥냉면이 대표. 조용한 팀 점심·가벼운 접대에 적합.",
     "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EB%B0%98%EB%A3%A1%EC%82%B0",
@@ -5764,9 +5771,9 @@
       "google": "https://www.google.com/maps/search/%EB%B0%98%EB%A3%A1%EC%82%B0"
     },
     "sourceLinks": [
-      "http://www.banryongsan.com/"
+      "https://www.diningcode.com/profile.php?rid=S3xWF4cDCXZ3"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-06",
     "authorPick": null,
     "grillService": null
   },
@@ -6171,8 +6178,7 @@
     ],
     "representativeMenus": [
       "황태해장국",
-      "황태구이",
-      "황태찜"
+      "황태구이"
     ],
     "lunchPriceRange": "1만원대",
     "dinnerPriceRange": "1만원대",
@@ -6221,8 +6227,10 @@
       "kakao": "https://map.kakao.com/?q=%ED%99%A9%ED%83%9C%EB%A7%88%EC%9D%84",
       "google": "https://www.google.com/maps/search/%ED%99%A9%ED%83%9C%EB%A7%88%EC%9D%84"
     },
-    "sourceLinks": [],
-    "lastVerified": "2026-07-04",
+    "sourceLinks": [
+      "https://www.siksinhot.com/P/851294"
+    ],
+    "lastVerified": "2026-07-06",
     "priority": 2,
     "authorPick": null,
     "grillService": null
@@ -6365,31 +6373,32 @@
     "id": "restaurant-095",
     "name": "천미미 삼성점",
     "category": "중식",
-    "subType": "중식당",
+    "subType": "모던 중식/코스",
     "mealTime": [
       "lunch",
       "dinner"
     ],
     "representativeMenus": [
-      "중식 요리",
-      "짜장면",
-      "짬뽕"
+      "코스요리",
+      "찹쌀탕수육",
+      "미미짬뽕",
+      "짜장면"
     ],
     "lunchPriceRange": "1만원대",
-    "dinnerPriceRange": "3만원대",
+    "dinnerPriceRange": "5만원 이상",
     "distanceMinutes": 10,
     "distanceLabel": "도보 10분",
     "address": "서울 강남구 삼성로 534 1층",
     "phone": "확인 필요",
-    "businessHours": "확인 필요",
+    "businessHours": "11:30~21:00 (다이닝코드 기준)",
     "breakTime": "확인 필요",
-    "closedDays": "확인 필요",
-    "lunchMenu": "확인 필요",
-    "dinnerMenu": "확인 필요",
+    "closedDays": "연중무휴 (다이닝코드 기준)",
+    "lunchMenu": "단품(짜장 8천~) / 점심 코스 3.5만~",
+    "dinnerMenu": "저녁 코스 4.5만~8만 / 오마카세 14만",
     "room": {
-      "status": "확인 필요",
-      "capacity": "확인 필요",
-      "note": ""
+      "status": "있음",
+      "capacity": "개별 룸(인원 확인 필요)",
+      "note": "모던 중식당, 개별 룸 보유(다이닝코드 기준)"
     },
     "reservation": {
       "status": "확인 필요",
@@ -6402,25 +6411,32 @@
     },
     "recommendedFor": [
       "팀 점심",
-      "회식"
+      "회식",
+      "임원 동석",
+      "외부 손님 접대"
     ],
     "atmosphere": [
       "편안함"
     ],
     "tags": [
+      "룸 있음",
+      "임원 동석 가능",
+      "외부 손님 접대",
       "팀 점심 추천",
-      "회식 가능",
       "도보 10분"
     ],
-    "comment": "삼성동 중식당. 점심 식사~저녁 요리 겸용.",
-    "cautions": "'고급 중식' 여부 등 세부 정보는 방문 전 확인 권장. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
+    "comment": "모던 고급 중식당. 점심 단품~저녁 코스·룸까지 가능해 접대·모임에 적합.",
+    "cautions": "룸 인원·예약은 방문 전 확인. 가격은 공개 메뉴 기준.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EC%B2%9C%EB%AF%B8%EB%AF%B8%20%EC%82%BC%EC%84%B1%EC%A0%90",
       "kakao": "https://map.kakao.com/?q=%EC%B2%9C%EB%AF%B8%EB%AF%B8%20%EC%82%BC%EC%84%B1%EC%A0%90",
       "google": "https://www.google.com/maps/search/%EC%B2%9C%EB%AF%B8%EB%AF%B8%20%EC%82%BC%EC%84%B1%EC%A0%90"
     },
-    "sourceLinks": [],
-    "lastVerified": "2026-07-04",
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=qWQpYHTb1DkT",
+      "https://www.bluer.co.kr/restaurants/36139"
+    ],
+    "lastVerified": "2026-07-06",
     "priority": 3,
     "authorPick": null,
     "grillService": null
