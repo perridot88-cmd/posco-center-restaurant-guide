@@ -1707,7 +1707,7 @@
       "가성비",
       "도보 5분"
     ],
-    "comment": "국밥 중심. 빠른 점심·가성비 식사에 적합.",
+    "comment": "국밥 중심. 빠르고 든든한 점심에 적합.",
     "cautions": "룸/예약 가능 여부는 미확인. 예약 시 전화로 확인 권장. 가격대는 공개 리뷰·업종 기준 추정치이며 메뉴판 미확인. 영업시간·브레이크타임·휴무일·전화번호는 미확인. 방문 전 지도/전화 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EC%B5%9C%EC%88%9C%EC%98%A5%EB%AA%85%ED%92%88%EA%B5%AD%EB%B0%A5%20%EC%84%A0%EB%A6%89%EC%A0%90",
@@ -1717,7 +1717,7 @@
     "sourceLinks": [
       "http://www.최순옥명품국밥.com/"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-27",
     "priority": 3,
     "authorPick": null,
     "grillService": null
@@ -1839,7 +1839,7 @@
       "빠른 식사",
       "도보 15분"
     ],
-    "comment": "백반·칼국수 중심. 가성비 점심에 적합.",
+    "comment": "백반·칼국수 중심. 부담 없는 점심에 적합.",
     "cautions": "룸/예약 가능 여부는 미확인. 예약 시 전화로 확인 권장. 가격대는 공개 리뷰·업종 기준 추정치이며 메뉴판 미확인. 영업시간·브레이크타임·휴무일·전화번호는 미확인. 방문 전 지도/전화 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EB%A7%9B%EC%9E%90%EB%9E%91",
@@ -1849,7 +1849,7 @@
     "sourceLinks": [
       "https://www.instagram.com/majjarang"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-27",
     "priority": 3,
     "authorPick": null,
     "grillService": null
@@ -2041,7 +2041,7 @@
       "빠른 식사",
       "차량 이동 권장"
     ],
-    "comment": "가성비 국밥. 포스코센터에서 거리 있어 차량/도보 여유 있을 때 적합.",
+    "comment": "국밥 전문. 포스코센터에서 거리 있어 차량/도보 여유 있을 때 적합.",
     "cautions": "포스코센터 기준 도보 15분 초과, 차량 이동 권장. 가격대는 공개 리뷰·업종 기준 추정치이며 메뉴판 미확인. 영업시간·브레이크타임·휴무일·전화번호는 미확인. 방문 전 지도/전화 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EA%B5%AD%EB%B0%A5%20%EC%B0%B8%20%EB%A7%9B%EC%9E%88%EB%8A%94%20%EC%A7%91%20%EC%97%AD%EC%82%BC%EC%A0%90",
@@ -2051,7 +2051,7 @@
     "sourceLinks": [
       "https://www.gukcham.com/"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-27",
     "priority": 3,
     "authorPick": null,
     "grillService": null
@@ -3523,7 +3523,7 @@
       "가성비",
       "도보 10분"
     ],
-    "comment": "가성비 감자탕. 든든한 점심·해장에 적합.",
+    "comment": "감자탕·뼈해장국. 든든한 점심·해장에 적합.",
     "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 미확인. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EC%A7%84%EB%8B%B4%EC%98%A5%20%EA%B0%90%EC%9E%90%ED%83%95",
@@ -3533,7 +3533,7 @@
     "sourceLinks": [
       "https://www.instagram.com/_jindamok_"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-27",
     "priority": 3,
     "authorPick": null,
     "grillService": null
@@ -3658,7 +3658,7 @@
       "가성비",
       "도보 10분"
     ],
-    "comment": "인도 카레·난. 가성비 좋아 색다른 팀 점심에 적합.",
+    "comment": "인도 카레·난. 색다른 팀 점심에 적합.",
     "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 미확인. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EC%BB%A4%EB%A6%AC146%20%EA%B0%95%EB%82%A8%EC%A0%90",
@@ -3668,7 +3668,7 @@
     "sourceLinks": [
       "https://www.instagram.com/curry146_official"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-27",
     "priority": 3,
     "authorPick": null,
     "grillService": null
@@ -4386,7 +4386,7 @@
       "가성비",
       "도보 5분"
     ],
-    "comment": "가성비 돼지갈비. 점심 특선·저녁 팀 회식에 적합.",
+    "comment": "돼지갈비 전문. 점심 특선·저녁 팀 회식에 적합.",
     "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EC%88%9C%EC%A0%95%EA%B0%88%EB%B9%84%20%EC%84%A0%EB%A6%89%EC%A7%81%EC%98%81%EC%A0%90",
@@ -4396,7 +4396,7 @@
     "sourceLinks": [
       "https://www.instagram.com/soonjung_seolleung"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-27",
     "priority": 2,
     "authorPick": null,
     "grillService": {
@@ -4724,7 +4724,7 @@
       "가성비",
       "도보 10분"
     ],
-    "comment": "김치찌개 백반형. 부담 없는 가성비 팀 점심에 적합.",
+    "comment": "김치찌개 백반형. 부담 없는 팀 점심에 적합.",
     "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EA%B7%BC%EB%B3%B8%EC%A7%91%20%EC%82%BC%EC%84%B1%EC%A0%90",
@@ -4734,7 +4734,7 @@
     "sourceLinks": [
       "https://www.instagram.com/geunbonboy/"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-27",
     "priority": 3,
     "authorPick": null,
     "grillService": null
@@ -4932,7 +4932,7 @@
       "가성비",
       "도보 5분"
     ],
-    "comment": "가성비 냉동 삼겹살. 점심~저녁 팀 회식에 부담 없이 적합.",
+    "comment": "냉동 삼겹살·목살. 점심~저녁 팀 회식에 부담 없이 적합.",
     "cautions": "가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%EB%83%89%EB%8F%99%EA%B3%A0%EC%A7%91%20%EC%82%BC%EC%84%B1%EC%A0%90",
@@ -4940,7 +4940,7 @@
       "google": "https://www.google.com/maps/search/%EB%83%89%EB%8F%99%EA%B3%A0%EC%A7%91%20%EC%82%BC%EC%84%B1%EC%A0%90"
     },
     "sourceLinks": [],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-07-27",
     "priority": 2,
     "authorPick": null,
     "grillService": {
@@ -6221,7 +6221,7 @@
       "도보 2분"
     ],
     "comment": "황태해장국·황태구이 중심. 회식 다음날 해장·빠른 팀 점심에 적합.",
-    "cautions": "가격대는 공개 리뷰 기준 추정치, 메뉴판 확인 권장. 영업시간·전화·휴무 미확인, 방문 전 확인 필요.",
+    "cautions": "영업시간·전화·정확한 가격은 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%ED%99%A9%ED%83%9C%EB%A7%88%EC%9D%84",
       "kakao": "https://map.kakao.com/?q=%ED%99%A9%ED%83%9C%EB%A7%88%EC%9D%84",
@@ -6230,7 +6230,7 @@
     "sourceLinks": [
       "https://www.siksinhot.com/P/851294"
     ],
-    "lastVerified": "2026-07-06",
+    "lastVerified": "2026-07-27",
     "priority": 2,
     "authorPick": null,
     "grillService": null
@@ -6881,8 +6881,7 @@
       "note": ""
     },
     "recommendedFor": [
-      "회식",
-      "가성비"
+      "회식"
     ],
     "atmosphere": [
       "활기참"
@@ -6890,7 +6889,6 @@
     "tags": [
       "양고기",
       "회식 가능",
-      "가성비",
       "저녁",
       "도보 9분"
     ],
@@ -6945,8 +6943,7 @@
       "note": ""
     },
     "recommendedFor": [
-      "회식",
-      "가성비"
+      "회식"
     ],
     "atmosphere": [
       "활기참",
@@ -6955,11 +6952,10 @@
     "tags": [
       "양고기",
       "회식 가능",
-      "가성비",
       "저녁",
       "도보 8분"
     ],
-    "comment": "가성비 양꼬치. 부담 없는 저녁 회식에 적합.",
+    "comment": "양꼬치·중식 요리. 부담 없는 저녁 회식에 적합.",
     "cautions": "점심 영업 여부 미확인. 가격대는 공개 리뷰·업종 기준 추정치, 메뉴판 확인 권장. 영업시간·브레이크타임·휴무일·전화번호 미확인, 방문 전 확인 필요.",
     "mapLinks": {
       "naver": "https://map.naver.com/p/search/%ED%95%9C%EC%84%B1%EC%96%91%EA%BC%AC%EC%B9%98%20%EC%84%A0%EB%A6%892%ED%98%B8%EC%A0%90",
@@ -6967,7 +6963,7 @@
       "google": "https://www.google.com/maps/search/%ED%95%9C%EC%84%B1%EC%96%91%EA%BC%AC%EC%B9%98%20%EC%84%A0%EB%A6%892%ED%98%B8%EC%A0%90"
     },
     "sourceLinks": [],
-    "lastVerified": "2026-07-06",
+    "lastVerified": "2026-07-27",
     "priority": 2,
     "authorPick": null,
     "grillService": null
@@ -7142,8 +7138,7 @@
       "note": ""
     },
     "recommendedFor": [
-      "회식",
-      "가성비"
+      "회식"
     ],
     "atmosphere": [
       "캐주얼",
@@ -7428,6 +7423,202 @@
       "https://booking.naver.com/booking/6/bizes/953234"
     ],
     "lastVerified": "2026-07-06",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-111",
+    "name": "수하동 곰탕 본점",
+    "category": "한식",
+    "subType": "한우곰탕",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "한우곰탕",
+      "수육"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 2,
+    "distanceLabel": "도보 2분",
+    "address": "서울 강남구 테헤란로78길 16",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사",
+      "임원 동석"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "빠른 식사",
+      "도보 2분"
+    ],
+    "comment": "한우곰탕 전문. 가까워서 든든한 팀 점심·간단한 식사 접대에 활용 가능.",
+    "cautions": "가격·룸·예약은 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%88%98%ED%95%98%EB%8F%99%20%EA%B3%B0%ED%83%95%20%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%88%98%ED%95%98%EB%8F%99%20%EA%B3%B0%ED%83%95%20%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%88%98%ED%95%98%EB%8F%99%20%EA%B3%B0%ED%83%95%20%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=pfrN4f9laehd"
+    ],
+    "lastVerified": "2026-07-27",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-112",
+    "name": "카츠오도 선릉점",
+    "category": "일식",
+    "subType": "돈카츠",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "카츠",
+      "히레카츠"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 삼성로81길 36 1층",
+    "phone": "확인 필요",
+    "businessHours": "월~금 11:00~20:00 (다이닝코드 기준)",
+    "breakTime": "15:00~17:00",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "빠른 식사",
+      "도보 4분"
+    ],
+    "comment": "돈카츠 전문. 형제회관·성균관사시미와 같은 골목(삼성로81길), 빠른 점심에 적합.",
+    "cautions": "주말 영업·가격은 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B9%B4%EC%B8%A0%EC%98%A4%EB%8F%84%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%B9%B4%EC%B8%A0%EC%98%A4%EB%8F%84%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%B9%B4%EC%B8%A0%EC%98%A4%EB%8F%84%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=dAkQluNbxQqy"
+    ],
+    "lastVerified": "2026-07-27",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-113",
+    "name": "춘하추동 대치직영점",
+    "category": "분식/가벼운 식사",
+    "subType": "밀면",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "밀면",
+      "비빔밀면"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 3,
+    "distanceLabel": "도보 3분",
+    "address": "서울 강남구 삼성로81길 23 1층",
+    "phone": "확인 필요",
+    "businessHours": "월~금 11:00~21:00 (다이닝코드 기준)",
+    "breakTime": "15:30~16:30",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "빠른 식사",
+      "도보 3분"
+    ],
+    "comment": "밀면 전문. 여름 팀 점심에 적합하며, 겨울에는 닭곰탕·육개장 등 국밥류도 운영(출처 기준).",
+    "cautions": "주말 영업·가격은 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B6%98%ED%95%98%EC%B6%94%EB%8F%99%20%EB%8C%80%EC%B9%98%EC%A7%81%EC%98%81%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%B6%98%ED%95%98%EC%B6%94%EB%8F%99%20%EB%8C%80%EC%B9%98%EC%A7%81%EC%98%81%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%B6%98%ED%95%98%EC%B6%94%EB%8F%99%20%EB%8C%80%EC%B9%98%EC%A7%81%EC%98%81%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=borh8fuSlH6B"
+    ],
+    "lastVerified": "2026-07-27",
     "priority": 2,
     "authorPick": null,
     "grillService": null
