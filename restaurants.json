@@ -7622,5 +7622,130 @@
     "priority": 2,
     "authorPick": null,
     "grillService": null
+  },
+  {
+    "id": "restaurant-114",
+    "name": "그때그집",
+    "category": "고기/구이",
+    "subType": "족발/보쌈",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "족발",
+      "보쌈"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 삼성로82길 5",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "회사 근처",
+      "회식 가능",
+      "저녁",
+      "도보 4분"
+    ],
+    "comment": "회사 근처 족발·보쌈집. 저녁 회식 자리에 적합.",
+    "cautions": "점심 영업 여부·가격·영업시간 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EA%B7%B8%EB%95%8C%EA%B7%B8%EC%A7%91%20%EB%8C%80%EC%B9%98%EB%8F%99",
+      "kakao": "https://map.kakao.com/?q=%EA%B7%B8%EB%95%8C%EA%B7%B8%EC%A7%91%20%EB%8C%80%EC%B9%98%EB%8F%99",
+      "google": "https://www.google.com/maps/search/%EA%B7%B8%EB%95%8C%EA%B7%B8%EC%A7%91%20%EB%8C%80%EC%B9%98%EB%8F%99"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-27",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-115",
+    "name": "소풍 한티점",
+    "category": "분식/가벼운 식사",
+    "subType": "김밥/분식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "김밥",
+      "분식"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 역삼로 417",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "빠른 식사",
+      "가성비"
+    ],
+    "atmosphere": [
+      "캐주얼"
+    ],
+    "tags": [
+      "빠른 식사",
+      "가성비",
+      "도보 10분"
+    ],
+    "comment": "김밥·분식 전문. 간단하고 빠른 식사·테이크아웃에 적합.",
+    "cautions": "영업시간·전화 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%86%8C%ED%92%8D%20%ED%95%9C%ED%8B%B0%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%86%8C%ED%92%8D%20%ED%95%9C%ED%8B%B0%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%86%8C%ED%92%8D%20%ED%95%9C%ED%8B%B0%EC%A0%90"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-07-27",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
   }
 ]
