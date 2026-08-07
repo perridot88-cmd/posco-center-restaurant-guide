@@ -135,7 +135,7 @@
     room:   { lbl: '룸 보유(확인됨)', ico: '🚪', pred: r => r.room.status === '있음' },
     resv:   { lbl: '예약 가능·권장', ico: '📅', pred: r => ['예약 가능', '예약 권장'].includes(r.reservation.status) },
     lunch:  { lbl: '점심 추천', ico: '☀️', pred: r => r.mealTime.includes('lunch') && r.recommendedFor.some(x => ['팀 점심', '빠른 식사', '가성비'].includes(x)) },
-    dinner: { lbl: '저녁·회식 추천', ico: '🌙', pred: r => r.mealTime.includes('dinner') && r.recommendedFor.some(x => ['회식', '임원 동석', '외부 손님 접대'].includes(x)) },
+    dinner: { lbl: '저녁·회식 추천', ico: '🌙', pred: r => r.category !== '카페/디저트' && r.mealTime.includes('dinner') && r.recommendedFor.some(x => ['회식', '임원 동석', '외부 손님 접대'].includes(x)) },
   };
   function buildSummary() {
     els.summary.innerHTML = Object.entries(KPI).map(([key, k]) =>
@@ -629,7 +629,7 @@
   function randomPick(meal) {
     const pool = DATA.filter(r => {
       if (meal === 'lunch') return r.mealTime.includes('lunch') && r.recommendedFor.some(x => ['팀 점심', '빠른 식사', '가성비'].includes(x));
-      return r.mealTime.includes('dinner') && r.recommendedFor.some(x => ['회식', '임원 동석', '외부 손님 접대'].includes(x));
+      return r.category !== '카페/디저트' && r.mealTime.includes('dinner') && r.recommendedFor.some(x => ['회식', '임원 동석', '외부 손님 접대'].includes(x));
     });
     if (!pool.length) return;
     const r = pool[Math.floor(Math.random() * pool.length)];
