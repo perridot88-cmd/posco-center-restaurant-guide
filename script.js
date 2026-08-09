@@ -349,6 +349,8 @@
     '분식/가벼운 식사': ['#a16207', '🍜'], '카페/디저트': ['#be185d', '☕'], '기타': ['#475569', '🍽️'],
   };
   const catMeta = c => CAT_META[c] || CAT_META['기타'];
+  // 도보권 밴드: 5분 이내 / 10분 / 15분 / 차량
+  const distClass = r => r.distanceMinutes <= 5 ? 'd5' : r.distanceMinutes <= 10 ? 'd10' : r.distanceMinutes <= 15 ? 'd15' : 'dcar';
 
   function renderCards(list, animate) {
     els.cards.classList.toggle('anim', !!animate);
@@ -381,7 +383,7 @@
           <p class="menus"><b>대표</b> ${esc(r.representativeMenus.join(', '))}</p>
         </div>
         <div class="keyfacts">
-          <span class="kf kf-strong">🚶 <b>${esc(r.distanceLabel)}</b></span>
+          <span class="kf kf-strong dist ${distClass(r)}">🚶 <b>${esc(r.distanceLabel)}</b></span>
           <span class="kf kf-strong">💳 <b>${esc(price)}</b></span>
           <span class="kf">🕒 ${mealLabel(r)}</span>
         </div>
@@ -450,7 +452,7 @@
         <td>${esc(r.category)}</td>
         <td>${mealLabel(r)}</td>
         <td>${esc(r.representativeMenus.join(', '))}</td>
-        <td>${esc(r.distanceLabel)}</td>
+        <td class="dist-cell ${distClass(r)}">${esc(r.distanceLabel)}</td>
         <td>${esc(r.lunchPriceRange !== CONFIRM ? r.lunchPriceRange : r.dinnerPriceRange)}</td>
         <td>${r.room.status}</td>
         <td>${r.reservation.status}</td>

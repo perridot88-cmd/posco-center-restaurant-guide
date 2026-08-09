@@ -61,12 +61,24 @@ h1, h2, h3 { letter-spacing: -0.02em; }
     radial-gradient(760px 300px at 8% 120%, rgba(27, 116, 209, .40), transparent 60%),
     linear-gradient(135deg, var(--blue-900) 0%, var(--blue-700) 62%, var(--blue-600) 100%);
 }
-.site-header::after { /* subtle dot texture */
-  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
-  background-image: radial-gradient(rgba(255, 255, 255, .07) 1px, transparent 1.4px);
-  background-size: 22px 22px;
-  -webkit-mask-image: linear-gradient(180deg, #000, transparent 75%);
-  mask-image: linear-gradient(180deg, #000, transparent 75%);
+/* 지도 모티프: 테헤란로 도로 격자 */
+.site-header::after {
+  content: ""; position: absolute; inset: -20% -5%; pointer-events: none; opacity: .55;
+  background-image:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, .055) 0 1px, transparent 1px 52px),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, .045) 0 1px, transparent 1px 52px);
+  transform: rotate(-7deg);
+  -webkit-mask-image: linear-gradient(115deg, transparent 32%, #000 62%);
+  mask-image: linear-gradient(115deg, transparent 32%, #000 62%);
+}
+/* 지도 모티프: 포스코센터 기준 도보권 동심원 (5·10·15분) */
+.site-header::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background:
+    radial-gradient(circle at 84% 42%, rgba(255, 255, 255, .22) 0 4px, rgba(255, 255, 255, 0) 5px),
+    repeating-radial-gradient(circle at 84% 42%, transparent 0 86px, rgba(255, 255, 255, .10) 86px 88px, transparent 88px 174px);
+  -webkit-mask-image: radial-gradient(circle at 84% 42%, #000 0 300px, transparent 340px);
+  mask-image: radial-gradient(circle at 84% 42%, #000 0 300px, transparent 340px);
 }
 .site-header .wrap { position: relative; z-index: 1; }
 .eyebrow {
@@ -258,6 +270,32 @@ h1, h2, h3 { letter-spacing: -0.02em; }
   padding: 3px 9px; border-radius: 7px; font-weight: 600;
 }
 .keyfacts .kf-strong b { color: var(--blue-700); font-weight: 800; }
+
+/* 도보권 색상 체계: 5분 초록 · 10분 파랑 · 15분 앰버 · 차량 회색 */
+:root { --d5: #0d7a4d; --d5-bg: #e6f5ec; --d5-line: #bfe3cd;
+        --d10: #1560b0; --d10-bg: #eaf2fc; --d10-line: #cfe1f6;
+        --d15: #b45309; --d15-bg: #fdf3e4; --d15-line: #f2ddb8;
+        --dcar: #5b6774; --dcar-bg: #eef1f5; --dcar-line: #d6dde5; }
+.keyfacts .dist.d5 { background: var(--d5-bg); border-color: var(--d5-line); color: var(--d5); }
+.keyfacts .dist.d5 b { color: var(--d5); }
+.keyfacts .dist.d10 { background: var(--d10-bg); border-color: var(--d10-line); color: var(--d10); }
+.keyfacts .dist.d10 b { color: var(--d10); }
+.keyfacts .dist.d15 { background: var(--d15-bg); border-color: var(--d15-line); color: var(--d15); }
+.keyfacts .dist.d15 b { color: var(--d15); }
+.keyfacts .dist.dcar { background: var(--dcar-bg); border-color: var(--dcar-line); color: var(--dcar); }
+.keyfacts .dist.dcar b { color: var(--dcar); }
+td.dist-cell { font-weight: 700; }
+td.dist-cell::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+td.dist-cell.d5 { color: var(--d5); } td.dist-cell.d5::before { background: var(--d5); }
+td.dist-cell.d10 { color: var(--d10); } td.dist-cell.d10::before { background: var(--d10); }
+td.dist-cell.d15 { color: var(--d15); } td.dist-cell.d15::before { background: var(--d15); }
+td.dist-cell.dcar { color: var(--dcar); } td.dist-cell.dcar::before { background: var(--dcar); }
+.dist-legend { display: inline-flex; gap: 5px; margin-left: 10px; vertical-align: 1px; }
+.dist-legend .dl { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; border: 1px solid; }
+.dist-legend .d5 { color: var(--d5); background: var(--d5-bg); border-color: var(--d5-line); }
+.dist-legend .d10 { color: var(--d10); background: var(--d10-bg); border-color: var(--d10-line); }
+.dist-legend .d15 { color: var(--d15); background: var(--d15-bg); border-color: var(--d15-line); }
+.dist-legend .dcar { color: var(--dcar); background: var(--dcar-bg); border-color: var(--dcar-line); }
 .facts2 { display: flex; flex-wrap: wrap; gap: 6px 14px; padding: 0 16px 12px 20px; font-size: 12.5px; color: var(--ink-2); border-bottom: 1px solid var(--line); margin-bottom: 11px; padding-bottom: 12px; }
 .facts2 .kf { display: inline-flex; align-items: center; gap: 5px; }
 
