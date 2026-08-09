@@ -7740,5 +7740,131 @@
     "priority": 2,
     "authorPick": null,
     "grillService": null
+  },
+  {
+    "id": "restaurant-116",
+    "name": "카소미야 삼성점",
+    "category": "일식",
+    "subType": "카츠/소바",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "돈카츠",
+      "냉소바",
+      "마제소바"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 삼성로 517 1층 113호",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "빠른 식사",
+      "도보 4분"
+    ],
+    "comment": "카츠·소바 체인 일식당. 냉동고집과 같은 건물(삼성로 517), 빠른 팀 점심에 적합.",
+    "cautions": "영업시간·저녁 가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B9%B4%EC%86%8C%EB%AF%B8%EC%95%BC%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%B9%B4%EC%86%8C%EB%AF%B8%EC%95%BC%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%B9%B4%EC%86%8C%EB%AF%B8%EC%95%BC%20%EC%82%BC%EC%84%B1%EC%A0%90"
+    },
+    "sourceLinks": [
+      "http://kasomiya.co.kr/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-117",
+    "name": "대치동 마당",
+    "category": "한식",
+    "subType": "한식당",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 6,
+    "distanceLabel": "도보 6분",
+    "address": "서울 강남구 역삼로83길 22-2 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "팀 점심 추천",
+      "도보 6분"
+    ],
+    "comment": "역삼로83길 한식당(의정부부대찌개 인근). 메뉴·성격은 확인 필요.",
+    "cautions": "대표 메뉴·가격·영업시간은 지도 정보가 없어 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%8C%80%EC%B9%98%EB%8F%99%20%EB%A7%88%EB%8B%B9",
+      "kakao": "https://map.kakao.com/?q=%EB%8C%80%EC%B9%98%EB%8F%99%20%EB%A7%88%EB%8B%B9",
+      "google": "https://www.google.com/maps/search/%EB%8C%80%EC%B9%98%EB%8F%99%20%EB%A7%88%EB%8B%B9"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
   }
 ]
