@@ -135,6 +135,7 @@
   const KPI = {
     total:  { lbl: '전체 식당', ico: '🍽️', pred: () => true },
     picks:  { lbl: '작성자 최애', ico: '❤️', pred: r => !!r.authorPick },
+    cool:   { lbl: '폭염날', ico: '🧊', pred: r => /냉면|밀면|콩국수|물회|막회|냉소바|초계/.test(r.representativeMenus.join() + r.subType) },
     room:   { lbl: '룸 보유(확인됨)', ico: '🚪', pred: r => r.room.status === '있음' },
     resv:   { lbl: '예약 가능·권장', ico: '📅', pred: r => ['예약 가능', '예약 권장'].includes(r.reservation.status) },
     lunch:  { lbl: '점심 추천', ico: '☀️', pred: r => r.mealTime.includes('lunch') && r.recommendedFor.some(x => ['팀 점심', '빠른 식사', '가성비'].includes(x)) },
