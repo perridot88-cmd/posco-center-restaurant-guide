@@ -383,7 +383,7 @@
           <p class="menus"><b>대표</b> ${esc(r.representativeMenus.join(', '))}</p>
         </div>
         <div class="keyfacts">
-          <span class="kf kf-strong dist ${distClass(r)}">🚶 <b>${esc(r.distanceLabel)}</b></span>
+          <span class="kf kf-strong dist ${distClass(r)}">${r.distanceLabel === '포스코센터' ? '🏢' : '🚶'} <b>${esc(r.distanceLabel)}</b></span>
           <span class="kf kf-strong">💳 <b>${esc(price)}</b></span>
           <span class="kf">🕒 ${mealLabel(r)}</span>
         </div>
