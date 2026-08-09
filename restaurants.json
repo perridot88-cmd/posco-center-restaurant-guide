@@ -1542,9 +1542,9 @@
     "lunchMenu": "확인 필요",
     "dinnerMenu": "확인 필요",
     "room": {
-      "status": "확인 필요",
+      "status": "있음",
       "capacity": "확인 필요",
-      "note": ""
+      "note": "작성자 확인 (2026-08-09)"
     },
     "reservation": {
       "status": "확인 필요",
@@ -1565,6 +1565,7 @@
       "조용한 편"
     ],
     "tags": [
+      "룸 있음",
       "평양냉면",
       "팀 점심 추천",
       "조용한 편",
@@ -1580,7 +1581,7 @@
     "sourceLinks": [
       "https://www.instagram.com/seogwanmyenog"
     ],
-    "lastVerified": "2026-07-04",
+    "lastVerified": "2026-08-09",
     "priority": 2,
     "authorPick": null,
     "grillService": null
@@ -7640,9 +7641,9 @@
     "lunchMenu": "확인 필요",
     "dinnerMenu": "확인 필요",
     "room": {
-      "status": "확인 필요",
+      "status": "있음",
       "capacity": "확인 필요",
-      "note": ""
+      "note": "작성자 확인 (2026-08-09)"
     },
     "reservation": {
       "status": "확인 필요",
@@ -7660,6 +7661,7 @@
       "편안함"
     ],
     "tags": [
+      "룸 있음",
       "회사 근처",
       "회식 가능",
       "저녁",
@@ -7673,7 +7675,7 @@
       "google": "https://www.google.com/maps/search/%EA%B7%B8%EB%95%8C%EA%B7%B8%EC%A7%91%20%EB%8C%80%EC%B9%98%EB%8F%99"
     },
     "sourceLinks": [],
-    "lastVerified": "2026-07-27",
+    "lastVerified": "2026-08-09",
     "priority": 2,
     "authorPick": null,
     "grillService": null
@@ -7927,6 +7929,73 @@
     "sourceLinks": [
       "https://www.instagram.com/no1lamb/"
     ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-119",
+    "name": "희래등",
+    "category": "중식",
+    "subType": "중식당",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "짜장면",
+      "짬뽕",
+      "요리류",
+      "코스"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 16,
+    "distanceLabel": "도보 16분 (차량 권장)",
+    "address": "서울 강남구 테헤란로108길 15 2·3층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "있음",
+      "capacity": "확인 필요",
+      "note": "작성자 확인 (2026-08-09)"
+    },
+    "reservation": {
+      "status": "예약 권장",
+      "method": "전화 예약",
+      "note": "룸 이용 시 예약 권장"
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "임원 동석",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "룸 있음",
+      "회식 가능",
+      "임원 동석 가능",
+      "도보 16분"
+    ],
+    "comment": "중식당(2·3층). 룸이 있어 회식·모임 자리에 활용 가능.",
+    "cautions": "포스코센터 기준 도보 15분 초과, 차량 이동 권장. 영업시간·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%9D%AC%EB%9E%98%EB%93%B1%20%EB%8C%80%EC%B9%98%EB%8F%99",
+      "kakao": "https://map.kakao.com/?q=%ED%9D%AC%EB%9E%98%EB%93%B1%20%EB%8C%80%EC%B9%98%EB%8F%99",
+      "google": "https://www.google.com/maps/search/%ED%9D%AC%EB%9E%98%EB%93%B1%20%EB%8C%80%EC%B9%98%EB%8F%99"
+    },
+    "sourceLinks": [],
     "lastVerified": "2026-08-09",
     "priority": 2,
     "authorPick": null,
