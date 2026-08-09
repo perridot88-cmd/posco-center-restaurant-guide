@@ -73,27 +73,34 @@ h1, h2, h3 { letter-spacing: -0.02em; }
 .wave { position: absolute; left: 0; right: 0; bottom: -1px; line-height: 0; z-index: 1; }
 .wave svg { width: 100%; height: 40px; display: block; }
 
-/* 포석호 (물총) — 둥실 + 물총 발사 애니메이션 */
+/* 포석호 — 공식 이미지 스티커 카드 (둥실 + 물방울 이펙트) */
 .poseokho {
-  position: absolute; right: 4.5%; bottom: 26px; width: 172px; z-index: 2;
+  position: absolute; right: 4.5%; top: 148px; width: 130px; z-index: 2;
   pointer-events: none;
-  filter: drop-shadow(0 8px 18px rgba(10, 60, 110, .25));
-  animation: psh-bob 3.4s ease-in-out infinite;
+  animation: psh-bob 3.6s ease-in-out infinite;
 }
-@keyframes psh-bob { 50% { transform: translateY(-8px) rotate(-1.2deg); } }
-.psh-gun { transform-origin: 96px 136px; animation: psh-recoil 1.6s ease-in-out infinite; }
-@keyframes psh-recoil { 0%, 100% { transform: translateX(0); } 42% { transform: translateX(2.5px); } 52% { transform: translateX(-1.5px); } }
-.psh-splash { transform-origin: 80px 128px; animation: psh-squirt 1.6s ease-in-out infinite; }
-@keyframes psh-squirt {
-  0%, 100% { opacity: .15; transform: scale(.6) translateX(6px); }
-  45% { opacity: 1; transform: scale(1.05) translateX(-6px); }
-  70% { opacity: .7; transform: scale(1.1) translateX(-12px); }
+.poseokho img {
+  display: block; width: 100%; height: auto;
+  border: 5px solid #fff; border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(8, 55, 100, .35);
+  transform: rotate(3deg);
 }
-.psh-drop { animation: psh-drop 1.6s ease-in-out infinite; }
-.psh-drop.d2 { animation-delay: .18s; }
-.psh-drop.d3 { animation-delay: .34s; }
-@keyframes psh-drop { 0%, 100% { opacity: 0; } 40% { opacity: 1; transform: translate(-8px, 4px); } 75% { opacity: 0; transform: translate(-16px, 14px); } }
-@media (max-width: 900px) { .poseokho { width: 128px; right: 3%; bottom: 20px; opacity: .9; } }
+@keyframes psh-bob { 50% { transform: translateY(-9px) rotate(-1deg); } }
+/* 액자 밖으로 튀는 물방울 */
+.psh-drop-fx {
+  position: absolute; left: -8px; width: 10px; height: 10px; border-radius: 50% 50% 50% 0;
+  background: #bfe9ff; transform: rotate(-45deg); opacity: 0;
+  animation: psh-fx 1.8s ease-in-out infinite;
+}
+.psh-drop-fx.d1 { top: 52%; }
+.psh-drop-fx.d2 { top: 62%; width: 7px; height: 7px; animation-delay: .25s; }
+.psh-drop-fx.d3 { top: 44%; width: 6px; height: 6px; animation-delay: .5s; }
+@keyframes psh-fx {
+  0%, 100% { opacity: 0; transform: rotate(-45deg) translate(0, 0) scale(.6); }
+  40% { opacity: 1; transform: rotate(-45deg) translate(-12px, -6px) scale(1); }
+  75% { opacity: 0; transform: rotate(-45deg) translate(-26px, 6px) scale(.8); }
+}
+@media (max-width: 900px) { .poseokho { width: 106px; right: 3%; top: 178px; } }
 @media (max-width: 680px) { .poseokho { display: none; } }
 @media print { .poseokho { display: none; } }
 /* 지도 모티프: 테헤란로 도로 격자 */
