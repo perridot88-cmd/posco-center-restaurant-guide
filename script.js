@@ -30,10 +30,12 @@
       label: '이용 목적',
       options: [
         { v: '작성자 최애', t: '❤️ 작성자 최애' },
+        { v: '시원한 메뉴', t: '🧊 시원한 메뉴' },
         ...['팀 점심', '임원 동석', '외부 손님 접대', '회식', '조용한 대화', '빠른 식사', '가성비', '분위기 좋은 곳'].map(v => ({ v, t: v })),
       ],
       match: (r, sel) => sel.every(v => {
         if (v === '작성자 최애') return !!r.authorPick;
+        if (v === '시원한 메뉴') return /냉면|밀면|콩국수|물회|막회|냉소바|초계/.test(r.representativeMenus.join() + r.subType);
         if (v === '분위기 좋은 곳') return r.atmosphere.some(a => a.includes('분위기 좋음'));
         return r.recommendedFor.includes(v);
       }),
@@ -84,6 +86,7 @@
   // 상황별 추천 버튼 → 필터 프리셋
   const SITUATIONS = [
     { t: '❤️ 작성자 최애', set: { purpose: ['작성자 최애'] } },
+    { t: '🧊 폭염 대비 · 시원한 메뉴', set: { purpose: ['시원한 메뉴'] } },
     { t: '🍚 오늘 팀 점심', set: { meal: ['lunch'], purpose: ['팀 점심'] } },
     { t: '🤝 외부 손님과 식사', set: { purpose: ['외부 손님 접대'] } },
     { t: '👔 임원 동석', set: { purpose: ['임원 동석'] } },
