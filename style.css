@@ -67,14 +67,14 @@ h1, h2, h3 { letter-spacing: -0.02em; }
 
 /* 포석호 — 공식 이미지에서 캐릭터만 (CSS 크롭 + 소프트 원형 마스크) */
 .poseokho {
-  position: absolute; right: 3.5%; top: 146px; width: 170px; height: 163px; z-index: 2;
+  position: absolute; right: 3%; top: 142px; width: 176px; height: 176px; z-index: 2;
   overflow: hidden; pointer-events: none;
-  -webkit-mask-image: radial-gradient(ellipse 52% 50% at 52% 47%, #000 62%, transparent 82%);
-  mask-image: radial-gradient(ellipse 52% 50% at 52% 47%, #000 62%, transparent 82%);
+  -webkit-mask-image: radial-gradient(ellipse 55% 55% at 50% 42%, #000 76%, transparent 97%);
+  mask-image: radial-gradient(ellipse 55% 55% at 50% 42%, #000 76%, transparent 97%);
   filter: drop-shadow(0 10px 20px rgba(8, 55, 100, .22));
   animation: psh-bob 3.6s ease-in-out infinite;
 }
-.poseokho img { display: block; width: 232px; height: auto; margin: -103px 0 0 -41px; }
+.poseokho img { display: block; width: 205px; height: auto; margin: -65px 0 0 -20px; }
 @keyframes psh-bob { 50% { transform: translateY(-8px); } }
 @media (max-width: 1050px) { .poseokho { display: none; } }
 @media print { .poseokho { display: none; } }
