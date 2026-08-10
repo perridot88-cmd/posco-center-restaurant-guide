@@ -69,8 +69,8 @@ h1, h2, h3 { letter-spacing: -0.02em; }
 .poseokho {
   position: absolute; right: 3%; top: 142px; width: 176px; height: 176px; z-index: 2;
   overflow: hidden; pointer-events: none;
-  -webkit-mask-image: radial-gradient(ellipse 55% 55% at 50% 42%, #000 76%, transparent 97%);
-  mask-image: radial-gradient(ellipse 55% 55% at 50% 42%, #000 76%, transparent 97%);
+  -webkit-mask-image: radial-gradient(circle at 50% 46%, #000 82px, transparent 88px);
+  mask-image: radial-gradient(circle at 50% 46%, #000 82px, transparent 88px);
   filter: drop-shadow(0 10px 20px rgba(8, 55, 100, .22));
   animation: psh-bob 3.6s ease-in-out infinite;
 }
