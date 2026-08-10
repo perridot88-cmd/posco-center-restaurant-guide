@@ -8002,5 +8002,196 @@
     "priority": 2,
     "authorPick": null,
     "grillService": null
+  },
+  {
+    "id": "restaurant-120",
+    "name": "속이 꽉찬 만두 99.9",
+    "category": "분식/가벼운 식사",
+    "subType": "만두",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "만두"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로75길 26",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "만두",
+      "팀 점심 추천",
+      "빠른 식사",
+      "도보 5분"
+    ],
+    "comment": "만두 전문. 리뷰 맛 평가 좋은 편, 피크타임 대기 가능성 있음.",
+    "cautions": "가격·영업시간·전화 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%86%8D%EC%9D%B4%20%EA%BD%89%EC%B0%AC%20%EB%A7%8C%EB%91%90%2099.9",
+      "kakao": "https://map.kakao.com/?q=%EC%86%8D%EC%9D%B4%20%EA%BD%89%EC%B0%AC%20%EB%A7%8C%EB%91%90%2099.9",
+      "google": "https://www.google.com/maps/search/%EC%86%8D%EC%9D%B4%20%EA%BD%89%EC%B0%AC%20%EB%A7%8C%EB%91%90%2099.9"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-121",
+    "name": "마담밍",
+    "category": "중식",
+    "subType": "딤섬/만두",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "딤섬",
+      "만두"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 선릉로86길 5-4 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "만두",
+      "팀 점심 추천",
+      "도보 10분"
+    ],
+    "comment": "딤섬·만두 중식당. 피크타임 대기 가능성 있음.",
+    "cautions": "가격·영업시간·전화 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%A7%88%EB%8B%B4%EB%B0%8D",
+      "kakao": "https://map.kakao.com/?q=%EB%A7%88%EB%8B%B4%EB%B0%8D",
+      "google": "https://www.google.com/maps/search/%EB%A7%88%EB%8B%B4%EB%B0%8D"
+    },
+    "sourceLinks": [
+      "http://www.madamming.com/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-122",
+    "name": "우리집 만두 선릉본점",
+    "category": "분식/가벼운 식사",
+    "subType": "만두",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "만두"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 11,
+    "distanceLabel": "도보 11분",
+    "address": "서울 강남구 선릉로 424",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "만두",
+      "빠른 식사",
+      "도보 11분"
+    ],
+    "comment": "만두 전문 분식집.",
+    "cautions": "가격·영업시간·전화 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9A%B0%EB%A6%AC%EC%A7%91%20%EB%A7%8C%EB%91%90%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%9A%B0%EB%A6%AC%EC%A7%91%20%EB%A7%8C%EB%91%90%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%9A%B0%EB%A6%AC%EC%A7%91%20%EB%A7%8C%EB%91%90%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.instagram.com/woorijip_mandu"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
   }
 ]
