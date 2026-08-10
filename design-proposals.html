@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>카드 디자인 시안 3종 — 포스코센터 식당 가이드</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap">
+<style>
+:root{
+  --blue:#1560b0; --blue-dk:#103a68; --ink:#16202b; --ink2:#4a5763; --ink3:#7a8794;
+  --line:#e7ecf2; --line2:#d3dbe4; --bg:#eef2f7; --card:#fff;
+  --ok:#157347; --ok-bg:#e4f5ec; --warn:#92680a; --warn-bg:#fbf1d9; --pink:#be185d; --pink-bg:#fdeef4;
+  --d5:#0d7a4d; --d5-bg:#e6f5ec; --d10:#1560b0; --d10-bg:#eaf2fc;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Pretendard Variable",Pretendard,-apple-system,"Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;letter-spacing:-.01em;padding-bottom:80px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{background:var(--blue-dk);color:#fff;padding:28px 0}
+header h1{margin:0 0 6px;font-size:24px}
+header p{margin:0;color:#bcd4ee;font-size:14px}
+.section{margin-top:44px}
+.sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.sec-head .tag{font-size:12px;font-weight:800;color:#fff;background:var(--blue);padding:3px 10px;border-radius:999px}
+.sec-head h2{margin:0;font-size:21px}
+.sec-desc{color:var(--ink2);font-size:14px;margin:0 0 8px;max-width:760px}
+.pros{font-size:13px;color:var(--ink2);margin:0 0 18px;padding:10px 14px;background:#fff;border:1px solid var(--line);border-radius:10px;max-width:760px}
+.pros b{color:var(--ink)}
+.demo{display:grid;gap:14px}
+.pick-note{margin-top:56px;background:#fff;border:2px dashed var(--line2);border-radius:14px;padding:22px;text-align:center;font-size:15px}
+.pick-note b{color:var(--blue)}
+
+/* ============ 시안 A — 시간표(레저) 스타일 ============ */
+.a-card{background:#fff;border:1px solid var(--line2);border-radius:6px;display:flex;align-items:stretch;overflow:hidden}
+.a-dist{flex:0 0 96px;display:flex;flex-direction:column;justify-content:center;align-items:center;border-right:1px solid var(--line);padding:14px 8px;background:#fafcfe}
+.a-dist .n{font-size:30px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.a-dist .u{font-size:10.5px;font-weight:700;color:var(--ink3);letter-spacing:.14em;margin-top:5px}
+.a-dist.g .n{color:var(--d5)} .a-dist.b .n{color:var(--d10)}
+.a-main{flex:1;padding:14px 18px;min-width:0}
+.a-cat{font-size:10.5px;font-weight:800;letter-spacing:.16em;color:var(--ink3);margin-bottom:3px}
+.a-name{font-size:17px;font-weight:800;letter-spacing:-.02em}
+.a-name .pick{color:var(--pink);font-size:13px;margin-left:4px}
+.a-menu{font-size:13px;color:var(--ink2);margin-top:3px}
+.a-note{font-size:12.5px;color:var(--ink3);margin-top:7px;border-top:1px dashed var(--line);padding-top:7px}
+.a-side{flex:0 0 168px;border-left:1px solid var(--line);padding:12px 16px;display:flex;flex-direction:column;justify-content:center;gap:5px;background:#fafcfe}
+.a-row{display:flex;justify-content:space-between;font-size:12px}
+.a-row .k{color:var(--ink3);font-weight:600}
+.a-row .v{font-weight:700;font-variant-numeric:tabular-nums}
+.a-row .v.ok{color:var(--ok)} .a-row .v.warn{color:var(--warn)}
+@media(max-width:640px){.a-side{display:none}}
+
+/* ============ 시안 B — 메뉴판(에디토리얼) 스타일 ============ */
+.b-card{background:#fffdf8;border:1px solid #e9e2d4;border-radius:12px;padding:20px 24px 16px;position:relative}
+.b-card.is-pick::after{content:"작성자 최애";position:absolute;top:16px;right:20px;font-family:"Noto Serif KR",serif;font-size:11px;font-weight:700;color:var(--pink);border:1px solid #f0c7d8;border-radius:999px;padding:3px 10px;background:#fff}
+.b-cat{font-size:11px;letter-spacing:.28em;color:#a09880;font-weight:700;margin-bottom:6px}
+.b-name{font-family:"Noto Serif KR",serif;font-size:22px;font-weight:700;letter-spacing:-.01em;color:#231e14}
+.b-name small{font-family:Pretendard;font-size:12.5px;color:#a09880;font-weight:500;margin-left:8px}
+.b-line{display:flex;align-items:baseline;gap:8px;margin-top:10px;font-size:14px}
+.b-line .m{color:#3d3627;font-weight:600;white-space:nowrap}
+.b-line .dots{flex:1;border-bottom:2px dotted #d8cfba;transform:translateY(-4px)}
+.b-line .p{color:#8a7f63;font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+.b-foot{margin-top:14px;padding-top:10px;border-top:1px solid #efe8d8;font-size:12.5px;color:#8a8064;display:flex;gap:14px;flex-wrap:wrap}
+.b-foot b{color:#5c5340;font-weight:700}
+
+/* ============ 시안 C — 서류철 탭 + 스탬프 스타일 ============ */
+.c-card{background:#fff;border:1.5px solid var(--ink);border-radius:0 12px 12px 12px;position:relative;margin-top:26px;padding:18px 20px 14px;box-shadow:4px 4px 0 rgba(22,32,43,.10)}
+.c-tab{position:absolute;top:-25px;left:-1.5px;font-size:11.5px;font-weight:900;letter-spacing:.06em;color:#fff;padding:5px 16px 4px;border-radius:8px 8px 0 0;border:1.5px solid var(--ink);border-bottom:none}
+.c-tab.kfood{background:#c2410c}.c-tab.meat{background:#9f1239}.c-tab.jfood{background:#1d4ed8}
+.c-name{font-size:19px;font-weight:900;letter-spacing:-.02em}
+.c-menu{font-size:13px;color:var(--ink2);margin-top:2px}
+.c-spec{margin-top:12px;display:grid;grid-template-columns:repeat(2,1fr);gap:4px 22px;font-size:12.5px;max-width:430px}
+.c-spec .row{display:flex;justify-content:space-between;border-bottom:1px solid var(--line)}
+.c-spec .k{color:var(--ink3);font-weight:700}
+.c-spec .v{font-weight:800}
+.c-stamps{position:absolute;right:16px;top:14px;display:flex;gap:8px}
+.c-stamp{font-size:10.5px;font-weight:900;letter-spacing:.05em;padding:5px 9px;border:2px solid currentColor;border-radius:6px;transform:rotate(4deg);opacity:.85}
+.c-stamp.room{color:var(--ok)} .c-stamp.pick{color:var(--pink);transform:rotate(-5deg)} .c-stamp.grill{color:#b45309;transform:rotate(3deg)}
+.c-note{margin-top:10px;font-size:12px;color:var(--ink3)}
+@media(max-width:560px){.c-stamps{position:static;margin-top:10px}}
+
+/* 타이포 스펙 박스 */
+.typo{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-top:14px;font-size:13px;color:var(--ink2);max-width:760px}
+.typo b{color:var(--ink)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>카드 레이아웃 · 타이포 시안 3종</h1>
+  <p>운영 페이지는 그대로입니다 — 마음에 드는 시안 번호(또는 조합)를 알려주시면 본 사이트에 적용합니다. 실데이터 3곳(진대감·피양콩·성균관사시미)으로 렌더링했습니다.</p>
+</div></header>
+<div class="wrap">
+
+  <!-- ================= A ================= -->
+  <div class="section">
+    <div class="sec-head"><span class="tag">시안 A</span><h2>시간표 스타일 — "몇 분 걸리나"가 주인공</h2></div>
+    <p class="sec-desc">기차 시간표·항공권처럼 <b>거리(분)를 큰 숫자</b>로 왼쪽에 박고, 오른쪽에 룸·예약 상태를 스펙처럼 정렬한 가로형 리스트. 그림자·컬러 배경을 걷어내 사무적이고 실무적인 인상.</p>
+    <div class="typo"><b>타이포:</b> Pretendard 유지 + 숫자는 tabular(등폭) 800 · 라벨은 자간 넓힌 10.5px 소형 대문자 스타일 · 둥근 모서리 6px로 축소, 그림자 제거(헤어라인 보더만)</div>
+    <div class="demo">
+      <div class="a-card">
+        <div class="a-dist g"><div class="n">5</div><div class="u">도보 · 분</div></div>
+        <div class="a-main">
+          <div class="a-cat">고기 / 구이 · 한우 차돌삼합</div>
+          <div class="a-name">진대감 선릉점</div>
+          <div class="a-menu">차돌삼합 · 한우 차돌 · 점심 특선</div>
+          <div class="a-note">차돌삼합이 대표인 한우 고깃집. 점심 특선~저녁 회식·접대까지 활용 가능.</div>
+        </div>
+        <div class="a-side">
+          <div class="a-row"><span class="k">점심 / 저녁</span><span class="v">둘 다</span></div>
+          <div class="a-row"><span class="k">가격</span><span class="v">2~3만원대</span></div>
+          <div class="a-row"><span class="k">룸</span><span class="v ok">있음</span></div>
+          <div class="a-row"><span class="k">예약</span><span class="v ok">가능</span></div>
+          <div class="a-row"><span class="k">구이</span><span class="v ok">구워줌</span></div>
+        </div>
+      </div>
+      <div class="a-card">
+        <div class="a-dist g"><div class="n">5</div><div class="u">도보 · 분</div></div>
+        <div class="a-main">
+          <div class="a-cat">한식 · 콩국수</div>
+          <div class="a-name">피양콩할마니</div>
+          <div class="a-menu">콩국수 · 콩비지 · 콩탕</div>
+          <div class="a-note">콩국수·콩비지 노포. 여름 팀 점심에 적합하나 피크타임 웨이팅 김.</div>
+        </div>
+        <div class="a-side">
+          <div class="a-row"><span class="k">점심 / 저녁</span><span class="v">둘 다</span></div>
+          <div class="a-row"><span class="k">가격</span><span class="v">1만원대</span></div>
+          <div class="a-row"><span class="k">룸</span><span class="v warn">확인 필요</span></div>
+          <div class="a-row"><span class="k">예약</span><span class="v warn">확인 필요</span></div>
+        </div>
+      </div>
+      <div class="a-card">
+        <div class="a-dist g"><div class="n">3</div><div class="u">도보 · 분</div></div>
+        <div class="a-main">
+          <div class="a-cat">일식 · 사시미</div>
+          <div class="a-name">성균관 사시미 선릉점 <span class="pick">❤</span></div>
+          <div class="a-menu">모둠 사시미 · 스페셜 코스 · 제철 회</div>
+          <div class="a-note">분위기 좋은 사시미집. 저녁 접대·임원 동석 자리에 적합.</div>
+        </div>
+        <div class="a-side">
+          <div class="a-row"><span class="k">점심 / 저녁</span><span class="v">저녁</span></div>
+          <div class="a-row"><span class="k">가격</span><span class="v">5만원 이상</span></div>
+          <div class="a-row"><span class="k">룸</span><span class="v ok">있음</span></div>
+          <div class="a-row"><span class="k">예약</span><span class="v ok">가능</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="pros"><b>장점:</b> 정보 스캔이 가장 빠름 · "AI 대시보드" 느낌 확실히 제거 · 한 화면에 더 많은 식당 <b>단점:</b> 아기자기함 없음, 모바일에서 오른쪽 스펙 칼럼은 접힘</p>
+  </div>
+
+  <!-- ================= B ================= -->
+  <div class="section">
+    <div class="sec-head"><span class="tag">시안 B</span><h2>메뉴판 스타일 — 세리프 상호 + 점선 리더</h2></div>
+    <p class="sec-desc">고급 레스토랑 메뉴판처럼 <b>식당명은 명조(세리프)</b>, 메뉴와 가격대는 <b>점선 리더(····)</b>로 연결. 아이보리 종이 톤 배경. 접대·임원 동석용 가이드라는 성격과 잘 맞는 우아한 방향.</p>
+    <div class="typo"><b>타이포:</b> 상호 Noto Serif KR 700 (22px) · 카테고리는 자간 0.28em 라벨 · 본문 Pretendard · 태그 대신 하단 각주 형식</div>
+    <div class="demo">
+      <div class="b-card">
+        <div class="b-cat">고기 · 구이</div>
+        <div class="b-name">진대감 선릉점 <small>도보 5분</small></div>
+        <div class="b-line"><span class="m">차돌삼합</span><span class="dots"></span><span class="p">점심 2만원대 · 저녁 3만원대</span></div>
+        <div class="b-line"><span class="m">한우 차돌 · 점심 특선</span><span class="dots"></span><span class="p">예약 가능</span></div>
+        <div class="b-foot"><span>룸 <b>있음</b></span><span>구이 <b>구워줌</b></span><span>회식 · 임원 동석 · 접대</span></div>
+      </div>
+      <div class="b-card">
+        <div class="b-cat">한식 · 면</div>
+        <div class="b-name">피양콩할마니 <small>도보 5분</small></div>
+        <div class="b-line"><span class="m">콩국수 · 콩비지</span><span class="dots"></span><span class="p">1만원대</span></div>
+        <div class="b-foot"><span>팀 점심 · 여름 별미</span><span>피크타임 <b>웨이팅 주의</b></span></div>
+      </div>
+      <div class="b-card is-pick">
+        <div class="b-cat">일식 · 사시미</div>
+        <div class="b-name">성균관 사시미 선릉점 <small>도보 3분 · 저녁</small></div>
+        <div class="b-line"><span class="m">모둠 사시미 · 스페셜 코스</span><span class="dots"></span><span class="p">5만원 이상</span></div>
+        <div class="b-foot"><span>룸 <b>있음</b></span><span>예약 <b>가능</b> (캐치테이블)</span><span>접대 · 임원 동석</span></div>
+      </div>
+    </div>
+    <p class="pros"><b>장점:</b> 가장 세련·고급스러움, 접대 가이드 무드와 부합 · <b>단점:</b> 필터 태그·상태 뱃지 표현력이 약해짐, 정보 밀도 낮음</p>
+  </div>
+
+  <!-- ================= C ================= -->
+  <div class="section">
+    <div class="sec-head"><span class="tag">시안 C</span><h2>서류철 스타일 — 탭 + 도장 스탬프</h2></div>
+    <p class="sec-desc">사내 문서·서류철 감성. 카드 위에 <b>카테고리 색 탭</b>이 달리고, 룸·최애·구워줌 같은 확인 정보는 <b>비스듬한 도장 스탬프</b>로. 굵은 외곽선 + 오프셋 그림자로 인쇄물 느낌.</p>
+    <div class="typo"><b>타이포:</b> 상호 Pretendard 900 · 스펙표는 라벨:값 2열 정렬 · 스탬프는 자간 넓힌 10.5px 900</div>
+    <div class="demo">
+      <div class="c-card">
+        <div class="c-tab meat">고기/구이</div>
+        <div class="c-stamps"><span class="c-stamp room">룸 있음</span><span class="c-stamp grill">구워줌</span></div>
+        <div class="c-name">진대감 선릉점</div>
+        <div class="c-menu">차돌삼합 · 한우 차돌 · 점심 특선</div>
+        <div class="c-spec">
+          <div class="row"><span class="k">도보</span><span class="v">5분</span></div>
+          <div class="row"><span class="k">가격</span><span class="v">2~3만원대</span></div>
+          <div class="row"><span class="k">시간</span><span class="v">점심·저녁</span></div>
+          <div class="row"><span class="k">예약</span><span class="v">가능</span></div>
+        </div>
+        <div class="c-note">차돌삼합이 대표인 한우 고깃집. 점심 특선~저녁 회식·접대까지.</div>
+      </div>
+      <div class="c-card">
+        <div class="c-tab kfood">한식</div>
+        <div class="c-name">피양콩할마니</div>
+        <div class="c-menu">콩국수 · 콩비지 · 콩탕</div>
+        <div class="c-spec">
+          <div class="row"><span class="k">도보</span><span class="v">5분</span></div>
+          <div class="row"><span class="k">가격</span><span class="v">1만원대</span></div>
+          <div class="row"><span class="k">시간</span><span class="v">점심·저녁</span></div>
+          <div class="row"><span class="k">웨이팅</span><span class="v">피크 주의</span></div>
+        </div>
+        <div class="c-note">콩국수·콩비지 노포. 여름 팀 점심에 적합.</div>
+      </div>
+      <div class="c-card">
+        <div class="c-tab jfood">일식</div>
+        <div class="c-stamps"><span class="c-stamp pick">최애 ♥</span><span class="c-stamp room">룸 있음</span></div>
+        <div class="c-name">성균관 사시미 선릉점</div>
+        <div class="c-menu">모둠 사시미 · 스페셜 코스 · 제철 회</div>
+        <div class="c-spec">
+          <div class="row"><span class="k">도보</span><span class="v">3분</span></div>
+          <div class="row"><span class="k">가격</span><span class="v">5만원 이상</span></div>
+          <div class="row"><span class="k">시간</span><span class="v">저녁</span></div>
+          <div class="row"><span class="k">예약</span><span class="v">가능</span></div>
+        </div>
+        <div class="c-note">분위기 좋은 사시미집. 저녁 접대·임원 동석 자리에 적합.</div>
+      </div>
+    </div>
+    <p class="pros"><b>장점:</b> 개성 강하고 기억에 남음 · 사내 게시판 감성으로 재미 유지 · 스탬프가 확인 정보(룸·구이)와 잘 맞음 <b>단점:</b> 호불호 갈릴 수 있음, 격식은 B보다 낮음</p>
+  </div>
+
+  <div class="pick-note">
+    마음에 드는 방향을 알려주세요 — <b>"A로"</b> / <b>"B로"</b> / <b>"C로"</b> 또는 조합(예: <b>"A 레이아웃 + B 세리프 상호"</b>)도 가능합니다.<br>
+    선택하시면 본 사이트 전체(카드·표·필터 연동 포함)에 적용해 배포하겠습니다. 이 시안 페이지는 이후 삭제합니다.
+  </div>
+</div>
+</body>
+</html>
