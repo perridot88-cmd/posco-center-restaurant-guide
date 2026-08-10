@@ -8192,5 +8192,67 @@
     "priority": 2,
     "authorPick": null,
     "grillService": null
+  },
+  {
+    "id": "restaurant-123",
+    "name": "밀양손만두",
+    "category": "분식/가벼운 식사",
+    "subType": "손만두",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "손만두"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 2,
+    "distanceLabel": "도보 2분",
+    "address": "서울 강남구 테헤란로 504 지하1층 2호",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "만두",
+      "빠른 식사",
+      "도보 2분"
+    ],
+    "comment": "손만두 분식집. 테헤란로 504 지하 1층.",
+    "cautions": "가격·영업시간·전화 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B0%80%EC%96%91%EC%86%90%EB%A7%8C%EB%91%90%20%EB%8C%80%EC%B9%98%EB%8F%99",
+      "kakao": "https://map.kakao.com/?q=%EB%B0%80%EC%96%91%EC%86%90%EB%A7%8C%EB%91%90%20%EB%8C%80%EC%B9%98%EB%8F%99",
+      "google": "https://www.google.com/maps/search/%EB%B0%80%EC%96%91%EC%86%90%EB%A7%8C%EB%91%90%20%EB%8C%80%EC%B9%98%EB%8F%99"
+    },
+    "sourceLinks": [],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
   }
 ]
