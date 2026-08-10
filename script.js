@@ -369,32 +369,31 @@
         return `<span class="${cls}">${esc(t)}</span>`;
       }).join('');
       const open = state.expanded.has(r.id);
-      const pickBadge = r.authorPick
-        ? `<div class="pick-ribbon" title="${esc(r.authorPick.note)}">❤️ ${esc(r.authorPick.note)}</div>` : '';
       const price = r.lunchPriceRange !== CONFIRM ? r.lunchPriceRange : r.dinnerPriceRange;
+      const stamps = [
+        r.authorPick ? `<span class="c-stamp pick" title="${esc(r.authorPick.note)}">최애 ♥</span>` : '',
+        r.room.status === '있음' ? '<span class="c-stamp room">룸 있음</span>' : '',
+        r.grillService && r.grillService.status === '구워줌' ? '<span class="c-stamp grill">구워줌</span>' : '',
+      ].join('');
       return `
       <article class="rcard ${r.authorPick ? 'is-pick' : ''}" data-id="${r.id}" data-cat="${esc(r.category)}" style="--i:${i};--cat:${catCol}">
-        ${pickBadge}
+        <div class="c-tab">${catIco} ${esc(r.category)}</div>
+        ${stamps ? `<div class="c-stamps">${stamps}</div>` : ''}
         <div class="rcard-head">
           <div class="rcard-titlerow">
             <div class="rtitle">
-              <span class="cat-badge">${catIco}<span>${esc(r.category)}</span></span>
               <h3>${esc(r.name)}</h3>
               ${r.subType ? `<div class="cat">${esc(r.subType)}</div>` : ''}
             </div>
             <button class="fav-btn" aria-pressed="${fav}" aria-label="${esc(r.name)} 즐겨찾기" data-fav="${r.id}">${fav ? '★' : '☆'}</button>
           </div>
-          <p class="menus"><b>대표</b> ${esc(r.representativeMenus.join(', '))}</p>
+          <p class="menus">${esc(r.representativeMenus.join(' · '))}</p>
         </div>
-        <div class="keyfacts">
-          <span class="kf kf-strong dist ${distClass(r)}">${r.distanceLabel === '포스코센터' ? '🏢' : '🚶'} <b>${esc(r.distanceLabel)}</b></span>
-          <span class="kf kf-strong">💳 <b>${esc(price)}</b></span>
-          <span class="kf">🕒 ${mealLabel(r)}</span>
-        </div>
-        <div class="facts2">
-          <span class="kf">🚪 룸 ${badge(r.room.status)}</span>
-          <span class="kf">📅 예약 ${badge(r.reservation.status)}</span>
-          ${r.grillService ? `<span class="kf">🔥 구이 ${badge(r.grillService.status)}</span>` : ''}
+        <div class="c-spec">
+          <div class="row"><span class="k">도보</span><span class="v dist ${distClass(r)}">${esc(r.distanceLabel)}</span></div>
+          <div class="row"><span class="k">가격</span><span class="v">${esc(price)}</span></div>
+          <div class="row"><span class="k">시간</span><span class="v">${mealLabel(r)}</span></div>
+          <div class="row"><span class="k">예약</span><span class="v">${esc(r.reservation.status)}</span></div>
         </div>
         <div class="tags">${tags}</div>
         <p class="comment">${esc(r.comment)}</p>
