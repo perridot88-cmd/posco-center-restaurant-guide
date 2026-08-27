@@ -5639,6 +5639,7 @@
       "https://app.catchtable.co.kr/ct/shop/senmaki_posco"
     ],
     "lastVerified": "2026-07-04",
+    "priority": 2,
     "authorPick": null,
     "grillService": null
   },
@@ -5702,6 +5703,7 @@
       "https://www.brianscoffee.com"
     ],
     "lastVerified": "2026-07-04",
+    "priority": 2,
     "authorPick": null,
     "grillService": null
   },
@@ -5771,6 +5773,7 @@
       "https://www.diningcode.com/profile.php?rid=S3xWF4cDCXZ3"
     ],
     "lastVerified": "2026-07-06",
+    "priority": 2,
     "authorPick": null,
     "grillService": null
   },
@@ -5837,6 +5840,7 @@
       "https://www.cafeartisee.com/"
     ],
     "lastVerified": "2026-07-04",
+    "priority": 2,
     "authorPick": null,
     "grillService": null
   },
@@ -5896,6 +5900,7 @@
     },
     "sourceLinks": [],
     "lastVerified": "2026-08-09",
+    "priority": 2,
     "authorPick": null,
     "grillService": null
   },
@@ -5964,6 +5969,7 @@
       "https://app.catchtable.co.kr/ct/shop/momiji_seonleungjeom"
     ],
     "lastVerified": "2026-08-09",
+    "priority": 2,
     "authorPick": null,
     "grillService": null
   },
@@ -6027,6 +6033,7 @@
     },
     "sourceLinks": [],
     "lastVerified": "2026-07-04",
+    "priority": 2,
     "authorPick": null,
     "grillService": null
   },
@@ -6094,6 +6101,7 @@
       "https://www.instagram.com/shingane_official/"
     ],
     "lastVerified": "2026-07-04",
+    "priority": 2,
     "authorPick": null,
     "grillService": {
       "status": "확인 필요",
@@ -6158,6 +6166,7 @@
     },
     "sourceLinks": [],
     "lastVerified": "2026-07-04",
+    "priority": 2,
     "authorPick": null,
     "grillService": null
   },
@@ -6658,6 +6667,7 @@
     "dinnerPriceRange": "3만원대",
     "distanceMinutes": 9,
     "distanceLabel": "도보 9분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -6726,6 +6736,7 @@
     "dinnerPriceRange": "3만원대",
     "distanceMinutes": 10,
     "distanceLabel": "도보 10분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -6793,6 +6804,7 @@
     "dinnerPriceRange": "3만원대",
     "distanceMinutes": 7,
     "distanceLabel": "도보 7분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -6855,6 +6867,7 @@
     "dinnerPriceRange": "2만원대",
     "distanceMinutes": 9,
     "distanceLabel": "도보 9분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -6917,6 +6930,7 @@
     "dinnerPriceRange": "2만원대",
     "distanceMinutes": 8,
     "distanceLabel": "도보 8분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -6979,6 +6993,7 @@
     "dinnerPriceRange": "확인 필요",
     "distanceMinutes": 14,
     "distanceLabel": "도보 14분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -7112,6 +7127,7 @@
     "dinnerPriceRange": "2만원대",
     "distanceMinutes": 4,
     "distanceLabel": "도보 4분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -7177,6 +7193,7 @@
     "dinnerPriceRange": "3만원대",
     "distanceMinutes": 12,
     "distanceLabel": "도보 12분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -7244,6 +7261,7 @@
     "dinnerPriceRange": "2만원대",
     "distanceMinutes": 15,
     "distanceLabel": "도보 15분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -7308,6 +7326,7 @@
     "dinnerPriceRange": "2만원대",
     "distanceMinutes": 6,
     "distanceLabel": "도보 6분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -7371,6 +7390,7 @@
     "dinnerPriceRange": "3만원대",
     "distanceMinutes": 8,
     "distanceLabel": "도보 8분",
+    "address": "확인 필요",
     "phone": "확인 필요",
     "businessHours": "확인 필요",
     "breakTime": "확인 필요",
@@ -8252,6 +8272,422 @@
     "sourceLinks": [],
     "lastVerified": "2026-08-09",
     "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-124",
+    "name": "서울물회",
+    "category": "해산물",
+    "subType": "물회",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "물없는 물회(포항식)",
+      "물있는 물회(속초식)",
+      "안주물회"
+    ],
+    "lunchPriceRange": "2만원대",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로84길 30",
+    "phone": "확인 필요",
+    "businessHours": "평일 11:00~22:00 / 토 17:00~21:30",
+    "breakTime": "14:00~17:30 (평일)",
+    "closedDays": "일요일",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 권장",
+      "method": "전화",
+      "note": "웨이팅 잦아 사전 예약 권장"
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "회식"
+    ],
+    "atmosphere": [
+      "활기참",
+      "깔끔함"
+    ],
+    "tags": [
+      "물회",
+      "제철 해산물",
+      "예약 권장",
+      "도보 5분"
+    ],
+    "comment": "포항식·속초식 물회를 함께 내는 물회 전문점. 여름철 팀 점심용.",
+    "cautions": "웨이팅 잦아 사전 예약 권장. 가격·영업시간은 공개 정보 기준이므로 방문 전 확인 필요. 전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%EB%AC%BC%ED%9A%8C%20%EC%82%BC%EC%84%B1%EB%8F%99",
+      "kakao": "https://map.kakao.com/?q=%EC%84%9C%EC%9A%B8%EB%AC%BC%ED%9A%8C%20%EC%82%BC%EC%84%B1%EB%8F%99",
+      "google": "https://www.google.com/maps/search/%EC%84%9C%EC%9A%B8%EB%AC%BC%ED%9A%8C%20%EC%82%BC%EC%84%B1%EB%8F%99"
+    },
+    "sourceLinks": [
+      "https://www.siksinhot.com/P/1174219",
+      "https://www.diningcode.com/profile.php?rid=gYSaxB6ojOAr"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": {
+      "meal": "lunch",
+      "note": "작성자 최애 · 점심"
+    },
+    "grillService": null
+  },
+  {
+    "id": "restaurant-125",
+    "name": "농민백암순대 본점",
+    "category": "한식",
+    "subType": "순대국",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "순대국밥",
+      "모듬순대",
+      "수육"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 7,
+    "distanceLabel": "도보 7분",
+    "address": "서울 강남구 선릉로86길 40-4 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 불가",
+      "method": "현장 대기",
+      "note": "예약 시스템 없음, 현장에서 대기 명부 작성"
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사",
+      "가성비"
+    ],
+    "atmosphere": [
+      "활기참",
+      "편안함"
+    ],
+    "tags": [
+      "순대국",
+      "웨이팅",
+      "가성비",
+      "도보 7분"
+    ],
+    "comment": "선릉 대표 순대국집. 평일 점심·저녁 모두 웨이팅 잦음.",
+    "cautions": "예약 불가, 현장 대기 명부 작성 방식. 도보 시간은 같은 길 인근 업장 기준 추정치. 가격·영업시간·전화 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%86%8D%EB%AF%BC%EB%B0%B1%EC%95%94%EC%88%9C%EB%8C%80%20%EB%B3%B8%EC%A0%90%20%EC%84%A0%EB%A6%89",
+      "kakao": "https://map.kakao.com/?q=%EB%86%8D%EB%AF%BC%EB%B0%B1%EC%95%94%EC%88%9C%EB%8C%80%20%EB%B3%B8%EC%A0%90%20%EC%84%A0%EB%A6%89",
+      "google": "https://www.google.com/maps/search/%EB%86%8D%EB%AF%BC%EB%B0%B1%EC%95%94%EC%88%9C%EB%8C%80%20%EB%B3%B8%EC%A0%90%20%EC%84%A0%EB%A6%89"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=yJWYroWneBZz",
+      "https://www.siksinhot.com/P/316304"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-126",
+    "name": "진양재순대 삼성점",
+    "category": "한식",
+    "subType": "순대국",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "100% 사골 순대국",
+      "순대국(특)",
+      "수제순대",
+      "수육"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 16,
+    "distanceLabel": "도보 16분 (차량 권장)",
+    "address": "서울 강남구 봉은사로114길 38 1층",
+    "phone": "070-8899-9400",
+    "businessHours": "평일 10:00~20:50 (LO 20:20) / 토 10:00~15:00 (LO 14:30)",
+    "breakTime": "15:00~16:10 (평일)",
+    "closedDays": "일요일",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": "웨이팅 잦아 이른 방문 권장"
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "가성비"
+    ],
+    "atmosphere": [
+      "편안함",
+      "깔끔함"
+    ],
+    "tags": [
+      "순대국",
+      "사골육수",
+      "가성비",
+      "도보 16분",
+      "차량 이동 권장"
+    ],
+    "comment": "사골육수 순대국 전문. 삼성동 소재로 포스코센터에서 도보 15분권 밖.",
+    "cautions": "도보 15분권 밖(삼성동). 도보 시간은 지도 기준 추정치. 웨이팅 잦아 이른 방문 권장. 룸·주차 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%A7%84%EC%96%91%EC%9E%AC%EC%88%9C%EB%8C%80%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%A7%84%EC%96%91%EC%9E%AC%EC%88%9C%EB%8C%80%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%A7%84%EC%96%91%EC%9E%AC%EC%88%9C%EB%8C%80%20%EC%82%BC%EC%84%B1%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=bhyqDofQpVRL"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-127",
+    "name": "미림양장 선릉점",
+    "category": "중식",
+    "subType": "베이징덕",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "베이징덕",
+      "부추 돼지고기 볶음밥",
+      "홍콩식 에그누들"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 선릉로86길 30 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 가능",
+      "method": "캐치테이블",
+      "note": "캐치테이블 예약 페이지 운영"
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "깔끔함",
+      "분위기 좋음"
+    ],
+    "tags": [
+      "베이징덕",
+      "오픈키친",
+      "예약 가능",
+      "도보 10분"
+    ],
+    "comment": "북경오리 전문 중식당. 오픈키친에서 오리를 즉석에서 썰어 낸다.",
+    "cautions": "가격대 미확인이므로 예산 산정 전 메뉴판 확인 필요. 룸·주차·영업시간·전화 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%AF%B8%EB%A6%BC%EC%96%91%EC%9E%A5%20%EC%84%A0%EB%A6%89",
+      "kakao": "https://map.kakao.com/?q=%EB%AF%B8%EB%A6%BC%EC%96%91%EC%9E%A5%20%EC%84%A0%EB%A6%89",
+      "google": "https://www.google.com/maps/search/%EB%AF%B8%EB%A6%BC%EC%96%91%EC%9E%A5%20%EC%84%A0%EB%A6%89"
+    },
+    "sourceLinks": [
+      "https://app.catchtable.co.kr/ct/shop/mirimyangjang"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-128",
+    "name": "신동궁감자탕 선릉직영점",
+    "category": "한식",
+    "subType": "감자탕/뼈숯불구이",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "감자탕(대/중/소)",
+      "뼈숯불구이",
+      "뼈찜",
+      "낙지뚝배기"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "2만원대",
+    "distanceMinutes": 9,
+    "distanceLabel": "도보 9분",
+    "address": "서울 강남구 선릉로86길 39 1층",
+    "phone": "확인 필요",
+    "businessHours": "24시간 영업",
+    "breakTime": "없음",
+    "closedDays": "연중무휴(24시간 영업)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심",
+      "가성비"
+    ],
+    "atmosphere": [
+      "활기참",
+      "캐주얼"
+    ],
+    "tags": [
+      "감자탕",
+      "뼈숯불구이",
+      "24시간",
+      "회식 가능",
+      "도보 9분"
+    ],
+    "comment": "감자탕·뼈숯불구이 전문, 24시간 영업. 저녁 시간대 웨이팅 잦음.",
+    "cautions": "저녁 웨이팅 잦음. 도보 시간은 같은 길 인근 업장 기준 추정치. 가격·룸·주차·전화 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%8B%A0%EB%8F%99%EA%B6%81%EA%B0%90%EC%9E%90%ED%83%95%20%EC%84%A0%EB%A6%89%EC%A7%81%EC%98%81%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%8B%A0%EB%8F%99%EA%B6%81%EA%B0%90%EC%9E%90%ED%83%95%20%EC%84%A0%EB%A6%89%EC%A7%81%EC%98%81%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%8B%A0%EB%8F%99%EA%B6%81%EA%B0%90%EC%9E%90%ED%83%95%20%EC%84%A0%EB%A6%89%EC%A7%81%EC%98%81%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=zr3dJY6rT6jM"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-129",
+    "name": "향로식당",
+    "category": "한식",
+    "subType": "백반/한식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로84길 29 1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "편안함",
+      "노포 느낌"
+    ],
+    "tags": [
+      "백반",
+      "팀 점심 추천",
+      "도보 5분"
+    ],
+    "comment": "삼성로84길 백반·한식집. 메뉴·가격은 확인 필요.",
+    "cautions": "사업자 등록 상호는 '향로'이므로 지도 검색 시 '향로'로도 확인 권장. 대표 메뉴·가격·영업시간·전화번호 미확인, 방문 전 확인 필요. 저녁 영업 여부도 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%96%A5%EB%A1%9C%EC%8B%9D%EB%8B%B9%20%EB%8C%80%EC%B9%98%EB%8F%99",
+      "kakao": "https://map.kakao.com/?q=%ED%96%A5%EB%A1%9C%EC%8B%9D%EB%8B%B9%20%EB%8C%80%EC%B9%98%EB%8F%99",
+      "google": "https://www.google.com/maps/search/%ED%96%A5%EB%A1%9C%EC%8B%9D%EB%8B%B9%20%EB%8C%80%EC%B9%98%EB%8F%99"
+    },
+    "sourceLinks": [
+      "https://weseb.com/SJB/m.php?board=sosangin&command=body&no=25881",
+      "https://www.mangoplate.com/restaurants/AvtCjG3WdW"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 3,
     "authorPick": null,
     "grillService": null
   }
