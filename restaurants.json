@@ -8976,5 +8976,879 @@
     "priority": 2,
     "authorPick": null,
     "grillService": null
+  },
+  {
+    "id": "restaurant-134",
+    "name": "연타발 선릉점",
+    "category": "고기/구이",
+    "subType": "양·대창 참숯구이",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "특양구이",
+      "한우대창구이",
+      "양념갈비",
+      "양밥"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "5만원 이상",
+    "distanceMinutes": 2,
+    "distanceLabel": "도보 2분",
+    "address": "서울 강남구 테헤란로 428 대우아이빌 1층",
+    "phone": "02-548-9259",
+    "businessHours": "11:00~22:00",
+    "breakTime": "없음",
+    "closedDays": "일요일",
+    "lunchMenu": "양밥/양치밥 11,000원",
+    "dinnerMenu": "특양구이 43,000원 / 한우대창구이 42,000원 / 양념갈비 45,000원",
+    "room": {
+      "status": "있음",
+      "capacity": "개별룸·대형룸 보유, 최대 16인 룸 있음",
+      "note": "룸 예약 가능(다이닝코드 기준)"
+    },
+    "reservation": {
+      "status": "예약 가능",
+      "method": "전화",
+      "note": "룸 이용 시 사전 예약 권장"
+    },
+    "parking": {
+      "status": "가능",
+      "note": "무료주차 가능, 발렛파킹 4,000원"
+    },
+    "recommendedFor": [
+      "임원 동석",
+      "외부 손님 접대",
+      "회식",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "격식 있음",
+      "깔끔함"
+    ],
+    "tags": [
+      "양·대창",
+      "룸 있음",
+      "임원 동석 가능",
+      "구워줌",
+      "발렛파킹",
+      "도보 2분"
+    ],
+    "comment": "포스코센터 바로 옆 양·대창 참숯구이. 룸·발렛에 구워주기까지 되는 접대 기본기.",
+    "cautions": "일요일 휴무. 점심은 양밥류가 저렴하지만 저녁 구이는 1인 4만원대. 콜키지 가능.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%97%B0%ED%83%80%EB%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%97%B0%ED%83%80%EB%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%97%B0%ED%83%80%EB%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=rrGux5Qv0AkG",
+      "https://www.siksinhot.com/P/243964"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 1,
+    "authorPick": {
+      "meal": "dinner",
+      "note": "작성자 최애 · 저녁"
+    },
+    "grillService": {
+      "status": "구워줌",
+      "note": "직원이 고기를 구워줌(다이닝코드 기준)"
+    }
+  },
+  {
+    "id": "restaurant-135",
+    "name": "하동관 강남분점",
+    "category": "한식",
+    "subType": "곰탕",
+    "mealTime": [
+      "lunch"
+    ],
+    "representativeMenus": [
+      "곰탕",
+      "수육"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 테헤란로78길 16",
+    "phone": "02-565-0003",
+    "businessHours": "07:00~16:00",
+    "breakTime": "없음",
+    "closedDays": "첫째·셋째 일요일",
+    "lunchMenu": "곰탕",
+    "dinnerMenu": "저녁 영업 없음(16:00 마감)",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 불가",
+      "method": "현장 대기",
+      "note": "점심 시간대 혼잡"
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "노포 느낌",
+      "활기참"
+    ],
+    "tags": [
+      "곰탕",
+      "아침 영업",
+      "빠른 식사",
+      "도보 4분"
+    ],
+    "comment": "포스코사거리 곰탕 노포. 07시부터 열고 16시에 닫아 저녁은 불가.",
+    "cautions": "16:00 마감이라 저녁 이용 불가. 첫째·셋째 일요일 휴무. 포스코 직원 점심시간과 겹쳐 12시 전후 혼잡. 가격·주차 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%95%98%EB%8F%99%EA%B4%80%20%EA%B0%95%EB%82%A8%EB%B6%84%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%ED%95%98%EB%8F%99%EA%B4%80%20%EA%B0%95%EB%82%A8%EB%B6%84%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%ED%95%98%EB%8F%99%EA%B4%80%20%EA%B0%95%EB%82%A8%EB%B6%84%EC%A0%90"
+    },
+    "sourceLinks": [
+      "http://www.hadongkwan.co.kr/",
+      "http://m.menupan.com/restaurant/onepage.asp?acode=h119158"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 1,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-136",
+    "name": "청자골 본점",
+    "category": "고기/구이",
+    "subType": "한우/삼합",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "한우",
+      "삼합"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 역삼로77길 17 경희빌딩",
+    "phone": "0507-1306-0609",
+    "businessHours": "11:30~22:00",
+    "breakTime": "14:30~17:00",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "있음",
+      "capacity": "넓은 룸 다수 보유(인원 확인 필요)",
+      "note": "단체 회식용 룸 다수"
+    },
+    "reservation": {
+      "status": "예약 가능",
+      "method": "전화",
+      "note": "룸·단체 이용 시 사전 예약 권장"
+    },
+    "parking": {
+      "status": "가능",
+      "note": "주차·발렛 가능"
+    },
+    "recommendedFor": [
+      "회식",
+      "외부 손님 접대",
+      "임원 동석"
+    ],
+    "atmosphere": [
+      "격식 있음",
+      "깔끔함"
+    ],
+    "tags": [
+      "한우",
+      "룸 있음",
+      "회식 가능",
+      "임원 동석 가능",
+      "발렛파킹",
+      "도보 5분"
+    ],
+    "comment": "룸이 많아 단체 회식에 강한 한우·삼합집. 브레이크타임 14:30~17:00 주의.",
+    "cautions": "가격대 미확인, 예산 산정 전 메뉴판 확인 필요. 휴무일 미확인. 브레이크타임 있음.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B2%AD%EC%9E%90%EA%B3%A8%20%EB%B3%B8%EC%A0%90%20%EC%84%A0%EB%A6%89",
+      "kakao": "https://map.kakao.com/?q=%EC%B2%AD%EC%9E%90%EA%B3%A8%20%EB%B3%B8%EC%A0%90%20%EC%84%A0%EB%A6%89",
+      "google": "https://www.google.com/maps/search/%EC%B2%AD%EC%9E%90%EA%B3%A8%20%EB%B3%B8%EC%A0%90%20%EC%84%A0%EB%A6%89"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=xWs4UXr1aH6f"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-137",
+    "name": "게방식당 포스코센터점",
+    "category": "한식",
+    "subType": "간장게장",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "간장게장",
+      "게장정식"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "간장게장",
+      "사내 도보 이동",
+      "팀 점심 추천"
+    ],
+    "comment": "포스코센터 지하 간장게장. 밖에 안 나가고 손님 식사까지 되는 카드.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EA%B2%8C%EB%B0%A9%EC%8B%9D%EB%8B%B9%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%EA%B2%8C%EB%B0%A9%EC%8B%9D%EB%8B%B9%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%EA%B2%8C%EB%B0%A9%EC%8B%9D%EB%8B%B9%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-138",
+    "name": "한와담 포스코센터점",
+    "category": "고기/구이",
+    "subType": "한우",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "한우 구이",
+      "한우 코스"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "예약 가능",
+      "method": "캐치테이블",
+      "note": "캐치테이블 예약 페이지 운영"
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "회식",
+      "외부 손님 접대",
+      "임원 동석"
+    ],
+    "atmosphere": [
+      "격식 있음",
+      "깔끔함"
+    ],
+    "tags": [
+      "한우",
+      "사내 도보 이동",
+      "임원 동석 가능",
+      "예약 가능",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 한우집. 건물 안에서 접대·회식이 해결되는 자리.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%95%9C%EC%99%80%EB%8B%B4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%ED%95%9C%EC%99%80%EB%8B%B4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%ED%95%9C%EC%99%80%EB%8B%B4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/",
+      "https://app.catchtable.co.kr/ct/shop/hanwadam_posco"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-139",
+    "name": "샤이바나",
+    "category": "양식",
+    "subType": "미국 남부 요리",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "캐주얼",
+      "깔끔함"
+    ],
+    "tags": [
+      "양식",
+      "사내 도보 이동",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 미국 남부 요리 매장.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%83%A4%EC%9D%B4%EB%B0%94%EB%82%98%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%EC%83%A4%EC%9D%B4%EB%B0%94%EB%82%98%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%EC%83%A4%EC%9D%B4%EB%B0%94%EB%82%98%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-140",
+    "name": "토마틸로 포스코센터점",
+    "category": "양식",
+    "subType": "멕시칸",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "타코",
+      "부리토"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "캐주얼"
+    ],
+    "tags": [
+      "멕시칸",
+      "사내 도보 이동",
+      "빠른 식사",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 멕시칸. 수제 토르티야·소스를 쓴다고 알려져 있다.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%86%A0%EB%A7%88%ED%8B%B8%EB%A1%9C%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%ED%86%A0%EB%A7%88%ED%8B%B8%EB%A1%9C%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%ED%86%A0%EB%A7%88%ED%8B%B8%EB%A1%9C%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0%EC%A0%90%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-141",
+    "name": "스시마이우",
+    "category": "일식",
+    "subType": "초밥",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "초밥"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "초밥",
+      "사내 도보 이동",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 초밥 매장.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%8A%A4%EC%8B%9C%EB%A7%88%EC%9D%B4%EC%9A%B0%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%EC%8A%A4%EC%8B%9C%EB%A7%88%EC%9D%B4%EC%9A%B0%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%EC%8A%A4%EC%8B%9C%EB%A7%88%EC%9D%B4%EC%9A%B0%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-142",
+    "name": "오늘한밥",
+    "category": "한식",
+    "subType": "한식 백반",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "편안함"
+    ],
+    "tags": [
+      "백반",
+      "사내 도보 이동",
+      "빠른 식사",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 한식 백반 매장.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%98%A4%EB%8A%98%ED%95%9C%EB%B0%A5%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%EC%98%A4%EB%8A%98%ED%95%9C%EB%B0%A5%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%EC%98%A4%EB%8A%98%ED%95%9C%EB%B0%A5%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-143",
+    "name": "보돌미역",
+    "category": "한식",
+    "subType": "미역국",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "미역국"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "편안함",
+      "건강식"
+    ],
+    "tags": [
+      "미역국",
+      "사내 도보 이동",
+      "빠른 식사",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 미역국 전문 매장. 속 편한 한 그릇.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B3%B4%EB%8F%8C%EB%AF%B8%EC%97%AD%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%EB%B3%B4%EB%8F%8C%EB%AF%B8%EC%97%AD%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%EB%B3%B4%EB%8F%8C%EB%AF%B8%EC%97%AD%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-144",
+    "name": "브라운돈까스",
+    "category": "일식",
+    "subType": "돈까스",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "돈까스"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "캐주얼"
+    ],
+    "tags": [
+      "돈까스",
+      "사내 도보 이동",
+      "빠른 식사",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 돈까스 매장.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B8%8C%EB%9D%BC%EC%9A%B4%EB%8F%88%EA%B9%8C%EC%8A%A4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%EB%B8%8C%EB%9D%BC%EC%9A%B4%EB%8F%88%EA%B9%8C%EC%8A%A4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%EB%B8%8C%EB%9D%BC%EC%9A%B4%EB%8F%88%EA%B9%8C%EC%8A%A4%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-145",
+    "name": "로라방앗간",
+    "category": "분식/가벼운 식사",
+    "subType": "분식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "빠른 식사",
+      "가성비"
+    ],
+    "atmosphere": [
+      "캐주얼"
+    ],
+    "tags": [
+      "분식",
+      "사내 도보 이동",
+      "빠른 식사",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 분식 매장.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%A1%9C%EB%9D%BC%EB%B0%A9%EC%95%97%EA%B0%84%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%EB%A1%9C%EB%9D%BC%EB%B0%A9%EC%95%97%EA%B0%84%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%EB%A1%9C%EB%9D%BC%EB%B0%A9%EC%95%97%EA%B0%84%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-146",
+    "name": "포포유",
+    "category": "기타",
+    "subType": "베트남 음식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "쌀국수"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "포스코센터",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "포스코센터 주차장 이용(조건 확인 필요)"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "캐주얼",
+      "깔끔함"
+    ],
+    "tags": [
+      "베트남",
+      "쌀국수",
+      "사내 도보 이동",
+      "포스코센터"
+    ],
+    "comment": "포스코센터 지하 베트남 음식 매장.",
+    "cautions": "포스코센터 지하 '더 블러바드 440' 입점 매장. 매장 구성은 변동될 수 있으므로 방문 전 확인 권장. 메뉴·가격·영업시간·전화번호 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%8F%AC%ED%8F%AC%EC%9C%A0%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "kakao": "https://map.kakao.com/?q=%ED%8F%AC%ED%8F%AC%EC%9C%A0%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0",
+      "google": "https://www.google.com/maps/search/%ED%8F%AC%ED%8F%AC%EC%9C%A0%20%ED%8F%AC%EC%8A%A4%EC%BD%94%EC%84%BC%ED%84%B0"
+    },
+    "sourceLinks": [
+      "https://newsroom.posco.com/kr/포스코센터-개방형-사옥으로-리뉴얼-4개월만에-대치동/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
   }
 ]
