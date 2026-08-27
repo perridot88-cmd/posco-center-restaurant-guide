@@ -8690,5 +8690,291 @@
     "priority": 3,
     "authorPick": null,
     "grillService": null
+  },
+  {
+    "id": "restaurant-130",
+    "name": "하이보 삼성점",
+    "category": "중식",
+    "subType": "중식/딤섬",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "샤오롱빠오",
+      "새우샤오마이",
+      "누룽지탕",
+      "유린기"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "5만원 이상",
+    "distanceMinutes": 15,
+    "distanceLabel": "도보 15분",
+    "address": "서울 강남구 영동대로85길 13 대치동송석빌딩 2층",
+    "phone": "02-501-7681",
+    "businessHours": "매일 11:00~22:00 (LO 21:00)",
+    "breakTime": "없음",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "저녁 코스 58,000~150,000원",
+    "room": {
+      "status": "있음",
+      "capacity": "개별룸·대형룸 보유, 총 230석 규모(인원 확인 필요)",
+      "note": "개별룸/대형룸 운영(다이닝코드 기준)"
+    },
+    "reservation": {
+      "status": "예약 권장",
+      "method": "전화",
+      "note": "룸·코스 이용 시 사전 예약 권장"
+    },
+    "parking": {
+      "status": "가능",
+      "note": "무료주차·발렛파킹 가능"
+    },
+    "recommendedFor": [
+      "임원 동석",
+      "외부 손님 접대",
+      "회식"
+    ],
+    "atmosphere": [
+      "격식 있음",
+      "깔끔함"
+    ],
+    "tags": [
+      "딤섬",
+      "룸 있음",
+      "임원 동석 가능",
+      "외부 손님 접대",
+      "발렛파킹",
+      "도보 15분"
+    ],
+    "comment": "230석 규모 고급 중식당. 딤섬·코스에 개별룸과 발렛까지 되는 접대형.",
+    "cautions": "점심 1인 가격대 미확인, 메뉴판 확인 권장. 도보 15분권 경계이므로 이동 시간 감안 필요. 휴무일 미확인.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%95%98%EC%9D%B4%EB%B3%B4%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%ED%95%98%EC%9D%B4%EB%B3%B4%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%ED%95%98%EC%9D%B4%EB%B3%B4%20%EC%82%BC%EC%84%B1%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=2WMxuP04wd02",
+      "https://hibo.kr/store"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-131",
+    "name": "몰타참치",
+    "category": "해산물",
+    "subType": "참치",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "점심 몰타정식",
+      "가마도로 사시미",
+      "참치 코스"
+    ],
+    "lunchPriceRange": "3만원대",
+    "dinnerPriceRange": "5만원 이상",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로85길 26 V&S빌딩 2층",
+    "phone": "02-508-7861",
+    "businessHours": "11:30~22:00",
+    "breakTime": "15:00~16:30",
+    "closedDays": "일요일",
+    "lunchMenu": "점심 몰타정식 39,000~79,000원",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "있음",
+      "capacity": "전 좌석 룸, 2인~최대 34인",
+      "note": "전체가 룸으로 구성(다이닝코드 기준)"
+    },
+    "reservation": {
+      "status": "예약 권장",
+      "method": "전화",
+      "note": "룸 배정 필요, 사전 예약 권장"
+    },
+    "parking": {
+      "status": "가능",
+      "note": "발렛파킹 가능, 콜키지 가능"
+    },
+    "recommendedFor": [
+      "임원 동석",
+      "외부 손님 접대",
+      "회식",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "격식 있음",
+      "조용한 편",
+      "깔끔함"
+    ],
+    "tags": [
+      "참치",
+      "룸 있음",
+      "임원 동석 가능",
+      "외부 손님 접대",
+      "발렛파킹",
+      "도보 5분"
+    ],
+    "comment": "전 좌석이 룸인 참치 전문점. 도보 5분에 접대·임원 동석 모두 커버.",
+    "cautions": "일요일 휴무, 브레이크타임 15:00~16:30 주의. 저녁 가격대는 사시미 기준이라 예산 산정 전 메뉴판 확인 권장.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%AA%B0%ED%83%80%EC%B0%B8%EC%B9%98%20%EC%84%A0%EB%A6%89",
+      "kakao": "https://map.kakao.com/?q=%EB%AA%B0%ED%83%80%EC%B0%B8%EC%B9%98%20%EC%84%A0%EB%A6%89",
+      "google": "https://www.google.com/maps/search/%EB%AA%B0%ED%83%80%EC%B0%B8%EC%B9%98%20%EC%84%A0%EB%A6%89"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=LmYz1ATJo3io",
+      "https://www.siksinhot.com/P/133916"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-132",
+    "name": "소호정 대치점",
+    "category": "한식",
+    "subType": "안동국시",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "국시",
+      "국밥",
+      "소호정식"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 역삼로81길 8",
+    "phone": "02-563-8098",
+    "businessHours": "11:00~21:00 (LO 20:30)",
+    "breakTime": "없음",
+    "closedDays": "확인 필요",
+    "lunchMenu": "국시 16,000원 / 국밥 16,000원",
+    "dinnerMenu": "소호정식 31,000원(2인 이상)",
+    "room": {
+      "status": "있음",
+      "capacity": "룸 여러 개 보유(인원 확인 필요)",
+      "note": "단체석·룸 이용 가능(다이닝코드 기준)"
+    },
+    "reservation": {
+      "status": "예약 권장",
+      "method": "전화",
+      "note": "룸·단체 이용 시 사전 예약 권장"
+    },
+    "parking": {
+      "status": "가능",
+      "note": "건물 주변 주차 가능, 방문 전 문의 권장"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "외부 손님 접대",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "조용한 편",
+      "깔끔함"
+    ],
+    "tags": [
+      "안동국시",
+      "룸 있음",
+      "외부 손님 접대",
+      "도보 5분"
+    ],
+    "comment": "안동국시 노포. 브레이크타임 없이 통영업, 룸이 있어 손님 식사에도 무난.",
+    "cautions": "소호정식은 2인 이상 주문(31,000원/인). 휴무일 미확인. 주차는 건물 주변이라 방문 전 문의 권장.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%86%8C%ED%98%B8%EC%A0%95%20%EB%8C%80%EC%B9%98%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%86%8C%ED%98%B8%EC%A0%95%20%EB%8C%80%EC%B9%98%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%86%8C%ED%98%B8%EC%A0%95%20%EB%8C%80%EC%B9%98%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.diningcode.com/profile.php?rid=OIVIhvWGgUe4",
+      "http://www.sohojung.com/"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-133",
+    "name": "우밀가 선릉점",
+    "category": "한식",
+    "subType": "안동국시",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "안동국시",
+      "어복쟁반",
+      "한우수육",
+      "평양냉면"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 6,
+    "distanceLabel": "도보 6분",
+    "address": "서울 강남구 선릉로93길 26 우리빌딩 2층",
+    "phone": "02-557-1855",
+    "businessHours": "10:00~22:00",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "안동국시 15,000원 / 평양냉면 16,000원",
+    "dinnerMenu": "어복쟁반(소) 85,000원 / 한우수육(소) 40,000원",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": "매장 규모가 큰 편(공개 리뷰 기준), 룸 유무는 미확인"
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "가능",
+      "note": "무료주차 가능"
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "회식"
+    ],
+    "atmosphere": [
+      "깔끔함",
+      "편안함"
+    ],
+    "tags": [
+      "안동국시",
+      "어복쟁반",
+      "무료주차",
+      "도보 6분"
+    ],
+    "comment": "안동국시 전문점. 매장이 넓고 브레이크타임 없이 통영업.",
+    "cautions": "가격은 타 지점 메뉴 기준이라 선릉점과 다를 수 있음, 방문 전 확인 권장. 룸·예약 여부 미확인. 어복쟁반은 단체용 대형 메뉴(소 85,000원).",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9A%B0%EB%B0%80%EA%B0%80%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%9A%B0%EB%B0%80%EA%B0%80%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%9A%B0%EB%B0%80%EA%B0%80%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://www.siksinhot.com/P/423276"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
   }
 ]
