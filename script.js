@@ -83,10 +83,15 @@
     },
   };
 
+  /* 계절 스킨 — index.html은 기본 여름, ver3.html은 window.SEASON='autumn' 을 미리 설정 */
+  const SEASON = (typeof window !== 'undefined' && window.SEASON) || 'summer';
+
   // 상황별 추천 버튼 → 필터 프리셋
   const SITUATIONS = [
     { t: '❤️ 작성자 최애', set: { purpose: ['작성자 최애'] } },
-    { t: '🧊 폭염 대비 · 시원한 메뉴', set: { purpose: ['시원한 메뉴'] } },
+    SEASON === 'autumn'
+      ? { t: '🍂 환절기 · 뜨끈한 국물', set: { purpose: ['뜨끈한 국물'] } }
+      : { t: '🧊 폭염 대비 · 시원한 메뉴', set: { purpose: ['시원한 메뉴'] } },
     { t: '🍚 오늘 팀 점심', set: { meal: ['lunch'], purpose: ['팀 점심'] } },
     { t: '🤝 외부 손님과 식사', set: { purpose: ['외부 손님 접대'] } },
     { t: '👔 임원 동석', set: { purpose: ['임원 동석'] } },
@@ -135,7 +140,9 @@
   const KPI = {
     total:  { lbl: '전체 식당', ico: '🍽️', pred: () => true },
     picks:  { lbl: '작성자 최애', ico: '❤️', pred: r => !!r.authorPick },
-    cool:   { lbl: '폭염날', ico: '🧊', pred: r => /냉면|밀면|콩국수|물회|막회|냉소바|초계/.test(r.representativeMenus.join() + r.subType) },
+    cool:   SEASON === 'autumn'
+      ? { lbl: '쌀쌀한 날', ico: '🍂', pred: r => /곰탕|국밥|순대국|칼국수|전골|샤브|해장|미역국|국시|삼계|추어|만두국/.test(r.representativeMenus.join() + r.subType) }
+      : { lbl: '폭염날', ico: '🧊', pred: r => /냉면|밀면|콩국수|물회|막회|냉소바|초계/.test(r.representativeMenus.join() + r.subType) },
     room:   { lbl: '룸 보유(확인됨)', ico: '🚪', pred: r => r.room.status === '있음' },
     resv:   { lbl: '예약 가능·권장', ico: '📅', pred: r => ['예약 가능', '예약 권장'].includes(r.reservation.status) },
     lunch:  { lbl: '점심 추천', ico: '☀️', pred: r => r.mealTime.includes('lunch') && r.recommendedFor.some(x => ['팀 점심', '빠른 식사', '가성비'].includes(x)) },

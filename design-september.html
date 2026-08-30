@@ -413,7 +413,7 @@
       .then(r => { if (!r.ok) return;
         hv.poster = 'header-sep.jpg';
         hv.src = 'header-sep.mp4';
-        hv.onloadeddata = () => { if (!hv.dataset.local) markLoaded(hv, null); };
+        hv.onloadeddata = () => { hv.play().catch(()=>{}); if (!hv.dataset.local) markLoaded(hv, null); };
       })
       .catch(() => {});
 
@@ -425,7 +425,13 @@
       const dur = isVid && isFinite(el.duration) ? el.duration : null;
       const r = w && h ? (w / h) : 0;
       const hdr = header.getBoundingClientRect();
-      const shown = r ? Math.round(100 * Math.min(1, (hdr.width / hdr.height) / r)) : 0;
+      // object-fit:cover — 박스가 영상보다 납작하면 위아래가 잘린다.
+      // 보이는 세로 비율 = 영상비 / 박스비 (1을 넘으면 안 잘림)
+      const boxR = hdr.width / hdr.height;
+      const shown = r ? Math.round(100 * Math.min(1, r / boxR)) : 0;
+      // 실제 사이트 데스크톱 기준(1920x311)으로도 같이 계산
+      const shown1920 = r ? Math.round(100 * Math.min(1, r / (1920 / 311))) : 0;
+      const upscale = w ? +(1920 / w).toFixed(2) : 0;
 
       const rows = [];
       rows.push(row('파일', f ? f.name : 'header-sep.mp4 (저장소)'));
@@ -436,12 +442,14 @@
       if (dur) rows.push(row('길이', dur.toFixed(1) + '초',
         dur >= SPEC.minSec && dur <= SPEC.maxSec ? 'ok' : 'bad'));
       if (!isVid) rows.push(row('형식', 'GIF — 화질·용량 손해가 큽니다. mp4 권장', 'bad'));
-      rows.push(row('세로로 보이는 양', shown ? `약 ${shown}%` : '-',
-        shown >= 45 ? 'ok' : 'bad'));
+      rows.push(row('세로로 보이는 양', shown ? `이 미리보기 약 ${shown}% · 실제 사이트(1920) 약 ${shown1920}%` : '-',
+        shown1920 >= 45 ? 'ok' : 'bad'));
+      rows.push(row('확대 배율', upscale ? `1920 화면에서 ${upscale}배` : '-',
+        upscale <= 1.2 ? 'ok' : 'bad'));
 
       const tips = [];
       if (r && (r < 2.4 || r > 4.2)) tips.push(`가로세로비가 권장(${SPEC.ratio}:1)에서 벗어나 위아래가 많이 잘립니다.`);
-      if (w && w < 1600) tips.push('가로 1600px 미만이면 큰 모니터에서 흐릿해집니다.');
+      if (w && w < 1600) tips.push(`가로 ${w}px이라 1920 화면에서 ${upscale}배로 늘어납니다. 흐릿해집니다.`);
       if (f && f.size > SPEC.maxMB * 1048576) tips.push(`${SPEC.maxMB}MB를 넘습니다. crf 값을 올려 다시 뽑아 주세요.`);
       if (dur && dur > SPEC.maxSec) tips.push('20초가 넘으면 용량이 커집니다. 8~12초를 권합니다.');
 
@@ -458,7 +466,7 @@
         hg.onload = () => markLoaded(hg, f);
       } else {
         hg.hidden = true; hv.hidden = false; hv.dataset.local = '1'; hv.src = url;
-        hv.onloadeddata = () => markLoaded(hv, f);
+        hv.onloadeddata = () => { hv.play().catch(()=>{}); markLoaded(hv, f); };
       }
     }
 

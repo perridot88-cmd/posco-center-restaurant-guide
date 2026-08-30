@@ -1,0 +1,115 @@
+/* ==========================================================================
+   ver3 — 가을 스킨
+   style.css 를 먼저 읽고 그 위에 덮어씁니다. 변수만 다시 칠하면
+   카드·표·필터·버튼이 전부 따라옵니다(style.css 안에서 var() 194곳 사용).
+   ========================================================================== */
+:root {
+  /* 배너 영상에서 뽑은 색 — 깊은 와인레드 · 크림 · 황금빛 */
+  --blue-900: #33131a;
+  --blue-800: #4d1a20;
+  --blue-700: #7a2028;
+  --blue-600: #9c2a30;   /* 주색 */
+  --blue-500: #b5383a;
+  --blue-400: #cf7a72;
+  --blue-100: #f5ded9;
+  --blue-50:  #fdf5f2;
+
+  --ink:   #2a1d18;
+  --ink-2: #5b4a41;
+  --ink-3: #8b7a6e;
+  --line:   #ebdfd0;
+  --line-2: #d9c7b1;
+  --bg:   #f7f1e8;       /* 크림 */
+  --card: #fffdfa;
+
+  --ok: #4f6b2e; --ok-bg: #eef3e3; --ok-line: #cdddb4;
+  --warn: #8a5a12; --warn-bg: #fbf0dc; --warn-line: #eed9a6;
+  --muted-bg: #f2ebe0;
+  --danger: #a63321;
+  --star: #c8922f;
+  --pink: #9c2a30; --pink-bg: #fbeeec; --pink-line: #f0cdc6;
+
+  --shadow-sm: 0 1px 2px rgba(58, 30, 20, .05), 0 1px 3px rgba(58, 30, 20, .06);
+  --shadow:    0 2px 6px rgba(58, 30, 20, .06), 0 8px 24px -12px rgba(58, 30, 20, .20);
+  --shadow-lg: 0 10px 34px -12px rgba(58, 30, 20, .34);
+}
+
+/* ===== 헤더 — 좌: 글자 / 우: 영상 카드 ===== */
+.site-header.v3 {
+  padding: 34px 0 44px;
+  background:
+    radial-gradient(680px 300px at 8% -30%, rgba(255, 240, 222, .30), transparent 62%),
+    radial-gradient(760px 340px at 96% 120%, rgba(200, 146, 47, .22), transparent 60%),
+    linear-gradient(160deg, #3b141a 0%, #6d1d24 44%, #9c2a30 78%, #b8503f 100%);
+}
+.site-header.v3::before { opacity: .55; }        /* 도보권 동심원 톤다운 */
+.site-header.v3 h1 .hl { background-image: linear-gradient(90deg, #f7d9a4, #fff6e6); }
+.site-header.v3 .eyebrow { background: rgba(255, 255, 255, .12); border-color: rgba(255, 236, 214, .28); color: #f6e6d5; }
+.site-header.v3 .eyebrow .dot { background: #e0a94a; box-shadow: 0 0 0 3px rgba(224, 169, 74, .28); }
+.site-header.v3 .subtitle { color: #f9ece0; }
+.site-header.v3 .header-meta .loc { color: #f2ded0; background: rgba(255, 255, 255, .09); border-color: rgba(255, 236, 214, .20); }
+.site-header.v3 .notice { background: rgba(255, 255, 255, .10); border-color: rgba(255, 236, 214, .22); border-left-color: #e0a94a; color: #f7eade; }
+.site-header.v3 .notice::before { color: #e6b866; }
+
+.hero-grid {
+  position: relative; z-index: 1;
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 460px);
+  gap: 34px; align-items: center;
+}
+.hero-copy { min-width: 0; }
+
+/* ver 3 배지 */
+.verchip {
+  margin-left: 8px; padding: 2px 8px; border-radius: 999px;
+  background: linear-gradient(135deg, #e0a94a, #c8922f); color: #3b1a12;
+  font-size: 10.5px; font-weight: 900; letter-spacing: .08em;
+}
+
+/* 영상 카드 — 원본 비율 그대로 보여줘서 잘리지도 늘어나지도 않게 */
+.hero-media {
+  margin: 0; position: relative; border-radius: 18px; overflow: hidden;
+  box-shadow: 0 18px 46px -16px rgba(30, 8, 10, .62), 0 0 0 1px rgba(255, 236, 214, .18);
+  background: #2a1014;
+}
+.hero-media video, .hero-media img.hm {
+  display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
+}
+.hero-media figcaption {
+  position: absolute; left: 0; right: 0; bottom: 0; padding: 20px 14px 10px;
+  font-size: 11.5px; color: #f6e3d3; letter-spacing: .02em;
+  background: linear-gradient(transparent, rgba(28, 8, 10, .78));
+}
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 22px; }
+  .hero-media { max-width: 460px; }
+}
+
+/* 크레딧 — 절대배치 대신 헤더 아래쪽 정적 배치 (영상 카드와 안 겹치게) */
+.site-header.v3 .header-credit {
+  position: static; max-width: none; text-align: left; margin: 26px auto 0;
+  display: flex; align-items: center; gap: 12px;
+  padding-top: 16px; border-top: 1px solid rgba(255, 236, 214, .18);
+  color: #f3e2d3;
+}
+.site-header.v3 .header-credit .hc-text { display: flex; flex-direction: column; }
+.site-header.v3 .header-credit b { font-size: 14.5px; }
+.site-header.v3 .header-credit .hc-sub { font-size: 12.5px; color: #e4cdba; }
+
+/* 포석호 — 움직임 없이 작은 원형으로 (요청: 우측 하단 애니메이션 제거) */
+.psh-avatar {
+  flex: 0 0 auto; width: 48px; height: 48px; border-radius: 50%; overflow: hidden;
+  background: #fff2e2; box-shadow: 0 0 0 2px rgba(224, 169, 74, .55);
+}
+.psh-avatar img { display: block; width: 56px; height: auto; margin: -18px 0 0 -5px; }
+
+/* 강조 요소 몇 군데 가을 톤으로 */
+.section-title::before { background: linear-gradient(180deg, #c8922f, #9c2a30); }
+.back-top { background: linear-gradient(135deg, #9c2a30, #c8922f); }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-media video { display: none; }
+}
+@media print {
+  .hero-media { display: none; }
+  .site-header.v3 { background: none; }
+}
