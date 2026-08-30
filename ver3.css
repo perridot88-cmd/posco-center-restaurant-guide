@@ -142,3 +142,17 @@ table.rtable tbody tr.is-pick:hover { background: #f7e8e2; }
   border-left: 3px solid #c8922f; color: #6b5220;
 }
 .notice-page::before { color: #b0801f; }
+
+/* [§4.5 촉각 피드백] 눌렀을 때 실제로 눌리는 느낌이 하나도 없었다.
+   :active 가 사이트 전체에 0곳이었다. transform 만 건드려 성능 부담 없음. */
+.btn:active, .sit-btn:active, .stat:active,
+.view-toggle button:active, .rcard-foot button:active, .rcard-foot a:active,
+.back-top:active, select.select:active {
+  transform: translateY(1px) scale(.985);
+}
+.rcard-foot a:active, .rcard-foot button:active { transform: scale(.97); }
+@media (prefers-reduced-motion: reduce) {
+  .btn:active, .sit-btn:active, .stat:active,
+  .view-toggle button:active, .rcard-foot button:active, .rcard-foot a:active,
+  .back-top:active, select.select:active { transform: none; }
+}
