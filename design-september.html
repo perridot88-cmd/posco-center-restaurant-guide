@@ -117,10 +117,61 @@
   }
   @keyframes c-spin { to { transform: rotate(360deg); } }
 
+  /* ══════════════════════════════════════════════════════════
+     시안 D — 직접 만든 영상 슬롯
+     저장소에 header-sep.mp4 를 넣으면 자동으로 붙는다.
+     넣기 전에도 아래 파일 선택으로 내 PC 파일을 바로 얹어볼 수 있다.
+     ══════════════════════════════════════════════════════════ */
+  .v-d .site-header { background: #0a2540; }
+  .v-d .site-header::before { z-index: 1; }
+  .v-d .hdr-media {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; z-index: 0; display: block;
+  }
+  .v-d .scrim {
+    position: absolute; inset: 0; z-index: 1; pointer-events: none;
+    background: linear-gradient(105deg, rgba(6,28,52,.74) 0%, rgba(6,28,52,.52) 46%, rgba(6,28,52,.30) 100%);
+  }
+  .v-d .site-header .wrap { z-index: 2; }
+  .v-d .header-credit, .v-d .poseokho, .v-d .wave { z-index: 3; }
+  .v-d .empty {
+    position: absolute; inset: 14px; z-index: 2; border: 2px dashed rgba(255,255,255,.34);
+    border-radius: 12px; display: flex; align-items: center; justify-content: center;
+    text-align: center; padding: 20px; pointer-events: none;
+  }
+  .v-d .empty span { font-size: 13.5px; color: #dceaf8; line-height: 1.7; max-width: 460px; }
+  .v-d.has-media .empty { display: none; }
+  .v-d.has-media .scrim { display: block; }
+
+  /* 안전 영역 오버레이 */
+  .sz { position: absolute; z-index: 4; border: 2px dashed rgba(255,255,255,.85);
+        border-radius: 6px; pointer-events: none; }
+  .sz span { position: absolute; top: -1px; left: -1px; font-size: 10.5px; font-weight: 800;
+             padding: 2px 7px; border-radius: 5px 0 6px 0; color: #08243f; background: rgba(255,255,255,.92); }
+  .sz.warn { border-color: rgba(255,196,120,.95); }
+  .sz.warn span { background: rgba(255,206,138,.96); }
+
+  /* 컨트롤 패널 */
+  .drop { border: 2px dashed var(--line-2); border-radius: 12px; padding: 18px;
+          text-align: center; background: var(--blue-50); transition: .15s; cursor: pointer; }
+  .drop.over { border-color: var(--blue-500); background: #e6f0fd; }
+  .drop p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+  .drop b { color: var(--blue-700); }
+  .readout { margin-top: 12px; font-size: 13px; }
+  .readout table { border-collapse: collapse; width: 100%; }
+  .readout td { padding: 5px 8px; border-bottom: 1px solid var(--line); }
+  .readout td:first-child { color: var(--ink-3); width: 130px; }
+  .readout .ok  { color: var(--ok); font-weight: 700; }
+  .readout .bad { color: var(--danger); font-weight: 700; }
+  .toggles { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin-top: 12px; font-size: 13.5px; }
+  .toggles label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+
   @media (prefers-reduced-motion: reduce) {
     .v-a .site-header, .v-c .site-header, .v-c .rays,
     .v-a .bokeh i, .v-b .leaves i { animation: none !important; }
     .v-a .bokeh, .v-b .leaves { display: none; }
+    .v-d .hdr-media { display: none; }        /* 모션 줄이기 → poster 이미지만 */
+    .v-d .site-header { background-image: var(--poster, none); background-size: cover; background-position: center; }
   }
 </style>
 </head>
@@ -231,6 +282,69 @@
     <div class="tagrow"><span class="tg warm">가장 과감</span><span class="tg warm">모션 강</span><span class="tg">호불호 갈릴 수 있음</span></div>
   </div>
 
+  <!-- ── D ────────────────────────────────── -->
+  <span class="stamp">시안 D · 직접 만든 영상</span>
+  <div class="demo v-d" id="vd">
+    <header class="site-header">
+      <video id="hv" class="hdr-media" autoplay muted loop playsinline></video>
+      <img id="hg" class="hdr-media" alt="" hidden>
+      <div class="scrim" aria-hidden="true"></div>
+      <div class="empty"><span>아직 영상이 없습니다.<br>
+        저장소에 <b>header-sep.mp4</b> 를 넣으면 여기에 자동으로 붙습니다.<br>
+        넣기 전에 확인만 하고 싶으면 아래에서 파일을 골라 주세요 — 업로드되지 않고 이 브라우저 안에서만 재생됩니다.</span></div>
+      <div class="wrap">
+        <div class="eyebrow"><span class="dot"></span> POSCO CENTER · 회사 근처 식당 가이드</div>
+        <h1>포스코센터 근처 점심·저녁 <span class="hl">추천 식당</span></h1>
+        <p class="subtitle">회의, 접대, 팀 점심, 회식 상황에 맞춰 빠르게 고르는 식당 리스트</p>
+        <div class="header-meta">
+          <span class="loc">📍 기준 위치: <b>서울 강남구 테헤란로 440 포스코센터</b></span>
+          <span class="loc">🗺️ 정보 기준: 네이버지도 · 카카오맵</span>
+        </div>
+        <div class="notice">예약 가능 여부, 룸 유무, 영업시간은 변동될 수 있으므로 방문 전 확인이 필요합니다.</div>
+      </div>
+      <div class="header-credit">제작 <b>포스코 마케팅전략실 마케팅운영그룹 한소희</b></div>
+      <div class="poseokho" aria-hidden="true"><img src="poseokho.jpg" alt="" width="314" height="392"></div>
+      <div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 54" preserveAspectRatio="none"><path d="M0,28 C180,52 360,6 560,22 C760,38 900,50 1080,32 C1240,16 1360,34 1440,26 L1440,54 L0,54 Z" fill="#eef2f7"/></svg></div>
+    </header>
+  </div>
+
+  <div class="spec">
+    <h3>D. 직접 만든 영상 — 여기서 먼저 얹어보세요</h3>
+    <p>고른 파일은 <b>어디에도 올라가지 않습니다.</b> 이 브라우저 안에서만 재생되고, 새로고침하면 사라집니다.
+      마음에 들면 그때 저장소에 넣으면 됩니다.</p>
+
+    <div class="drop" id="drop">
+      <p><b>영상 파일을 여기로 끌어다 놓거나 클릭해서 고르세요</b><br>
+        mp4 · webm · mov · gif 다 됩니다</p>
+      <input type="file" id="file" accept="video/*,image/gif" hidden>
+    </div>
+
+    <div class="toggles">
+      <label><input type="checkbox" id="tSafe"> 안전 영역 보기 (글자·크레딧·포석호·물결이 덮는 자리)</label>
+      <label><input type="checkbox" id="tScrim" checked> 어두운 막 씌우기</label>
+    </div>
+
+    <div class="readout" id="readout"></div>
+  </div>
+
+  <div class="spec">
+    <h3>영상 만들 때 규격</h3>
+    <p>헤더는 화면 폭과 상관없이 <b>높이가 311px로 고정</b>된 아주 납작한 띠입니다(실측).
+      그래서 16:9로 만들면 위아래가 잘려 가운데 29%만 보입니다.</p>
+    <ul>
+      <li><b>2560 × 800px (3.2:1)</b>, mp4 (H.264), 소리 없음 — 자동재생 조건입니다</li>
+      <li>길이 <b>8~12초</b>, 첫 프레임과 마지막 프레임을 같게 (반복될 때 안 끊깁니다)</li>
+      <li>용량 <b>2MB 이하</b>, 1MB면 더 좋습니다</li>
+      <li>첫 프레임 <b>JPG 한 장</b>도 같이 — 로딩 중이거나 '모션 줄이기'를 켠 분에게 대신 나갑니다</li>
+      <li>파일명은 <code>header-sep.mp4</code> / <code>header-sep.jpg</code></li>
+    </ul>
+    <p style="margin-top:10px"><b>GIF는 권하지 않습니다.</b> 색을 256개밖에 못 써서 하늘 그라데이션에
+      띠 무늬가 생기고, 2560px 10초면 30~60MB가 나옵니다. 같은 화질이 mp4로는 1MB 안쪽입니다.</p>
+    <p style="margin-top:10px">화면 폭별 헤더 높이 — 1920px·1440px·1280px에서 311px, 768px에서 303px,
+      모바일 390px에서는 글자가 줄바꿈되며 453px로 늘어납니다. 모바일에서는 영상 좌우가 많이 잘리니
+      <b>중요한 건 가운데에</b> 두세요.</p>
+  </div>
+
   <div class="spec">
     <h3>헤더 말고 같이 바뀌는 것</h3>
     <p>계절 스위치를 켜면 문구도 함께 넘어갑니다. 여름 전용으로 박혀 있는 두 군데가 대상입니다.</p>
@@ -276,6 +390,120 @@
     s.style.width = s.style.height = (13 * sc).toFixed(0) + 'px';
     leaves.appendChild(s);
   }
+
+  /* ══════════ 시안 D — 영상 슬롯 ══════════ */
+  (() => {
+    const vd = document.getElementById('vd');
+    const hv = document.getElementById('hv');       // <video>
+    const hg = document.getElementById('hg');       // <img> (gif용)
+    const drop = document.getElementById('drop');
+    const file = document.getElementById('file');
+    const out = document.getElementById('readout');
+    const tSafe = document.getElementById('tSafe');
+    const tScrim = document.getElementById('tScrim');
+    const scrim = vd.querySelector('.scrim');
+    const header = vd.querySelector('.site-header');
+
+    const SPEC = { w: 2560, h: 800, ratio: 3.2, maxMB: 2, minSec: 6, maxSec: 20 };
+    const fmtMB = b => (b / 1048576).toFixed(2) + ' MB';
+    const row = (k, v, cls) => `<tr><td>${k}</td><td class="${cls || ''}">${v}</td></tr>`;
+
+    // 저장소에 파일이 이미 있으면 자동으로 붙는다 (없으면 조용히 넘어감)
+    fetch('header-sep.mp4', { method: 'HEAD' })
+      .then(r => { if (!r.ok) return;
+        hv.poster = 'header-sep.jpg';
+        hv.src = 'header-sep.mp4';
+        hv.onloadeddata = () => { if (!hv.dataset.local) markLoaded(hv, null); };
+      })
+      .catch(() => {});
+
+    function markLoaded(el, f) {
+      vd.classList.add('has-media');
+      const isVid = el.tagName === 'VIDEO';
+      const w = isVid ? el.videoWidth : el.naturalWidth;
+      const h = isVid ? el.videoHeight : el.naturalHeight;
+      const dur = isVid && isFinite(el.duration) ? el.duration : null;
+      const r = w && h ? (w / h) : 0;
+      const hdr = header.getBoundingClientRect();
+      const shown = r ? Math.round(100 * Math.min(1, (hdr.width / hdr.height) / r)) : 0;
+
+      const rows = [];
+      rows.push(row('파일', f ? f.name : 'header-sep.mp4 (저장소)'));
+      rows.push(row('해상도', `${w} × ${h}`, w >= 1600 ? 'ok' : 'bad'));
+      rows.push(row('가로세로비', r ? r.toFixed(2) + ' : 1' : '-',
+        r >= 2.4 && r <= 4.2 ? 'ok' : 'bad'));
+      if (f) rows.push(row('용량', fmtMB(f.size), f.size <= SPEC.maxMB * 1048576 ? 'ok' : 'bad'));
+      if (dur) rows.push(row('길이', dur.toFixed(1) + '초',
+        dur >= SPEC.minSec && dur <= SPEC.maxSec ? 'ok' : 'bad'));
+      if (!isVid) rows.push(row('형식', 'GIF — 화질·용량 손해가 큽니다. mp4 권장', 'bad'));
+      rows.push(row('세로로 보이는 양', shown ? `약 ${shown}%` : '-',
+        shown >= 45 ? 'ok' : 'bad'));
+
+      const tips = [];
+      if (r && (r < 2.4 || r > 4.2)) tips.push(`가로세로비가 권장(${SPEC.ratio}:1)에서 벗어나 위아래가 많이 잘립니다.`);
+      if (w && w < 1600) tips.push('가로 1600px 미만이면 큰 모니터에서 흐릿해집니다.');
+      if (f && f.size > SPEC.maxMB * 1048576) tips.push(`${SPEC.maxMB}MB를 넘습니다. crf 값을 올려 다시 뽑아 주세요.`);
+      if (dur && dur > SPEC.maxSec) tips.push('20초가 넘으면 용량이 커집니다. 8~12초를 권합니다.');
+
+      out.innerHTML = `<table>${rows.join('')}</table>` +
+        (tips.length ? `<p style="margin:10px 0 0;color:var(--danger);font-size:13px">· ${tips.join('<br>· ')}</p>`
+                     : `<p style="margin:10px 0 0;color:var(--ok);font-size:13px">규격에 맞습니다. 이대로 저장소에 넣으시면 됩니다.</p>`);
+    }
+
+    function load(f) {
+      if (!f) return;
+      const url = URL.createObjectURL(f);
+      if (f.type === 'image/gif') {
+        hv.hidden = true; hv.removeAttribute('src'); hg.hidden = false; hg.src = url;
+        hg.onload = () => markLoaded(hg, f);
+      } else {
+        hg.hidden = true; hv.hidden = false; hv.dataset.local = '1'; hv.src = url;
+        hv.onloadeddata = () => markLoaded(hv, f);
+      }
+    }
+
+    drop.addEventListener('click', () => file.click());
+    file.addEventListener('change', e => load(e.target.files[0]));
+    ['dragenter', 'dragover'].forEach(t => drop.addEventListener(t, e => {
+      e.preventDefault(); drop.classList.add('over');
+    }));
+    ['dragleave', 'drop'].forEach(t => drop.addEventListener(t, e => {
+      e.preventDefault(); drop.classList.remove('over');
+    }));
+    drop.addEventListener('drop', e => load(e.dataTransfer.files[0]));
+
+    tScrim.addEventListener('change', () => scrim.style.display = tScrim.checked ? '' : 'none');
+
+    // 안전 영역 — 실제 렌더된 요소 위치를 그대로 읽어 표시
+    let boxes = [];
+    function drawSafe() {
+      boxes.forEach(b => b.remove()); boxes = [];
+      if (!tSafe.checked) return;
+      const hr = header.getBoundingClientRect();
+      const zones = [
+        ['.wrap', '글자 영역 — 여기엔 주인공을 두지 마세요', ''],
+        ['.header-credit', '크레딧', ''],
+        ['.poseokho', '포석호', ''],
+        ['.wave', '물결에 가림', 'warn'],
+      ];
+      zones.forEach(([sel, label, cls]) => {
+        const el = header.querySelector(sel);
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        if (!r.width || !r.height) return;
+        const d = document.createElement('div');
+        d.className = 'sz ' + cls;
+        d.style.left = (r.left - hr.left) + 'px';
+        d.style.top = (r.top - hr.top) + 'px';
+        d.style.width = r.width + 'px';
+        d.style.height = r.height + 'px';
+        d.innerHTML = `<span>${label}</span>`;
+        header.appendChild(d); boxes.push(d);
+      });
+    }
+    tSafe.addEventListener('change', drawSafe);
+    addEventListener('resize', () => { if (tSafe.checked) drawSafe(); });
+  })();
 </script>
 </body>
 </html>
