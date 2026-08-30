@@ -108,3 +108,37 @@
   .hero-media { display: none; }
   .site-header.v3 { background: none; }
 }
+
+/* ==========================================================================
+   Pre-Flight 교정 — 감사에서 걸린 항목
+   ========================================================================== */
+
+/* [Color Consistency Lock] 요약 카드 7개가 파랑·핑크·청록·초록·주황·보라로
+   제각각이었다. 강조색은 하나로 잠그고 구분은 아이콘이 맡는다. */
+.stat:nth-child(1), .stat:nth-child(2), .stat:nth-child(3), .stat:nth-child(4),
+.stat:nth-child(5), .stat:nth-child(6), .stat:nth-child(7) { --ac: #9c2a30; }
+
+/* 도보권 색상은 실제 의미가 있는 4단 척도라 유지하되, 가을 톤으로 다시 맞춤
+   (초록·파랑·앰버·회색 → 올리브·앰버·러스트·웜그레이) */
+:root {
+  --d5:   #4f6b2e; --d5-bg:   #eef3e3; --d5-line:   #cdddb4;
+  --d10:  #8a5a12; --d10-bg:  #fbf0dc; --d10-line:  #eed9a6;
+  --d15:  #a8452c; --d15-bg:  #fbeae4; --d15-line:  #f0cec1;
+  --dcar: #7d6b5d; --dcar-bg: #f2ece4; --dcar-line: #ddd0c1;
+}
+
+/* 표 뷰 — 차가운 흰 줄무늬와 핑크 hover 가 크림 배경에서 겉돌았다 */
+table.rtable tbody tr:nth-child(even) { background: #faf6ef; }
+table.rtable tbody tr.is-pick:hover { background: #f7e8e2; }
+
+/* [Zero decorative dots] 눈썹줄의 초록 점은 아무 상태도 뜻하지 않는 장식이었다 */
+.site-header.v3 .eyebrow .dot { display: none; }
+.site-header.v3 .eyebrow { padding-left: 12px; }
+
+/* [Hero stack discipline] 히어로 밖으로 내린 안내문 — 밝은 배경용 스타일 */
+.notice-page {
+  margin: 22px 0 4px; max-width: none;
+  background: #fbf3e6; border: 1px solid #ecdcbe;
+  border-left: 3px solid #c8922f; color: #6b5220;
+}
+.notice-page::before { color: #b0801f; }
