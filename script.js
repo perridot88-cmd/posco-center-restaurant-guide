@@ -2,6 +2,12 @@
 (function () {
   'use strict';
 
+  /* 계절 스킨 — index.html 이 window.SEASON 으로 지정. 기본은 여름. */
+  const SEASON = (typeof window !== 'undefined' && window.SEASON) || 'summer';
+  const COOL_RE = /냉면|밀면|콩국수|물회|막회|냉소바|초계/;
+  const WARM_RE = /곰탕|국밥|순대국|칼국수|전골|샤브|해장|미역국|국시|삼계|추어|만두국/;
+  const menuText = r => r.representativeMenus.join() + r.subType;
+
   const CONFIRM = '확인 필요';
   const FAV_KEY = 'posco_restaurant_favs';
 
@@ -30,12 +36,15 @@
       label: '이용 목적',
       options: [
         { v: '작성자 최애', t: '❤️ 작성자 최애' },
-        { v: '시원한 메뉴', t: '🧊 시원한 메뉴' },
+        SEASON === 'autumn'
+          ? { v: '뜨끈한 국물', t: '🍂 뜨끈한 국물' }
+          : { v: '시원한 메뉴', t: '🧊 시원한 메뉴' },
         ...['팀 점심', '임원 동석', '외부 손님 접대', '회식', '조용한 대화', '빠른 식사', '가성비', '분위기 좋은 곳'].map(v => ({ v, t: v })),
       ],
       match: (r, sel) => sel.every(v => {
         if (v === '작성자 최애') return !!r.authorPick;
-        if (v === '시원한 메뉴') return /냉면|밀면|콩국수|물회|막회|냉소바|초계/.test(r.representativeMenus.join() + r.subType);
+        if (v === '시원한 메뉴') return COOL_RE.test(menuText(r));
+        if (v === '뜨끈한 국물') return WARM_RE.test(menuText(r));
         if (v === '분위기 좋은 곳') return r.atmosphere.some(a => a.includes('분위기 좋음'));
         return r.recommendedFor.includes(v);
       }),
@@ -84,7 +93,6 @@
   };
 
   /* 계절 스킨 — index.html은 기본 여름, ver3.html은 window.SEASON='autumn' 을 미리 설정 */
-  const SEASON = (typeof window !== 'undefined' && window.SEASON) || 'summer';
 
   // 상황별 추천 버튼 → 필터 프리셋
   const SITUATIONS = [
@@ -141,8 +149,8 @@
     total:  { lbl: '전체 식당', ico: '🍽️', pred: () => true },
     picks:  { lbl: '작성자 최애', ico: '❤️', pred: r => !!r.authorPick },
     cool:   SEASON === 'autumn'
-      ? { lbl: '쌀쌀한 날', ico: '🍂', pred: r => /곰탕|국밥|순대국|칼국수|전골|샤브|해장|미역국|국시|삼계|추어|만두국/.test(r.representativeMenus.join() + r.subType) }
-      : { lbl: '폭염날', ico: '🧊', pred: r => /냉면|밀면|콩국수|물회|막회|냉소바|초계/.test(r.representativeMenus.join() + r.subType) },
+      ? { lbl: '쌀쌀한 날', ico: '🍂', pred: r => WARM_RE.test(menuText(r)) }
+      : { lbl: '폭염날', ico: '🧊', pred: r => COOL_RE.test(menuText(r)) },
     room:   { lbl: '룸 보유(확인됨)', ico: '🚪', pred: r => r.room.status === '있음' },
     resv:   { lbl: '예약 가능·권장', ico: '📅', pred: r => ['예약 가능', '예약 권장'].includes(r.reservation.status) },
     lunch:  { lbl: '점심 추천', ico: '☀️', pred: r => r.mealTime.includes('lunch') && r.recommendedFor.some(x => ['팀 점심', '빠른 식사', '가성비'].includes(x)) },
