@@ -13,15 +13,24 @@ UNTIL=$(date -d "${SINCE} +1 month -1 day" +%Y-%m-%d)
 echo "대상 월: $MONTH ($SINCE ~ $UNTIL)"
 
 # ── projectId / teamId 자동 조회 ──
-TEAM_IDS=$(curl -fsS "${AUTH[@]}" "$API/v2/teams?limit=50" | jq -r '.teams[].id')
+# 개인 계정 토큰은 /v2/teams 가 403 이므로, 먼저 팀 없이 조회하고 실패할 때만 팀을 훑는다.
 PROJECT_ID=""; TEAM_ID=""
-for t in "" $TEAM_IDS; do
-  q=""; [ -n "$t" ] && q="?teamId=$t"
-  if pid=$(curl -fsS "${AUTH[@]}" "$API/v9/projects/$PROJECT_NAME$q" 2>/dev/null | jq -r '.id // empty'); then
-    if [ -n "$pid" ]; then PROJECT_ID="$pid"; TEAM_ID="$t"; break; fi
+lookup() { # $1 = teamId(빈 문자열 가능) → 성공 시 project id 출력
+  local q=""; [ -n "$1" ] && q="?teamId=$1"
+  curl -sS "${AUTH[@]}" "$API/v9/projects/$PROJECT_NAME$q" | jq -r '.id // empty'
+}
+PROJECT_ID=$(lookup "") || true
+if [ -z "$PROJECT_ID" ]; then
+  echo "개인 계정에서 못 찾음 → 팀 목록 확인"
+  TEAMS_JSON=$(curl -sS "${AUTH[@]}" "$API/v2/teams?limit=50" || echo '{}')
+  if echo "$TEAMS_JSON" | jq -e '.error' >/dev/null 2>&1; then
+    echo "팀 목록 조회 불가: $(echo "$TEAMS_JSON" | jq -r '.error.message // "권한 없음"')"
   fi
-done
-[ -n "$PROJECT_ID" ] || { echo "프로젝트를 찾지 못했습니다"; exit 1; }
+  for t in $(echo "$TEAMS_JSON" | jq -r '.teams[]?.id'); do
+    pid=$(lookup "$t"); if [ -n "$pid" ]; then PROJECT_ID="$pid"; TEAM_ID="$t"; break; fi
+  done
+fi
+[ -n "$PROJECT_ID" ] || { echo "프로젝트 '$PROJECT_NAME' 을 찾지 못했습니다. 토큰 소유 계정을 확인하세요."; exit 1; }
 echo "projectId=$PROJECT_ID teamId=${TEAM_ID:-(personal)}"
 TQ=(); [ -n "$TEAM_ID" ] && TQ=(--data-urlencode "teamId=$TEAM_ID")
 
