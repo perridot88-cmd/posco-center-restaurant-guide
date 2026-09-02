@@ -8,6 +8,19 @@
   const WARM_RE = /곰탕|국밥|순대국|칼국수|전골|샤브|해장|미역국|국시|삼계|추어|만두국/;
   const menuText = r => r.representativeMenus.join() + r.subType;
 
+  /* 필터 적용 후 결과로 이동 — sticky 컨트롤 바에 첫 줄 카드가 가리지 않게 여백을 두고,
+     결과 바가 이미 화면 안에 있으면 움직이지 않는다 */
+  function scrollToResults() {
+    const bar = document.querySelector('.result-bar'); if (!bar) return;
+    const ctl = document.querySelector('.controls');
+    const stickyH = ctl && getComputedStyle(ctl).position === 'sticky' ? ctl.getBoundingClientRect().height + 10 : 0;
+    const r = bar.getBoundingClientRect();
+    const visible = r.top >= stickyH && r.top <= window.innerHeight * 0.55;
+    if (visible) return;
+    const y = window.scrollY + r.top - stickyH - 18;
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+  }
+
   const CONFIRM = '확인 필요';
   const FAV_KEY = 'posco_restaurant_favs';
 
@@ -174,7 +187,7 @@
     state.kpi = turnOff ? null : key;
     syncChips(); syncKpi(); render();
     toast(state.kpi ? `'${KPI[key].lbl}' 기준으로 정렬·필터링했습니다.` : '전체 목록을 표시합니다.');
-    document.querySelector('.result-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    scrollToResults();
   }
   function syncKpi() {
     els.summary.querySelectorAll('[data-kpi]').forEach(b => {
@@ -203,7 +216,7 @@
     syncChips();
     render();
     toast('상황별 추천을 적용했습니다.');
-    document.querySelector('.result-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    scrollToResults();
   }
 
   /* ---------- 필터 칩 ---------- */
