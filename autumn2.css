@@ -1,0 +1,58 @@
+/* ==========================================================================
+   가을 시안 2 — "포근한 서재". 메인(index.html)에는 적용되지 않는다.
+   ========================================================================== */
+
+/* 새틴 결 질감 — 영상의 촉감을 페이지 전체로. 움직이지 않는다. */
+body {
+  background-color: #f7f1e8;
+  background-image:
+    repeating-linear-gradient(112deg, rgba(255,255,255,.28) 0 2px, rgba(255,255,255,0) 2px 9px),
+    repeating-linear-gradient(-24deg, rgba(120,60,50,.035) 0 1px, rgba(120,60,50,0) 1px 14px),
+    radial-gradient(1200px 500px at 50% -10%, rgba(255,255,255,.55), transparent 70%);
+  background-attachment: fixed;
+}
+
+/* 정지컷 스택 — 두 장면을 살짝 겹쳐, 늘 같은 모습. 클릭하면 영상. */
+.still-stack {
+  position: relative; aspect-ratio: 1024 / 660; cursor: pointer; outline: none;
+  border-radius: 18px;
+}
+.still-stack:focus-visible { box-shadow: 0 0 0 3px rgba(224,169,74,.75); }
+.still {
+  position: absolute; width: 78%; height: auto; border-radius: 14px; display: block;
+  box-shadow: 0 16px 40px -14px rgba(30,8,10,.65), 0 0 0 1px rgba(255,236,214,.22);
+  transition: transform .5s cubic-bezier(.16,1,.3,1);
+}
+.still-a { left: 0; top: 0; transform: rotate(-2.2deg); }   /* 뒤: 좌상단, 문구가 왼쪽이라 오른쪽이 가려져도 읽힘 */
+.still-b { right: 0; bottom: 0; transform: rotate(1.6deg); } /* 앞: 우하단 */
+.still-stack:hover .still-a { transform: rotate(-3deg) translateY(-3px); }
+.still-stack:hover .still-b { transform: rotate(2.4deg) translateY(3px); }
+.still-play {
+  position: absolute; left: 50%; bottom: -6px; transform: translateX(-50%);
+  padding: 6px 13px; border-radius: 999px; font-size: 12px; font-weight: 800; letter-spacing: .04em;
+  background: rgba(59,26,18,.82); color: #f6e3d3; border: 1px solid rgba(255,236,214,.25);
+  backdrop-filter: blur(4px);
+}
+.still-stack.is-video .still, .still-stack.is-video .still-play { display: none; }
+.still-stack.is-video { aspect-ratio: auto; cursor: default; }
+.still-stack.is-video .hero-media { position: static; }
+
+/* 요약 카드 — 숫자가 도착하는 느낌만. 나머지는 정지. */
+.stat .num { font-variant-numeric: tabular-nums; }
+
+@media (prefers-reduced-motion: reduce) {
+  .still { transition: none; }
+}
+@media (max-width: 900px) {
+  .still-stack { max-width: 460px; }
+}
+
+/* 카드 폴더 탭 — 원색 9종을 와인·앰버·올리브·모카 4톤으로. 인라인 --cat 보다 우선해야 해서 !important */
+.rcard[data-cat="고기/구이"] .c-tab, .rcard[data-cat="중식"] .c-tab { background: #8f2a30 !important; }
+.rcard[data-cat="한식"] .c-tab, .rcard[data-cat="분식/가벼운 식사"] .c-tab { background: #a8701f !important; }
+.rcard[data-cat="일식"] .c-tab, .rcard[data-cat="해산물"] .c-tab { background: #5b6b2e !important; }
+.rcard[data-cat="양식"] .c-tab, .rcard[data-cat="카페/디저트"] .c-tab, .rcard[data-cat="기타"] .c-tab { background: #6b4a3a !important; }
+/* 스탬프 색도 같은 톤 */
+.c-stamp.room { color: #5b6b2e; }
+.c-stamp.pick { color: #8f2a30; }
+.c-stamp.grill { color: #a8701f; }
