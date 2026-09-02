@@ -5,40 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>포스코센터 근처 점심·저녁 추천 식당</title>
   <meta name="description" content="포스코센터 근처 점심·저녁 식당을 상황별로 빠르게 고르는 사내 공유용 가이드">
-  <meta name="theme-color" content="#0a2540">
+  <meta name="theme-color" content="#6d1d24">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ver3.css">
+  <script>window.SEASON = "autumn";</script>
 </head>
 <body>
   <!-- 헤더 -->
-  <header class="site-header summer">
-    <div class="wrap">
-      <div class="header-credit">
+  <header class="site-header v3">
+    <div class="hero-grid wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> POSCO CENTER · 회사 근처 식당 가이드</div>
+        <h1>포스코센터 근처 점심·저녁 <span class="hl">추천 식당</span></h1>
+        <p class="subtitle">회의, 접대, 팀 점심, 회식 상황에 맞춰 빠르게 고르는 식당 리스트</p>
+        <div class="header-meta">
+          <span class="loc">📍 기준 위치: <b>서울 강남구 테헤란로 440 포스코센터</b></span>
+          <span class="loc">🗺️ 정보 기준: 네이버지도 · 카카오맵 (2026-08-09 기준)</span>
+        </div>
+      </div>
+
+      <figure class="hero-media">
+        <video src="header-sep.mp4" poster="header-sep.jpg" autoplay muted loop playsinline
+               aria-label="식당 가이드 배너 영상"></video>
+      </figure>
+    </div>
+
+    <div class="header-credit wrap">
+      <div class="psh-avatar" aria-hidden="true"><img src="poseokho.jpg" alt="" width="314" height="392"></div>
+      <div class="hc-text">
         제작 <b>포스코 마케팅전략실 마케팅운영그룹 한소희</b>
         <span class="hc-sub">궁금한 점이나 식당 추가·수정 요청은 사내 Teams로 편하게 남겨주세요 😊</span>
         <span class="hc-sub">개인적으로 만든 페이지라 바로 반영은 어렵지만, 한 달에 한 번 정성껏 업데이트하겠습니다 🙏</span>
       </div>
-      <div class="eyebrow"><span class="dot"></span> POSCO CENTER · 회사 근처 식당 가이드</div>
-      <h1>포스코센터 근처 점심·저녁 <span class="hl">추천 식당</span></h1>
-      <p class="subtitle">회의, 접대, 팀 점심, 회식 상황에 맞춰 빠르게 고르는 식당 리스트</p>
-      <div class="header-meta">
-        <span class="loc">📍 기준 위치: <b>서울 강남구 테헤란로 440 포스코센터</b></span>
-        <span class="loc">🗺️ 정보 기준: 네이버지도 · 카카오맵 (2026-08-09 기준)</span>
-      </div>
-      <div class="notice">예약 가능 여부, 룸 유무, 영업시간은 변동될 수 있으므로 방문 전 확인이 필요합니다.</div>
     </div>
 
-    <!-- 포석호 (POSCO 오픈소스 캐릭터) — 공식 이미지 CSS 크롭 + 소프트 마스크 -->
-    <div class="poseokho" aria-hidden="true">
-      <img src="poseokho.jpg" alt="" width="314" height="392">
-    </div>
-
-    <div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 54" preserveAspectRatio="none"><path d="M0,28 C180,52 360,6 560,22 C760,38 900,50 1080,32 C1240,16 1360,34 1440,26 L1440,54 L0,54 Z" fill="#eef2f7"/></svg></div>
+    <div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 54" preserveAspectRatio="none"><path d="M0,28 C180,52 360,6 560,22 C760,38 900,50 1080,32 C1240,16 1360,34 1440,26 L1440,54 L0,54 Z" fill="#f7f1e8"/></svg></div>
   </header>
 
   <main class="wrap">
+    <div class="notice notice-page">예약 가능 여부, 룸 유무, 영업시간은 변동될 수 있으므로 방문 전 확인이 필요합니다.</div>
+
     <!-- 요약 카드 -->
     <section class="summary" id="summary" aria-label="요약 통계"></section>
 
@@ -174,5 +183,16 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
+  <script>
+    // 일부 브라우저는 백그라운드 탭에서 autoplay 를 미룬다. 보이면 한 번 더 시도.
+    (() => {
+      const v = document.querySelector('.hero-media video');
+      if (!v) return;
+      const go = () => v.play().catch(() => {});
+      go();
+      document.addEventListener('visibilitychange', () => { if (!document.hidden) go(); });
+      new IntersectionObserver(e => e[0].isIntersecting && go()).observe(v);
+    })();
+  </script>
 </body>
 </html>
