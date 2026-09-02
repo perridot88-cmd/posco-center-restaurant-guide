@@ -9193,5 +9193,74 @@
     "priority": 2,
     "authorPick": null,
     "grillService": null
+  },
+  {
+    "id": "restaurant-137",
+    "name": "진양재순대 선릉점",
+    "category": "한식",
+    "subType": "순대국",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "순대국",
+      "순대",
+      "수육"
+    ],
+    "lunchPriceRange": "1만원대",
+    "dinnerPriceRange": "1만원대",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 선릉로90길 64 지하1층",
+    "phone": "070-4194-9400",
+    "businessHours": "월~금 10:00~21:00",
+    "breakTime": "15:00~16:00",
+    "closedDays": "확인 필요",
+    "lunchMenu": "순대국 11,000원(리뷰 기준)",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사",
+      "가성비"
+    ],
+    "atmosphere": [
+      "활기참",
+      "깔끔함"
+    ],
+    "tags": [
+      "순대국",
+      "빠른 식사",
+      "가성비",
+      "도보 5분"
+    ],
+    "comment": "삼성점보다 가까운 진양재 지점. 지하 매장이라 점심 피크엔 줄이 생기는 편.",
+    "cautions": "카카오맵에 평일 영업시간만 표기돼 주말 영업 여부는 확인 필요. 룸·예약·주차 미확인. 리뷰에 웨이팅 언급 있음.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%A7%84%EC%96%91%EC%9E%AC%EC%88%9C%EB%8C%80%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%A7%84%EC%96%91%EC%9E%AC%EC%88%9C%EB%8C%80%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%A7%84%EC%96%91%EC%9E%AC%EC%88%9C%EB%8C%80%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%A7%84%EC%96%91%EC%9E%AC%EC%88%9C%EB%8C%80%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    ],
+    "lastVerified": "2026-08-09",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
   }
 ]
