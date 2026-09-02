@@ -72,7 +72,7 @@
   background: #2a1014;
 }
 .hero-media video, .hero-media img.hm {
-  display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
+  display: block; width: 100%; height: auto; aspect-ratio: 1024 / 768; object-fit: cover;
 }
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 22px; }
@@ -156,3 +156,21 @@ table.rtable tbody tr.is-pick:hover { background: #f7e8e2; }
   .view-toggle button:active, .rcard-foot button:active, .rcard-foot a:active,
   .back-top:active, select.select:active { transform: none; }
 }
+
+/* ==========================================================================
+   헤더 우측 열 — 영상 아래에 크레딧. 포석호는 제거.
+   ========================================================================== */
+.hero-side { min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+.site-header.v3 .hero-side .header-credit {
+  margin: 0; padding: 0; border-top: 0; display: block; text-align: right;
+}
+.site-header.v3 .hero-side .header-credit .hc-text { align-items: flex-end; }
+.site-header.v3 .hero-side .header-credit .hc-sub { line-height: 1.5; }
+.psh-avatar { display: none; }
+@media (max-width: 900px) {
+  .hero-side { max-width: 460px; }
+  .site-header.v3 .hero-side .header-credit { text-align: left; }
+  .site-header.v3 .hero-side .header-credit .hc-text { align-items: flex-start; }
+}
+/* 안내문 — 요약 카드 아래 (카드가 헤더 물결에 겹치도록 위로 당겨져 있어 그 위에 두면 가려짐) */
+.notice-page { margin: 18px 0 6px; }

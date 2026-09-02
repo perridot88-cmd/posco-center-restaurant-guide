@@ -27,18 +27,18 @@
         </div>
       </div>
 
-      <figure class="hero-media">
-        <video src="header-sep.mp4" poster="header-sep.jpg" autoplay muted loop playsinline
-               aria-label="식당 가이드 배너 영상"></video>
-      </figure>
-    </div>
-
-    <div class="header-credit wrap">
-      <div class="psh-avatar" aria-hidden="true"><img src="poseokho.jpg" alt="" width="314" height="392"></div>
-      <div class="hc-text">
-        제작 <b>포스코 마케팅전략실 마케팅운영그룹 한소희</b>
-        <span class="hc-sub">궁금한 점이나 식당 추가·수정 요청은 사내 Teams로 편하게 남겨주세요 😊</span>
-        <span class="hc-sub">개인적으로 만든 페이지라 바로 반영은 어렵지만, 한 달에 한 번 정성껏 업데이트하겠습니다 🙏</span>
+      <div class="hero-side">
+        <figure class="hero-media">
+          <video src="header-sep.mp4" poster="header-sep.jpg" autoplay muted loop playsinline preload="auto"
+                 aria-label="식당 가이드 배너 영상"></video>
+        </figure>
+        <div class="header-credit">
+          <div class="hc-text">
+            제작 <b>포스코 마케팅전략실 마케팅운영그룹 한소희</b>
+            <span class="hc-sub">궁금한 점이나 식당 추가·수정 요청은 사내 Teams로 편하게 남겨주세요 😊</span>
+            <span class="hc-sub">개인적으로 만든 페이지라 바로 반영은 어렵지만, 한 달에 한 번 정성껏 업데이트하겠습니다 🙏</span>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -46,10 +46,11 @@
   </header>
 
   <main class="wrap">
-    <div class="notice notice-page">예약 가능 여부, 룸 유무, 영업시간은 변동될 수 있으므로 방문 전 확인이 필요합니다.</div>
-
     <!-- 요약 카드 -->
     <section class="summary" id="summary" aria-label="요약 통계"></section>
+
+    <div class="notice notice-page">예약 가능 여부, 룸 유무, 영업시간은 변동될 수 있으므로 방문 전 확인이 필요합니다.</div>
+
 
     <!-- 상황별 추천 -->
     <h2 class="section-title">상황별 빠른 추천</h2>
@@ -184,15 +185,20 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
   <script>
-    // 일부 브라우저는 백그라운드 탭에서 autoplay 를 미룬다. 보이면 한 번 더 시도.
-    (() => {
-      const v = document.querySelector('.hero-media video');
-      if (!v) return;
-      const go = () => v.play().catch(() => {});
-      go();
-      document.addEventListener('visibilitychange', () => { if (!document.hidden) go(); });
-      new IntersectionObserver(e => e[0].isIntersecting && go()).observe(v);
-    })();
+  // 자동재생이 막힌 환경(회사 PC 엣지 정책, 절전 모드 등)을 위한 안전장치.
+  // muted 영상은 원칙적으로 자동재생되지만, 안 될 때는 첫 상호작용 때 다시 시도한다.
+  (() => {
+    const v = document.querySelector('.hero-media video');
+    if (!v) return;
+    v.muted = true; v.defaultMuted = true;
+    const go = () => { const p = v.play(); if (p && p.catch) p.catch(() => {}); };
+    go();
+    const EV = ['pointerdown', 'keydown', 'touchstart', 'wheel', 'scroll'];
+    const once = () => { go(); EV.forEach(t => removeEventListener(t, once, true)); };
+    EV.forEach(t => addEventListener(t, once, true));
+    document.addEventListener('visibilitychange', () => { if (!document.hidden && v.paused) go(); });
+    v.addEventListener('loadeddata', () => { if (v.paused) go(); });
+  })();
   </script>
 </body>
 </html>
