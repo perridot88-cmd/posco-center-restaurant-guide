@@ -9262,5 +9262,2559 @@
     "priority": 2,
     "authorPick": null,
     "grillService": null
+  },
+  {
+    "id": "restaurant-138",
+    "name": "선향정 샤브샤브 선릉점",
+    "category": "일식",
+    "subType": "샤브샤브",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 2,
+    "distanceLabel": "도보 2분",
+    "address": "서울 강남구 선릉로90길 72 지하1층",
+    "phone": "02-555-8021",
+    "businessHours": "월~금 10:30~20:30 (LO 20:00)",
+    "breakTime": "15:00~16:30",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "가성비"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "샤브샤브",
+      "웨이팅 주의",
+      "도보 2분"
+    ],
+    "comment": "포스코센터 바로 옆 샤브. 웨이팅이 잦고 한번 밀리면 오래 걸려 팀 점심엔 부적합.",
+    "cautions": "작성자 확인: 점심 웨이팅이 길다. 시간 여유 있을 때만. 카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%84%A0%ED%96%A5%EC%A0%95%20%EC%83%A4%EB%B8%8C%EC%83%A4%EB%B8%8C%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%84%A0%ED%96%A5%EC%A0%95%20%EC%83%A4%EB%B8%8C%EC%83%A4%EB%B8%8C%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%84%A0%ED%96%A5%EC%A0%95%20%EC%83%A4%EB%B8%8C%EC%83%A4%EB%B8%8C%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%84%A0%ED%96%A5%EC%A0%95%20%EC%83%A4%EB%B8%8C%EC%83%A4%EB%B8%8C%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-139",
+    "name": "해담채 삼성점",
+    "category": "한식",
+    "subType": "한정식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 2,
+    "distanceLabel": "도보 2분",
+    "address": "서울 강남구 테헤란로 504 해성1빌딩 지하1층",
+    "phone": "02-528-1997",
+    "businessHours": "월~금 11:00~22:00",
+    "breakTime": "14:30~17:30",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "외부 손님 접대",
+      "임원 동석",
+      "회식"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "한정식",
+      "접대",
+      "도보 2분"
+    ],
+    "comment": "포스코센터 길 건너 한정식. 접대·임원 식사 후보로 가장 가까운 곳.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%95%B4%EB%8B%B4%EC%B1%84%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%ED%95%B4%EB%8B%B4%EC%B1%84%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%ED%95%B4%EB%8B%B4%EC%B1%84%20%EC%82%BC%EC%84%B1%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%ED%95%B4%EB%8B%B4%EC%B1%84%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "http://www.haedamche.com/"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 1,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-140",
+    "name": "수림복국 별관",
+    "category": "해산물",
+    "subType": "복어",
+    "mealTime": [
+      "lunch"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 3,
+    "distanceLabel": "도보 3분",
+    "address": "서울 강남구 테헤란로77길 6 2층",
+    "phone": "확인 필요",
+    "businessHours": "월~금 10:00~15:00 (점심만)",
+    "breakTime": "없음",
+    "closedDays": "주말 휴무(카카오맵 기준)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "외부 손님 접대",
+      "임원 동석",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "복어",
+      "접대",
+      "도보 3분"
+    ],
+    "comment": "복국 별관. 점심 특선 운영.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%88%98%EB%A6%BC%EB%B3%B5%EA%B5%AD%20%EB%B3%84%EA%B4%80",
+      "kakao": "https://map.kakao.com/?q=%EC%88%98%EB%A6%BC%EB%B3%B5%EA%B5%AD%20%EB%B3%84%EA%B4%80",
+      "google": "https://www.google.com/maps/search/%EC%88%98%EB%A6%BC%EB%B3%B5%EA%B5%AD%20%EB%B3%84%EA%B4%80"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%88%98%EB%A6%BC%EB%B3%B5%EA%B5%AD%20%EB%B3%84%EA%B4%80"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 1,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-141",
+    "name": "부탄츄 선릉점",
+    "category": "일식",
+    "subType": "라멘",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 3,
+    "distanceLabel": "도보 3분",
+    "address": "서울 강남구 삼성로85길 33 2층 202호",
+    "phone": "확인 필요",
+    "businessHours": "매일 11:00~21:00 (LO 20:30)",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "라멘",
+      "도보 3분"
+    ],
+    "comment": "삼성로85길 2층 라멘.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B6%80%ED%83%84%EC%B8%84%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%B6%80%ED%83%84%EC%B8%84%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%B6%80%ED%83%84%EC%B8%84%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%B6%80%ED%83%84%EC%B8%84%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-142",
+    "name": "보노보노 삼성점",
+    "category": "기타",
+    "subType": "해산물 뷔페",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "5만원 이상",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 테헤란로 508 해성2빌딩 지하1층",
+    "phone": "02-3288-8080",
+    "businessHours": "월~금 11:30~21:00",
+    "breakTime": "14:30~17:30",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "뷔페",
+      "해산물",
+      "도보 4분"
+    ],
+    "comment": "해성2빌딩 지하 해산물 뷔페. 단체 회식용.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B3%B4%EB%85%B8%EB%B3%B4%EB%85%B8%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%B3%B4%EB%85%B8%EB%B3%B4%EB%85%B8%20%EC%82%BC%EC%84%B1%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%B3%B4%EB%85%B8%EB%B3%B4%EB%85%B8%20%EC%82%BC%EC%84%B1%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%B3%B4%EB%85%B8%EB%B3%B4%EB%85%B8%20%EC%82%BC%EC%84%B1%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-143",
+    "name": "참치공방 선릉점",
+    "category": "해산물",
+    "subType": "참치",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 삼성로85길 39 가리온빌딩 2층",
+    "phone": "02-501-3328",
+    "businessHours": "월~토 11:30~22:00",
+    "breakTime": "15:00~17:00",
+    "closedDays": "일요일(카카오맵 기준)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "참치",
+      "도보 4분"
+    ],
+    "comment": "삼성로85길 2층 참치. 리뷰 맛 평이 갈림.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B0%B8%EC%B9%98%EA%B3%B5%EB%B0%A9%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%B0%B8%EC%B9%98%EA%B3%B5%EB%B0%A9%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%B0%B8%EC%B9%98%EA%B3%B5%EB%B0%A9%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%B0%B8%EC%B9%98%EA%B3%B5%EB%B0%A9%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-144",
+    "name": "애니홀",
+    "category": "양식",
+    "subType": "이탈리안",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 테헤란로77길 11-10 소망빌딩 1층",
+    "phone": "02-563-3433",
+    "businessHours": "월~금 11:00~22:00 (LO 21:30)",
+    "breakTime": "15:00~17:00",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "파스타",
+      "이탈리안",
+      "도보 4분"
+    ],
+    "comment": "테헤란로77길 이탈리안.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%95%A0%EB%8B%88%ED%99%80",
+      "kakao": "https://map.kakao.com/?q=%EC%95%A0%EB%8B%88%ED%99%80",
+      "google": "https://www.google.com/maps/search/%EC%95%A0%EB%8B%88%ED%99%80"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%95%A0%EB%8B%88%ED%99%80"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-145",
+    "name": "온밥 숯불생선구이",
+    "category": "한식",
+    "subType": "생선구이",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 테헤란로84길 26 2층",
+    "phone": "010-3993-6463",
+    "businessHours": "월~금 10:30~22:00 (LO 21:30)",
+    "breakTime": "15:00~17:00",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "가성비"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "생선구이",
+      "백반",
+      "도보 4분"
+    ],
+    "comment": "생선구이 백반. 속 편한 점심.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%98%A8%EB%B0%A5",
+      "kakao": "https://map.kakao.com/?q=%EC%98%A8%EB%B0%A5",
+      "google": "https://www.google.com/maps/search/%EC%98%A8%EB%B0%A5"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%98%A8%EB%B0%A5"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-146",
+    "name": "수림복국 삼성본점",
+    "category": "해산물",
+    "subType": "복어",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 테헤란로77길 11-13 1층",
+    "phone": "확인 필요",
+    "businessHours": "월~금 11:00~21:30",
+    "breakTime": "15:00~17:00",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "외부 손님 접대",
+      "임원 동석",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "복어",
+      "접대",
+      "점심 코스",
+      "도보 4분"
+    ],
+    "comment": "복어 전문 본점. 점심 코스 운영.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%88%98%EB%A6%BC%EB%B3%B5%EA%B5%AD%20%EC%84%A0%EB%A6%89%20%EC%82%BC%EC%84%B1%20%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%88%98%EB%A6%BC%EB%B3%B5%EA%B5%AD%20%EC%84%A0%EB%A6%89%20%EC%82%BC%EC%84%B1%20%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%88%98%EB%A6%BC%EB%B3%B5%EA%B5%AD%20%EC%84%A0%EB%A6%89%20%EC%82%BC%EC%84%B1%20%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%88%98%EB%A6%BC%EB%B3%B5%EA%B5%AD%20%EC%84%A0%EB%A6%89%20%EC%82%BC%EC%84%B1%20%EB%B3%B8%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 1,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-147",
+    "name": "우노",
+    "category": "고기/구이",
+    "subType": "한우",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 4,
+    "distanceLabel": "도보 4분",
+    "address": "서울 강남구 테헤란로70길 10 동헌빌딩 2층",
+    "phone": "02-508-7073",
+    "businessHours": "월~토 10:00~22:00",
+    "breakTime": "없음",
+    "closedDays": "일요일(카카오맵 기준)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "외부 손님 접대",
+      "임원 동석"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "한우",
+      "회식 가능",
+      "도보 4분"
+    ],
+    "comment": "테헤란로70길 한우집. 회식·접대용.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9A%B0%EB%85%B8",
+      "kakao": "https://map.kakao.com/?q=%EC%9A%B0%EB%85%B8",
+      "google": "https://www.google.com/maps/search/%EC%9A%B0%EB%85%B8"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%9A%B0%EB%85%B8"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-148",
+    "name": "숯칼 숯불닭구이 칼국수",
+    "category": "고기/구이",
+    "subType": "숯불닭구이·칼국수",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로91길 38 1층",
+    "phone": "02-552-5051",
+    "businessHours": "월~금 11:00~22:30",
+    "breakTime": "없음",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "회식",
+      "가성비"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "숯불닭",
+      "칼국수",
+      "도보 5분"
+    ],
+    "comment": "숯불닭구이에 칼국수. 리뷰 맛·가격 신호가 높음.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%88%AF%EC%B9%BC%20%EC%88%AF%EB%B6%88%EB%8B%AD%EA%B5%AC%EC%9D%B4%20%EC%B9%BC%EA%B5%AD%EC%88%98",
+      "kakao": "https://map.kakao.com/?q=%EC%88%AF%EC%B9%BC%20%EC%88%AF%EB%B6%88%EB%8B%AD%EA%B5%AC%EC%9D%B4%20%EC%B9%BC%EA%B5%AD%EC%88%98",
+      "google": "https://www.google.com/maps/search/%EC%88%AF%EC%B9%BC%20%EC%88%AF%EB%B6%88%EB%8B%AD%EA%B5%AC%EC%9D%B4%20%EC%B9%BC%EA%B5%AD%EC%88%98"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%88%AF%EC%B9%BC%20%EC%88%AF%EB%B6%88%EB%8B%AD%EA%B5%AC%EC%9D%B4%20%EC%B9%BC%EA%B5%AD%EC%88%98"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-149",
+    "name": "호신각",
+    "category": "중식",
+    "subType": "중식당",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 테헤란로81길 16 화성빌딩 2층",
+    "phone": "02-553-2888",
+    "businessHours": "월~금 11:00~21:30 (LO 21:10)",
+    "breakTime": "없음",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "회식",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "중식",
+      "도보 5분"
+    ],
+    "comment": "테헤란로81길 2층 중식당. 분위기 평이 좋음.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%98%B8%EC%8B%A0%EA%B0%81",
+      "kakao": "https://map.kakao.com/?q=%ED%98%B8%EC%8B%A0%EA%B0%81",
+      "google": "https://www.google.com/maps/search/%ED%98%B8%EC%8B%A0%EA%B0%81"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%ED%98%B8%EC%8B%A0%EA%B0%81"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-150",
+    "name": "명우돈가",
+    "category": "고기/구이",
+    "subType": "소고기 구이",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로96길 6 1층",
+    "phone": "02-558-3392",
+    "businessHours": "월~금 11:00~23:00",
+    "breakTime": "없음",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "소고기",
+      "회식 가능",
+      "도보 5분"
+    ],
+    "comment": "삼성로96길 소고기 구이.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%AA%85%EC%9A%B0%EB%8F%88%EA%B0%80",
+      "kakao": "https://map.kakao.com/?q=%EB%AA%85%EC%9A%B0%EB%8F%88%EA%B0%80",
+      "google": "https://www.google.com/maps/search/%EB%AA%85%EC%9A%B0%EB%8F%88%EA%B0%80"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%AA%85%EC%9A%B0%EB%8F%88%EA%B0%80"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-151",
+    "name": "백반 감자탕",
+    "category": "한식",
+    "subType": "백반/감자탕",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 테헤란로88길 10 신안메트로칸 지하1층 B106호",
+    "phone": "02-568-0117",
+    "businessHours": "월~금 08:00~21:00",
+    "breakTime": "없음",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사",
+      "가성비"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "백반",
+      "감자탕",
+      "도보 5분"
+    ],
+    "comment": "테헤란로88길 지하 백반집. 점심 회전용.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B0%B1%EB%B0%98%20%EA%B0%90%EC%9E%90%ED%83%95",
+      "kakao": "https://map.kakao.com/?q=%EB%B0%B1%EB%B0%98%20%EA%B0%90%EC%9E%90%ED%83%95",
+      "google": "https://www.google.com/maps/search/%EB%B0%B1%EB%B0%98%20%EA%B0%90%EC%9E%90%ED%83%95"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%B0%B1%EB%B0%98%20%EA%B0%90%EC%9E%90%ED%83%95"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-152",
+    "name": "선릉을지순대국 선릉점",
+    "category": "한식",
+    "subType": "순대국",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 선릉로86길 46 RG빌딩 1층",
+    "phone": "02-565-6777",
+    "businessHours": "매일 00:00~24:00 (24시간)",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사",
+      "가성비"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "순대국",
+      "도보 5분"
+    ],
+    "comment": "농민백암 바로 옆 순대국. 웨이팅이 짧은 대안.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%84%A0%EB%A6%89%EC%9D%84%EC%A7%80%EC%88%9C%EB%8C%80%EA%B5%AD%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%84%A0%EB%A6%89%EC%9D%84%EC%A7%80%EC%88%9C%EB%8C%80%EA%B5%AD%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%84%A0%EB%A6%89%EC%9D%84%EC%A7%80%EC%88%9C%EB%8C%80%EA%B5%AD%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%84%A0%EB%A6%89%EC%9D%84%EC%A7%80%EC%88%9C%EB%8C%80%EA%B5%AD%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "https://www.instagram.com/eulji_food"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-153",
+    "name": "호앙비엣 선릉점",
+    "category": "기타",
+    "subType": "베트남 음식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 5,
+    "distanceLabel": "도보 5분",
+    "address": "서울 강남구 삼성로95길 35 1층",
+    "phone": "070-8830-0057",
+    "businessHours": "매일 11:00~23:00",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "베트남",
+      "쌀국수",
+      "도보 5분"
+    ],
+    "comment": "삼성로95길 베트남 음식. 분위기 평 좋음.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%98%B8%EC%95%99%EB%B9%84%EC%97%A3%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%ED%98%B8%EC%95%99%EB%B9%84%EC%97%A3%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%ED%98%B8%EC%95%99%EB%B9%84%EC%97%A3%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%ED%98%B8%EC%95%99%EB%B9%84%EC%97%A3%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-154",
+    "name": "부타이 1막",
+    "category": "일식",
+    "subType": "일식당",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 6,
+    "distanceLabel": "도보 6분",
+    "address": "서울 강남구 테헤란로88길 22 지하1층",
+    "phone": "02-544-8422",
+    "businessHours": "매일 11:15~20:20",
+    "breakTime": "15:00~17:00",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "일식",
+      "도보 6분"
+    ],
+    "comment": "테헤란로88길 지하 일식. 웨이팅 많다는 리뷰.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B6%80%ED%83%80%EC%9D%B4%201%EB%A7%89",
+      "kakao": "https://map.kakao.com/?q=%EB%B6%80%ED%83%80%EC%9D%B4%201%EB%A7%89",
+      "google": "https://www.google.com/maps/search/%EB%B6%80%ED%83%80%EC%9D%B4%201%EB%A7%89"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%B6%80%ED%83%80%EC%9D%B4%201%EB%A7%89"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-155",
+    "name": "1703참한집 선릉직영점",
+    "category": "고기/구이",
+    "subType": "돼지고기 구이",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 6,
+    "distanceLabel": "도보 6분",
+    "address": "서울 강남구 선릉로86길 34 지상1층",
+    "phone": "02-552-8292",
+    "businessHours": "매일 17:00~03:00 (LO 02:15)",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "돼지고기",
+      "회식 가능",
+      "도보 6분"
+    ],
+    "comment": "선릉로86길 돼지구이. 저녁 17시부터라 점심 불가. 웨이팅 있는 편.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/1703%20%EC%B0%B8%ED%95%9C%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=1703%20%EC%B0%B8%ED%95%9C%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/1703%20%EC%B0%B8%ED%95%9C%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=1703%20%EC%B0%B8%ED%95%9C%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-156",
+    "name": "해우리 선릉L7점",
+    "category": "한식",
+    "subType": "한정식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 7,
+    "distanceLabel": "도보 7분",
+    "address": "서울 강남구 테헤란로 415 L7호텔 강남타워 지하1층",
+    "phone": "02-539-4997",
+    "businessHours": "월~금 11:00~22:00",
+    "breakTime": "14:30~17:00",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "외부 손님 접대",
+      "임원 동석"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "한정식",
+      "호텔",
+      "도보 7분"
+    ],
+    "comment": "L7호텔 지하 한정식. 격식 있는 자리용.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%ED%95%B4%EC%9A%B0%EB%A6%AC%20%EC%84%A0%EB%A6%89L7%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%ED%95%B4%EC%9A%B0%EB%A6%AC%20%EC%84%A0%EB%A6%89L7%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%ED%95%B4%EC%9A%B0%EB%A6%AC%20%EC%84%A0%EB%A6%89L7%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%ED%95%B4%EC%9A%B0%EB%A6%AC%20%EC%84%A0%EB%A6%89L7%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-157",
+    "name": "이가네양꼬치 선릉점",
+    "category": "고기/구이",
+    "subType": "양꼬치",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 7,
+    "distanceLabel": "도보 7분",
+    "address": "서울 강남구 역삼로67길 33 101호",
+    "phone": "02-558-8292",
+    "businessHours": "매일 13:00~01:00",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "가성비"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "양꼬치",
+      "회식 가능",
+      "도보 7분"
+    ],
+    "comment": "역삼로67길 양꼬치. 13시 오픈이라 점심은 늦은 시간만.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9D%B4%EA%B0%80%EB%84%A4%EC%96%91%EA%BC%AC%EC%B9%98%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%9D%B4%EA%B0%80%EB%84%A4%EC%96%91%EA%BC%AC%EC%B9%98%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%9D%B4%EA%B0%80%EB%84%A4%EC%96%91%EA%BC%AC%EC%B9%98%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%9D%B4%EA%B0%80%EB%84%A4%EC%96%91%EA%BC%AC%EC%B9%98%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-158",
+    "name": "연탄구이 유명기사식당 선릉역점",
+    "category": "고기/구이",
+    "subType": "연탄구이 백반",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 7,
+    "distanceLabel": "도보 7분",
+    "address": "서울 강남구 선릉로86길 28 지상2층",
+    "phone": "확인 필요",
+    "businessHours": "확인 필요",
+    "breakTime": "확인 필요",
+    "closedDays": "확인 필요",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "가성비",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "연탄구이",
+      "기사식당",
+      "도보 7분"
+    ],
+    "comment": "기사식당 스타일 연탄구이 백반. 가성비 점심.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격·영업시간·전화번호 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%97%B0%ED%83%84%EA%B5%AC%EC%9D%B4%20%EC%9C%A0%EB%AA%85%EA%B8%B0%EC%82%AC%EC%8B%9D%EB%8B%B9%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%97%B0%ED%83%84%EA%B5%AC%EC%9D%B4%20%EC%9C%A0%EB%AA%85%EA%B8%B0%EC%82%AC%EC%8B%9D%EB%8B%B9%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%97%B0%ED%83%84%EA%B5%AC%EC%9D%B4%20%EC%9C%A0%EB%AA%85%EA%B8%B0%EC%82%AC%EC%8B%9D%EB%8B%B9%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%97%B0%ED%83%84%EA%B5%AC%EC%9D%B4%20%EC%9C%A0%EB%AA%85%EA%B8%B0%EC%82%AC%EC%8B%9D%EB%8B%B9%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-159",
+    "name": "몬안베띠 대치점",
+    "category": "기타",
+    "subType": "베트남 음식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 7,
+    "distanceLabel": "도보 7분",
+    "address": "서울 강남구 삼성로 345 CMS S빌딩 1층",
+    "phone": "확인 필요",
+    "businessHours": "매일 11:00~21:00 (LO 20:30)",
+    "breakTime": "14:00~15:30",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "베트남",
+      "쌀국수",
+      "도보 7분"
+    ],
+    "comment": "삼성로 베트남 음식.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%AA%AC%EC%95%88%EB%B2%A0%EB%9D%A0%20%EB%8C%80%EC%B9%98%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%AA%AC%EC%95%88%EB%B2%A0%EB%9D%A0%20%EB%8C%80%EC%B9%98%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%AA%AC%EC%95%88%EB%B2%A0%EB%9D%A0%20%EB%8C%80%EC%B9%98%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%AA%AC%EC%95%88%EB%B2%A0%EB%9D%A0%20%EB%8C%80%EC%B9%98%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-160",
+    "name": "여수오동도",
+    "category": "한식",
+    "subType": "여수 향토음식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 7,
+    "distanceLabel": "도보 7분",
+    "address": "서울 강남구 삼성로71길 7 1층",
+    "phone": "02-557-0039",
+    "businessHours": "매일 11:00~22:00",
+    "breakTime": "15:00~16:00",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "외부 손님 접대",
+      "회식"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "향토음식",
+      "여수",
+      "도보 7분"
+    ],
+    "comment": "여수식 향토 한식. 색다른 접대 메뉴.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%98%A4%EB%8F%99%EB%8F%84",
+      "kakao": "https://map.kakao.com/?q=%EC%98%A4%EB%8F%99%EB%8F%84",
+      "google": "https://www.google.com/maps/search/%EC%98%A4%EB%8F%99%EB%8F%84"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%98%A4%EB%8F%99%EB%8F%84"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-161",
+    "name": "뽕나무쟁이 선릉본점",
+    "category": "고기/구이",
+    "subType": "족발·보쌈",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 8,
+    "distanceLabel": "도보 8분",
+    "address": "서울 강남구 역삼로65길 31 1층",
+    "phone": "02-558-9279",
+    "businessHours": "매일 12:00~22:00",
+    "breakTime": "14:00~16:00",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "족발",
+      "보쌈",
+      "도보 8분"
+    ],
+    "comment": "역삼로65길 족발. 웨이팅 잦음.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%BD%95%EB%82%98%EB%AC%B4%EC%9F%81%EC%9D%B4%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%BD%95%EB%82%98%EB%AC%B4%EC%9F%81%EC%9D%B4%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%BD%95%EB%82%98%EB%AC%B4%EC%9F%81%EC%9D%B4%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%BD%95%EB%82%98%EB%AC%B4%EC%9F%81%EC%9D%B4%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-162",
+    "name": "오마치슌",
+    "category": "일식",
+    "subType": "이자카야",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 8,
+    "distanceLabel": "도보 8분",
+    "address": "서울 강남구 역삼로65길 20 1층 101호",
+    "phone": "확인 필요",
+    "businessHours": "월~토 17:00~02:00 (LO 01:10)",
+    "breakTime": "없음",
+    "closedDays": "일요일(카카오맵 기준)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "이자카야",
+      "회식 가능",
+      "도보 8분"
+    ],
+    "comment": "역삼로65길 이자카야. 17시 오픈, 저녁 전용. 리뷰 맛·분위기 신호 최상위.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%98%A4%EB%A7%88%EC%B9%98%EC%8A%8C",
+      "kakao": "https://map.kakao.com/?q=%EC%98%A4%EB%A7%88%EC%B9%98%EC%8A%8C",
+      "google": "https://www.google.com/maps/search/%EC%98%A4%EB%A7%88%EC%B9%98%EC%8A%8C"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%98%A4%EB%A7%88%EC%B9%98%EC%8A%8C",
+      "https://www.instagram.com/omachi_shun"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-163",
+    "name": "족발신선생 선릉김승수점",
+    "category": "고기/구이",
+    "subType": "족발·보쌈",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 8,
+    "distanceLabel": "도보 8분",
+    "address": "서울 강남구 역삼로63길 24 1층 102호",
+    "phone": "02-6952-4646",
+    "businessHours": "매일 11:00~03:00",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "가성비"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "족발",
+      "도보 8분"
+    ],
+    "comment": "역삼로63길 족발.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%A1%B1%EB%B0%9C%20%EC%8B%A0%EC%84%A0%EC%83%9D%20%EC%84%A0%EB%A6%89%EA%B9%80%EC%8A%B9%EC%88%98%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%A1%B1%EB%B0%9C%20%EC%8B%A0%EC%84%A0%EC%83%9D%20%EC%84%A0%EB%A6%89%EA%B9%80%EC%8A%B9%EC%88%98%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%A1%B1%EB%B0%9C%20%EC%8B%A0%EC%84%A0%EC%83%9D%20%EC%84%A0%EB%A6%89%EA%B9%80%EC%8A%B9%EC%88%98%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%A1%B1%EB%B0%9C%20%EC%8B%A0%EC%84%A0%EC%83%9D%20%EC%84%A0%EB%A6%89%EA%B9%80%EC%8A%B9%EC%88%98%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-164",
+    "name": "새벽밤바다 강남본점",
+    "category": "해산물",
+    "subType": "해물요리",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 8,
+    "distanceLabel": "도보 8분",
+    "address": "서울 강남구 선릉로76길 27 1층 101호",
+    "phone": "02-4950-9254",
+    "businessHours": "매일 16:00~01:30 (LO 00:30)",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "해물",
+      "회식 가능",
+      "도보 8분"
+    ],
+    "comment": "선릉로76길 해물요리. 16시 오픈이라 저녁·회식 전용. 리뷰 맛 신호 높음.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%83%88%EB%B2%BD%EB%B0%A4%EB%B0%94%EB%8B%A4%20%EA%B0%95%EB%82%A8%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%83%88%EB%B2%BD%EB%B0%A4%EB%B0%94%EB%8B%A4%20%EA%B0%95%EB%82%A8%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%83%88%EB%B2%BD%EB%B0%A4%EB%B0%94%EB%8B%A4%20%EA%B0%95%EB%82%A8%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%83%88%EB%B2%BD%EB%B0%A4%EB%B0%94%EB%8B%A4%20%EA%B0%95%EB%82%A8%EB%B3%B8%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-165",
+    "name": "선릉닭곰탕",
+    "category": "한식",
+    "subType": "닭곰탕",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 8,
+    "distanceLabel": "도보 8분",
+    "address": "서울 강남구 역삼로63길 23 지하1층",
+    "phone": "확인 필요",
+    "businessHours": "월~금 11:00~23:00",
+    "breakTime": "없음",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "닭곰탕",
+      "도보 8분"
+    ],
+    "comment": "역삼로63길 지하 닭곰탕.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%84%A0%EB%A6%89%20%EB%8B%AD%EA%B3%B0%ED%83%95",
+      "kakao": "https://map.kakao.com/?q=%EC%84%A0%EB%A6%89%20%EB%8B%AD%EA%B3%B0%ED%83%95",
+      "google": "https://www.google.com/maps/search/%EC%84%A0%EB%A6%89%20%EB%8B%AD%EA%B3%B0%ED%83%95"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%84%A0%EB%A6%89%20%EB%8B%AD%EA%B3%B0%ED%83%95",
+      "https://catchtable.co.kr/gaehyangjinmi"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-166",
+    "name": "완미족발 선릉점",
+    "category": "고기/구이",
+    "subType": "족발·보쌈",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 9,
+    "distanceLabel": "도보 9분",
+    "address": "서울 강남구 테헤란로63길 9 지상1층 102호",
+    "phone": "02-6203-5858",
+    "businessHours": "월~금 11:00~02:00 (LO 01:30)",
+    "breakTime": "15:00~17:00",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "족발",
+      "보쌈",
+      "도보 9분"
+    ],
+    "comment": "테헤란로63길 족발. 리뷰 맛 신호 좋음.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%99%84%EB%AF%B8%20%EC%A1%B1%EB%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%99%84%EB%AF%B8%20%EC%A1%B1%EB%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%99%84%EB%AF%B8%20%EC%A1%B1%EB%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%99%84%EB%AF%B8%20%EC%A1%B1%EB%B0%9C%20%EC%84%A0%EB%A6%89%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-167",
+    "name": "꾸우덕 강남점",
+    "category": "양식",
+    "subType": "이탈리안",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 9,
+    "distanceLabel": "도보 9분",
+    "address": "서울 강남구 선릉로82길 16 수이빌딩 1층",
+    "phone": "확인 필요",
+    "businessHours": "매일 11:00~21:00 (점심 LO 14:00)",
+    "breakTime": "14:30~15:30",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "조용한 대화"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "파스타",
+      "분위기 좋음",
+      "도보 9분"
+    ],
+    "comment": "선릉로82길 양식. 분위기·가격 평 좋음.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EA%BE%B8%EC%9A%B0%EB%8D%95%20%EC%84%A0%EB%A6%89%20%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EA%BE%B8%EC%9A%B0%EB%8D%95%20%EC%84%A0%EB%A6%89%20%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EA%BE%B8%EC%9A%B0%EB%8D%95%20%EC%84%A0%EB%A6%89%20%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EA%BE%B8%EC%9A%B0%EB%8D%95%20%EC%84%A0%EB%A6%89%20%EB%B3%B8%EC%A0%90",
+      "https://www.instagram.com/kkuudeok/"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-168",
+    "name": "꿀때기곱창 선릉본점",
+    "category": "고기/구이",
+    "subType": "곱창",
+    "mealTime": [
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 9,
+    "distanceLabel": "도보 9분",
+    "address": "서울 강남구 역삼로63길 13 1층",
+    "phone": "02-558-0809",
+    "businessHours": "매일 16:00~01:00",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "곱창",
+      "회식 가능",
+      "도보 9분"
+    ],
+    "comment": "역삼로63길 곱창. 16시 오픈, 저녁 전용. 분위기 좋다는 평.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EA%BF%80%EB%95%8C%EA%B8%B0%20%EA%B3%B1%EC%B0%BD%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EA%BF%80%EB%95%8C%EA%B8%B0%20%EA%B3%B1%EC%B0%BD%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EA%BF%80%EB%95%8C%EA%B8%B0%20%EA%B3%B1%EC%B0%BD%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EA%BF%80%EB%95%8C%EA%B8%B0%20%EA%B3%B1%EC%B0%BD%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-169",
+    "name": "청와대소금구이",
+    "category": "고기/구이",
+    "subType": "돼지고기 구이",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 9,
+    "distanceLabel": "도보 9분",
+    "address": "서울 강남구 선릉로94길 15 1층 105~107호",
+    "phone": "02-6227-9292",
+    "businessHours": "월~금 11:00~06:00",
+    "breakTime": "없음",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "소금구이",
+      "회식 가능",
+      "도보 9분"
+    ],
+    "comment": "선릉로94길 소금구이. 리뷰 맛 신호 최상위권.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B2%AD%EC%99%80%EB%8C%80%EC%86%8C%EA%B8%88%20%EA%B5%AC%EC%9D%B4",
+      "kakao": "https://map.kakao.com/?q=%EC%B2%AD%EC%99%80%EB%8C%80%EC%86%8C%EA%B8%88%20%EA%B5%AC%EC%9D%B4",
+      "google": "https://www.google.com/maps/search/%EC%B2%AD%EC%99%80%EB%8C%80%EC%86%8C%EA%B8%88%20%EA%B5%AC%EC%9D%B4"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%B2%AD%EC%99%80%EB%8C%80%EC%86%8C%EA%B8%88%20%EA%B5%AC%EC%9D%B4",
+      "https://www.instagram.com/cheong_x_neom"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 1,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-170",
+    "name": "나주육곱식당",
+    "category": "고기/구이",
+    "subType": "곱창",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 9,
+    "distanceLabel": "도보 9분",
+    "address": "서울 강남구 선릉로92길 11 1층 101호",
+    "phone": "02-567-7210",
+    "businessHours": "월~금 07:00~06:50 (카카오맵 표기)",
+    "breakTime": "없음",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "곱창",
+      "회식 가능",
+      "도보 9분"
+    ],
+    "comment": "선릉로92길 곱창.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%9C%A1%EA%B3%B1%EC%8B%9D%EB%8B%B9",
+      "kakao": "https://map.kakao.com/?q=%EC%9C%A1%EA%B3%B1%EC%8B%9D%EB%8B%B9",
+      "google": "https://www.google.com/maps/search/%EC%9C%A1%EA%B3%B1%EC%8B%9D%EB%8B%B9"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%9C%A1%EA%B3%B1%EC%8B%9D%EB%8B%B9"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-171",
+    "name": "만목",
+    "category": "일식",
+    "subType": "일식당",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 9,
+    "distanceLabel": "도보 9분",
+    "address": "서울 강남구 선릉로82길 9 1층",
+    "phone": "010-5838-0166",
+    "businessHours": "매일 11:00~22:00",
+    "breakTime": "15:00~17:00",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "외부 손님 접대"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "일식",
+      "도보 9분"
+    ],
+    "comment": "선릉로82길 일식당.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%A7%8C%EB%AA%A9",
+      "kakao": "https://map.kakao.com/?q=%EB%A7%8C%EB%AA%A9",
+      "google": "https://www.google.com/maps/search/%EB%A7%8C%EB%AA%A9"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%A7%8C%EB%AA%A9",
+      "https://www.instagram.com/manmok_official"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-172",
+    "name": "카발",
+    "category": "양식",
+    "subType": "이탈리안",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 선릉로82길 7 1층",
+    "phone": "확인 필요",
+    "businessHours": "월~금 11:00~23:00",
+    "breakTime": "15:00~17:00",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "파스타",
+      "도보 10분"
+    ],
+    "comment": "선릉로82길 이탈리안.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B9%B4%EB%B0%9C",
+      "kakao": "https://map.kakao.com/?q=%EC%B9%B4%EB%B0%9C",
+      "google": "https://www.google.com/maps/search/%EC%B9%B4%EB%B0%9C"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%B9%B4%EB%B0%9C"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-173",
+    "name": "소뭉집 선릉직영점",
+    "category": "고기/구이",
+    "subType": "고기구이",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 선릉로86길 6-6 지상1층 101호",
+    "phone": "확인 필요",
+    "businessHours": "월~금 11:00~22:00",
+    "breakTime": "14:30~16:30",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식",
+      "팀 점심"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "고기구이",
+      "도보 10분"
+    ],
+    "comment": "선릉로86길 초입 고기집.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%86%8C%EB%AD%89%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A7%81%EC%98%81%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%86%8C%EB%AD%89%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A7%81%EC%98%81%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%86%8C%EB%AD%89%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A7%81%EC%98%81%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%86%8C%EB%AD%89%EC%A7%91%20%EC%84%A0%EB%A6%89%EC%A7%81%EC%98%81%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-174",
+    "name": "카츠랩 숯불돈까스",
+    "category": "일식",
+    "subType": "돈까스",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 10,
+    "distanceLabel": "도보 10분",
+    "address": "서울 강남구 선릉로76길 5-11 1층 101호",
+    "phone": "070-8830-1004",
+    "businessHours": "월~금 11:20~20:00",
+    "breakTime": "14:30~15:30",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "돈까스",
+      "도보 10분"
+    ],
+    "comment": "숯불 돈까스.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B9%B4%EC%B8%A0%EB%9E%A9%20%EC%88%AF%EB%B6%88%EB%8F%88%EA%B9%8C%EC%8A%A4%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EC%B9%B4%EC%B8%A0%EB%9E%A9%20%EC%88%AF%EB%B6%88%EB%8F%88%EA%B9%8C%EC%8A%A4%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EC%B9%B4%EC%B8%A0%EB%9E%A9%20%EC%88%AF%EB%B6%88%EB%8F%88%EA%B9%8C%EC%8A%A4%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%B9%B4%EC%B8%A0%EB%9E%A9%20%EC%88%AF%EB%B6%88%EB%8F%88%EA%B9%8C%EC%8A%A4%20%EC%84%A0%EB%A6%89%EB%B3%B8%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-175",
+    "name": "반포식스 선릉역점",
+    "category": "기타",
+    "subType": "베트남 음식",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 11,
+    "distanceLabel": "도보 11분",
+    "address": "서울 강남구 선릉로 518 2,3층",
+    "phone": "02-554-6661",
+    "businessHours": "매일 11:00~22:00",
+    "breakTime": "없음",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "베트남",
+      "쌀국수",
+      "도보 11분"
+    ],
+    "comment": "선릉로 518 베트남 음식.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EB%B0%98%ED%8F%AC%EC%8B%9D%EC%8A%A4%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90",
+      "kakao": "https://map.kakao.com/?q=%EB%B0%98%ED%8F%AC%EC%8B%9D%EC%8A%A4%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90",
+      "google": "https://www.google.com/maps/search/%EB%B0%98%ED%8F%AC%EC%8B%9D%EC%8A%A4%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EB%B0%98%ED%8F%AC%EC%8B%9D%EC%8A%A4%20%EC%84%A0%EB%A6%89%EC%97%AD%EC%A0%90"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-176",
+    "name": "청춘어람",
+    "category": "해산물",
+    "subType": "생선회",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 11,
+    "distanceLabel": "도보 11분",
+    "address": "서울 강남구 선릉로87길 8 디알스타타워 1층",
+    "phone": "02-561-0610",
+    "businessHours": "월~금 11:20~24:00",
+    "breakTime": "15:00~17:00",
+    "closedDays": "확인 필요(주말 미표기)",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "회식"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "회",
+      "이자카야",
+      "도보 11분"
+    ],
+    "comment": "선릉로87길 생선회.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%B2%AD%EC%B6%98%EC%96%B4%EB%9E%8C",
+      "kakao": "https://map.kakao.com/?q=%EC%B2%AD%EC%B6%98%EC%96%B4%EB%9E%8C",
+      "google": "https://www.google.com/maps/search/%EC%B2%AD%EC%B6%98%EC%96%B4%EB%9E%8C"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%B2%AD%EC%B6%98%EC%96%B4%EB%9E%8C",
+      "https://www.instagram.com/eoram.dining"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 3,
+    "authorPick": null,
+    "grillService": null
+  },
+  {
+    "id": "restaurant-177",
+    "name": "시시오",
+    "category": "일식",
+    "subType": "라멘",
+    "mealTime": [
+      "lunch",
+      "dinner"
+    ],
+    "representativeMenus": [
+      "확인 필요"
+    ],
+    "lunchPriceRange": "확인 필요",
+    "dinnerPriceRange": "확인 필요",
+    "distanceMinutes": 11,
+    "distanceLabel": "도보 11분",
+    "address": "서울 강남구 선릉로89길 7 지하1층",
+    "phone": "010-3422-8182",
+    "businessHours": "매일 11:00~20:30",
+    "breakTime": "14:30~17:30",
+    "closedDays": "연중무휴",
+    "lunchMenu": "확인 필요",
+    "dinnerMenu": "확인 필요",
+    "room": {
+      "status": "확인 필요",
+      "capacity": "확인 필요",
+      "note": ""
+    },
+    "reservation": {
+      "status": "확인 필요",
+      "method": "확인 필요",
+      "note": ""
+    },
+    "parking": {
+      "status": "확인 필요",
+      "note": ""
+    },
+    "recommendedFor": [
+      "팀 점심",
+      "빠른 식사"
+    ],
+    "atmosphere": [
+      "깔끔함"
+    ],
+    "tags": [
+      "라멘",
+      "도보 11분"
+    ],
+    "comment": "선릉로89길 지하 라멘.",
+    "cautions": "카카오맵 기준 실재·주소 확인(2026-09-02). 메뉴·가격 미확인, 방문 전 확인 필요.",
+    "mapLinks": {
+      "naver": "https://map.naver.com/p/search/%EC%8B%9C%EC%8B%9C%EC%98%A4%20%EB%9D%BC%EB%A9%98",
+      "kakao": "https://map.kakao.com/?q=%EC%8B%9C%EC%8B%9C%EC%98%A4%20%EB%9D%BC%EB%A9%98",
+      "google": "https://www.google.com/maps/search/%EC%8B%9C%EC%8B%9C%EC%98%A4%20%EB%9D%BC%EB%A9%98"
+    },
+    "sourceLinks": [
+      "https://map.kakao.com/?q=%EC%8B%9C%EC%8B%9C%EC%98%A4%20%EB%9D%BC%EB%A9%98"
+    ],
+    "lastVerified": "2026-09-02",
+    "priority": 2,
+    "authorPick": null,
+    "grillService": null
   }
 ]
