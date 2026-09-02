@@ -1,5 +1,5 @@
 /* ==========================================================================
-   가을 시안 2 — "포근한 서재". 메인(index.html)에는 적용되지 않는다.
+   가을 스킨 "포근한 서재" — index.html 이 ver3.css 다음에 로드한다.
    ========================================================================== */
 
 /* 새틴 결 질감 — 영상의 촉감을 페이지 전체로. 움직이지 않는다. */
@@ -29,13 +29,13 @@ body {
 }
 
 /* 카드 폴더 탭 — 원색 9종을 와인·앰버·올리브·모카 4톤으로. 인라인 --cat 보다 우선해야 해서 !important */
-.rcard[data-cat="고기/구이"] .c-tab, .rcard[data-cat="중식"] .c-tab { background: #c4552a !important; }
+.rcard[data-cat="고기/구이"] .c-tab, .rcard[data-cat="중식"] .c-tab { background: #d0602a !important; }
 .rcard[data-cat="한식"] .c-tab, .rcard[data-cat="분식/가벼운 식사"] .c-tab { background: #c2761f !important; }
 .rcard[data-cat="일식"] .c-tab, .rcard[data-cat="해산물"] .c-tab { background: #6b7a35 !important; }
 .rcard[data-cat="양식"] .c-tab, .rcard[data-cat="카페/디저트"] .c-tab, .rcard[data-cat="기타"] .c-tab { background: #7a5240 !important; }
 /* 스탬프 색도 같은 톤 */
 .c-stamp.room { color: #6b7a35; }
-.c-stamp.pick { color: #c4552a; }
+.c-stamp.pick { color: #d0602a; }
 .c-stamp.grill { color: #c2761f; }
 
 /* ==========================================================================
@@ -43,29 +43,29 @@ body {
    ========================================================================== */
 :root {
   --blue-800: #5a1f18;
-  --blue-700: #963424;
-  --blue-600: #c4552a;   /* 주색: 테라코타, 주황 쪽으로 한 칸 */
-  --blue-500: #d9683a;
-  --blue-400: #e89a6c;
+  --blue-700: #a23a24;
+  --blue-600: #d0602a;   /* 주색: 테라코타-오렌지 */
+  --blue-500: #e0743c;
+  --blue-400: #eea472;
   --blue-100: #f7e0d4;
   --blue-50:  #fdf5ef;
   --bg: #f8efe4;
   --star: #d18a2a;
-  --pink: #c4552a; --pink-bg: #fbeee7; --pink-line: #f0cfbf;
+  --pink: #d0602a; --pink-bg: #fbeee7; --pink-line: #f0cfbf;
 }
 .site-header.v3 {
   background:
     radial-gradient(680px 300px at 8% -30%, rgba(255, 236, 214, .30), transparent 62%),
-    radial-gradient(760px 340px at 96% 120%, rgba(224, 122, 58, .36), transparent 60%),
-    linear-gradient(160deg, #4a1a12 0%, #8a3222 36%, #c4552a 70%, #e07a3a 100%);
+    radial-gradient(760px 340px at 96% 120%, rgba(232, 134, 63, .40), transparent 60%),
+    linear-gradient(160deg, #4e1c12 0%, #963a22 34%, #d0602a 68%, #e8863f 100%);
 }
 .site-header.v3 h1 .hl { background-image: linear-gradient(90deg, #ffd6a0, #fff4e6); }
 .site-header.v3 .eyebrow .dot { background: #f0a85a; box-shadow: 0 0 0 3px rgba(240, 168, 90, .28); }
 .site-header.v3 .notice { border-left-color: #f0a85a; }
-.section-title::before { background: linear-gradient(180deg, #d18a2a, #c4552a); }
-.back-top { background: linear-gradient(135deg, #c4552a, #d18a2a); }
+.section-title::before { background: linear-gradient(180deg, #d18a2a, #d0602a); }
+.back-top { background: linear-gradient(135deg, #d0602a, #d18a2a); }
 .stat:nth-child(1), .stat:nth-child(2), .stat:nth-child(3), .stat:nth-child(4),
-.stat:nth-child(5), .stat:nth-child(6), .stat:nth-child(7) { --ac: #c4552a; }
+.stat:nth-child(5), .stat:nth-child(6), .stat:nth-child(7) { --ac: #d0602a; }
 .notice-page { border-left-color: #d18a2a; }
 
 /* 헤더 우측의 도보권 동심원(지도 모티프) — 정지컷 뒤에서 기호처럼 보여 제거 */

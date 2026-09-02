@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>포스코센터 근처 점심·저녁 추천 식당</title>
   <meta name="description" content="포스코센터 근처 점심·저녁 식당을 상황별로 빠르게 고르는 사내 공유용 가이드">
-  <meta name="theme-color" content="#6d1d24">
+  <meta name="theme-color" content="#963a22">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="ver3.css">
+  <link rel="stylesheet" href="autumn2.css">
   <script>window.SEASON = "autumn";</script>
 </head>
 <body>
@@ -28,10 +29,10 @@
       </div>
 
       <div class="hero-side">
-        <figure class="hero-media">
-          <video src="header-sep.mp4" poster="header-sep.jpg" autoplay muted loop playsinline preload="auto"
-                 aria-label="식당 가이드 배너 영상"></video>
-        </figure>
+        <div class="still-stack" aria-hidden="true">
+          <img class="still still-a" src="hero-still-1.jpg" alt="" width="1024" height="384">
+          <img class="still still-b" src="hero-still-2.jpg" alt="" width="1024" height="384">
+        </div>
         <div class="header-credit">
           <div class="hc-text">
             제작 <b>포스코 마케팅전략실 마케팅운영그룹 한소희</b>
@@ -185,19 +186,21 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
   <script>
-  // 자동재생이 막힌 환경(회사 PC 엣지 정책, 절전 모드 등)을 위한 안전장치.
-  // muted 영상은 원칙적으로 자동재생되지만, 안 될 때는 첫 상호작용 때 다시 시도한다.
   (() => {
-    const v = document.querySelector('.hero-media video');
-    if (!v) return;
-    v.muted = true; v.defaultMuted = true;
-    const go = () => { const p = v.play(); if (p && p.catch) p.catch(() => {}); };
-    go();
-    const EV = ['pointerdown', 'keydown', 'touchstart', 'wheel', 'scroll'];
-    const once = () => { go(); EV.forEach(t => removeEventListener(t, once, true)); };
-    EV.forEach(t => addEventListener(t, once, true));
-    document.addEventListener('visibilitychange', () => { if (!document.hidden && v.paused) go(); });
-    v.addEventListener('loadeddata', () => { if (v.paused) go(); });
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const done = new WeakSet();
+    const tick = () => {
+      document.querySelectorAll('#summary .num').forEach(el => {
+        if (done.has(el)) return; done.add(el);
+        const target = parseInt(el.textContent, 10); if (!Number.isFinite(target)) return;
+        const t0 = performance.now(), D = 600;
+        const step = now => { const p = Math.min(1, (now - t0) / D), e = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(target * e); if (p < 1) requestAnimationFrame(step); };
+        requestAnimationFrame(step);
+      });
+    };
+    new MutationObserver(tick).observe(document.getElementById('summary'), { childList: true });
+    tick();
   })();
   </script>
 </body>
