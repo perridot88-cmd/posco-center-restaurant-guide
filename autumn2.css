@@ -4,55 +4,66 @@
 
 /* 새틴 결 질감 — 영상의 촉감을 페이지 전체로. 움직이지 않는다. */
 body {
-  background-color: #f7f1e8;
+  background-color: #f8efe4;
   background-image:
     repeating-linear-gradient(112deg, rgba(255,255,255,.28) 0 2px, rgba(255,255,255,0) 2px 9px),
-    repeating-linear-gradient(-24deg, rgba(120,60,50,.035) 0 1px, rgba(120,60,50,0) 1px 14px),
+    repeating-linear-gradient(-24deg, rgba(140,70,40,.04) 0 1px, rgba(140,70,40,0) 1px 14px),
     radial-gradient(1200px 500px at 50% -10%, rgba(255,255,255,.55), transparent 70%);
   background-attachment: fixed;
 }
 
-/* 정지컷 스택 — 두 장면을 살짝 겹쳐, 늘 같은 모습. 클릭하면 영상. */
-.still-stack {
-  position: relative; aspect-ratio: 1024 / 660; cursor: pointer; outline: none;
-  border-radius: 18px;
-}
-.still-stack:focus-visible { box-shadow: 0 0 0 3px rgba(224,169,74,.75); }
+/* 정지컷 스택 — 두 장면을 살짝 겹쳐 놓는다. 클릭 없음, 움직임 없음. */
+.still-stack { position: relative; aspect-ratio: 1024 / 660; }
 .still {
   position: absolute; width: 78%; height: auto; border-radius: 14px; display: block;
-  box-shadow: 0 16px 40px -14px rgba(30,8,10,.65), 0 0 0 1px rgba(255,236,214,.22);
-  transition: transform .5s cubic-bezier(.16,1,.3,1);
+  box-shadow: 0 16px 40px -14px rgba(40,14,8,.62), 0 0 0 1px rgba(255,236,214,.22);
 }
-.still-a { left: 0; top: 0; transform: rotate(-2.2deg); }   /* 뒤: 좌상단, 문구가 왼쪽이라 오른쪽이 가려져도 읽힘 */
+.still-a { left: 0; top: 0; transform: rotate(-2.2deg); }   /* 뒤: 좌상단 */
 .still-b { right: 0; bottom: 0; transform: rotate(1.6deg); } /* 앞: 우하단 */
-.still-stack:hover .still-a { transform: rotate(-3deg) translateY(-3px); }
-.still-stack:hover .still-b { transform: rotate(2.4deg) translateY(3px); }
-.still-play {
-  position: absolute; left: 50%; bottom: -6px; transform: translateX(-50%);
-  padding: 6px 13px; border-radius: 999px; font-size: 12px; font-weight: 800; letter-spacing: .04em;
-  background: rgba(59,26,18,.82); color: #f6e3d3; border: 1px solid rgba(255,236,214,.25);
-  backdrop-filter: blur(4px);
-}
-.still-stack.is-video .still, .still-stack.is-video .still-play { display: none; }
-.still-stack.is-video { aspect-ratio: auto; cursor: default; }
-.still-stack.is-video .hero-media { position: static; }
 
 /* 요약 카드 — 숫자가 도착하는 느낌만. 나머지는 정지. */
 .stat .num { font-variant-numeric: tabular-nums; }
 
-@media (prefers-reduced-motion: reduce) {
-  .still { transition: none; }
-}
 @media (max-width: 900px) {
   .still-stack { max-width: 460px; }
 }
 
 /* 카드 폴더 탭 — 원색 9종을 와인·앰버·올리브·모카 4톤으로. 인라인 --cat 보다 우선해야 해서 !important */
-.rcard[data-cat="고기/구이"] .c-tab, .rcard[data-cat="중식"] .c-tab { background: #8f2a30 !important; }
-.rcard[data-cat="한식"] .c-tab, .rcard[data-cat="분식/가벼운 식사"] .c-tab { background: #a8701f !important; }
-.rcard[data-cat="일식"] .c-tab, .rcard[data-cat="해산물"] .c-tab { background: #5b6b2e !important; }
-.rcard[data-cat="양식"] .c-tab, .rcard[data-cat="카페/디저트"] .c-tab, .rcard[data-cat="기타"] .c-tab { background: #6b4a3a !important; }
+.rcard[data-cat="고기/구이"] .c-tab, .rcard[data-cat="중식"] .c-tab { background: #b8452b !important; }
+.rcard[data-cat="한식"] .c-tab, .rcard[data-cat="분식/가벼운 식사"] .c-tab { background: #c2761f !important; }
+.rcard[data-cat="일식"] .c-tab, .rcard[data-cat="해산물"] .c-tab { background: #6b7a35 !important; }
+.rcard[data-cat="양식"] .c-tab, .rcard[data-cat="카페/디저트"] .c-tab, .rcard[data-cat="기타"] .c-tab { background: #7a5240 !important; }
 /* 스탬프 색도 같은 톤 */
-.c-stamp.room { color: #5b6b2e; }
-.c-stamp.pick { color: #8f2a30; }
-.c-stamp.grill { color: #a8701f; }
+.c-stamp.room { color: #6b7a35; }
+.c-stamp.pick { color: #b8452b; }
+.c-stamp.grill { color: #c2761f; }
+
+/* ==========================================================================
+   팔레트 — 와인에 주황을 섞어 테라코타로. ver3.css 뒤에 로드되므로 같은 선택자로 덮는다.
+   ========================================================================== */
+:root {
+  --blue-800: #5a1f18;
+  --blue-700: #8a2e22;
+  --blue-600: #b8452b;   /* 주색: 테라코타 */
+  --blue-500: #cf5a33;
+  --blue-400: #e0906f;
+  --blue-100: #f7e0d4;
+  --blue-50:  #fdf5ef;
+  --bg: #f8efe4;
+  --star: #d18a2a;
+  --pink: #b8452b; --pink-bg: #fbeee7; --pink-line: #f0cfbf;
+}
+.site-header.v3 {
+  background:
+    radial-gradient(680px 300px at 8% -30%, rgba(255, 236, 214, .30), transparent 62%),
+    radial-gradient(760px 340px at 96% 120%, rgba(217, 113, 58, .30), transparent 60%),
+    linear-gradient(160deg, #421612 0%, #7a2a22 40%, #b8452b 74%, #d9713a 100%);
+}
+.site-header.v3 h1 .hl { background-image: linear-gradient(90deg, #ffd6a0, #fff4e6); }
+.site-header.v3 .eyebrow .dot { background: #f0a85a; box-shadow: 0 0 0 3px rgba(240, 168, 90, .28); }
+.site-header.v3 .notice { border-left-color: #f0a85a; }
+.section-title::before { background: linear-gradient(180deg, #d18a2a, #b8452b); }
+.back-top { background: linear-gradient(135deg, #b8452b, #d18a2a); }
+.stat:nth-child(1), .stat:nth-child(2), .stat:nth-child(3), .stat:nth-child(4),
+.stat:nth-child(5), .stat:nth-child(6), .stat:nth-child(7) { --ac: #b8452b; }
+.notice-page { border-left-color: #d18a2a; }

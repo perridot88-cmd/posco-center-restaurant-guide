@@ -6,7 +6,7 @@
   <title>포스코센터 근처 점심·저녁 추천 식당 (가을 시안 2)</title>
   <meta name="description" content="포스코센터 근처 점심·저녁 식당을 상황별로 빠르게 고르는 사내 공유용 가이드">
   <meta name="robots" content="noindex">
-  <meta name="theme-color" content="#6d1d24">
+  <meta name="theme-color" content="#7a2a22">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" as="style" crossorigin
     href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
@@ -30,14 +30,9 @@
       </div>
 
       <div class="hero-side">
-        <div class="still-stack" id="stillStack" role="button" tabindex="0" aria-label="영상 보기">
+        <div class="still-stack" aria-hidden="true">
           <img class="still still-a" src="hero-still-1.jpg" alt="" width="1024" height="384">
           <img class="still still-b" src="hero-still-2.jpg" alt="" width="1024" height="384">
-          <span class="still-play">▶ 영상 보기</span>
-          <figure class="hero-media" hidden>
-            <video src="header-sep.mp4" poster="header-sep.jpg" muted loop playsinline preload="none"
-                   aria-label="식당 가이드 배너 영상"></video>
-          </figure>
         </div>
         <div class="header-credit">
           <div class="hc-text">
@@ -193,12 +188,6 @@
   <script src="script.js"></script>
   <script>
   (() => {
-    const box = document.getElementById('stillStack');
-    const fig = box.querySelector('.hero-media'), v = fig.querySelector('video');
-    const play = () => { box.classList.add('is-video'); fig.hidden = false; v.controls = true; v.play().catch(() => {}); };
-    box.addEventListener('click', play);
-    box.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); play(); } });
-
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const done = new WeakSet();
     const tick = () => {
