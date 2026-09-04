@@ -27,7 +27,7 @@ jobs:
             echo "run=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         if: steps.guard.outputs.run == 'true'
 
       - name: Vercel 수치 읽어 기록
