@@ -1,0 +1,44 @@
+name: 일별 방문 기록
+
+on:
+  schedule:
+    # 15:10 UTC = 00:10 KST. 매일 최근 7일치를 다시 읽어 갱신한다.
+    - cron: "10 15 * * *"
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "시작일 (YYYY-MM-DD). 비우면 7일 전"
+        required: false
+        default: ""
+      until:
+        description: "종료일 (YYYY-MM-DD). 비우면 오늘"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analytics-daily
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vercel 일별 수치 읽어 기록
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: bash scripts/record-daily.sh "${{ github.event.inputs.since }}" "${{ github.event.inputs.until }}"
+
+      - name: 커밋·푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analytics-daily.md
+          git diff --cached --quiet && { echo "변경 없음"; exit 0; }
+          git commit -m "chore: 일별 방문 기록 갱신"
+          git pull --rebase --autostash
+          git push
