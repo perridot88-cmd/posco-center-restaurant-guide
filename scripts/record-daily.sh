@@ -9,9 +9,14 @@ PROJECT_NAME="posco-center-restaurant-guide"
 API="https://api.vercel.com"
 AUTH=(-H "Authorization: Bearer ${VERCEL_TOKEN:?VERCEL_TOKEN 이 없습니다}")
 
+# Vercel Web Analytics 를 켠 날. 이보다 앞선 날짜는 "방문 0" 이 아니라 "데이터 없음" 이라
+# 표에 0 으로 남기면 오해를 부른다. 조회 자체를 하지 않는다.
+START="2026-09-02"
+
 UNTIL="${2:-$(TZ=Asia/Seoul date +%Y-%m-%d)}"
 SINCE="${1:-$(TZ=Asia/Seoul date -d "$UNTIL -7 day" +%Y-%m-%d)}"
-echo "대상 기간: $SINCE ~ $UNTIL"
+if [[ "$SINCE" < "$START" ]]; then SINCE="$START"; fi
+echo "대상 기간: $SINCE ~ $UNTIL (집계 시작 $START)"
 
 # ── projectId / teamId 자동 조회 (record-analytics.sh 와 동일한 방식) ──
 PROJECT_ID=""; TEAM_ID=""

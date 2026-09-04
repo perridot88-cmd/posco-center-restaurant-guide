@@ -12,6 +12,7 @@ import sys
 from datetime import date
 
 WEEKDAYS = "월화수목금토일"
+START = "2026-09-02"  # 집계 시작일. 이전 날짜는 기록하지 않는다
 SEPARATOR = "|---|"
 
 
@@ -24,7 +25,7 @@ def main():
     head_end = next(i for i, l in enumerate(lines) if l.startswith(SEPARATOR))
     for l in lines[head_end + 1:]:
         cells = [c.strip() for c in l.strip().strip("|").split("|")]
-        if len(cells) >= 5 and cells[0][:2] == "20":
+        if len(cells) >= 5 and cells[0][:2] == "20" and cells[0] >= START:
             rows[cells[0]] = cells
 
     # 새 수치로 갱신
@@ -35,6 +36,8 @@ def main():
             continue
         d = json.loads(line)
         day = d["timestamp"][:10]
+        if day < START:
+            continue
         y, m, dd = (int(x) for x in day.split("-"))
         new = [day, WEEKDAYS[date(y, m, dd).weekday()],
                str(d.get("pageviews", 0)), str(d.get("visitors", 0)), recorded_at]
